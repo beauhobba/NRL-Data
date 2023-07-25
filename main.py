@@ -20,20 +20,18 @@ def get_nrl_data(round=21):
 
     # Get the NRL data box
     match_elements = soup.find_all("div", class_="match o-rounded-box o-shadowed-box")
-
+    
+    # name of html elements to poach from the data to get the nrl specific attributes
+    find_data = ["h3", "p", "p", "div", "p", "div", "p"]
+    class_data = ["u-visually-hidden", "match-header__title", "match-team__name--home", "match-team__score--home", "match-team__name--away", "match-team__score--away", "match-venue o-text"]
+    
     # Extract all the useful game data 
     matches_json = []
     for match_element in match_elements:
-        match_details = match_element.find("h3", class_="u-visually-hidden").text.strip()
-        match_date = match_element.find("p", class_="match-header__title").text.strip()
-        home_team = match_element.find("p", class_="match-team__name--home").text.strip()
-        home_score = match_element.find("div", class_="match-team__score--home").text.strip()
-        away_team = match_element.find("p", class_="match-team__name--away").text.strip()
-        away_score = match_element.find("div", class_="match-team__score--away").text.strip()
-        venue = match_element.find("p", class_="match-venue o-text").text.strip()
+        match_details, match_date, home_team, home_score, away_team, away_score, venue =  [match_element.find(html_val, class_=class_val).text.strip() for html_val, class_val in zip(find_data, class_data)]
 
         match = {
-            "Details": match_details.replace("Match", ""),
+            "Details": match_details.replace("Match: ", ""),
             "Date": match_date,
             "Home": home_team,
             "Home_Score": home_score.replace("Scored", "").replace("points", "").strip(),
