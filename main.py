@@ -1,3 +1,6 @@
+"""
+Webscraper for finding NRL data related to team statistics
+"""
 import requests
 from bs4 import BeautifulSoup
 from selenium import webdriver
