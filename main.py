@@ -7,8 +7,8 @@ from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 import json
 
-def get_nrl_data(round=21):
-    url = f"https://www.nrl.com/draw/?competition=111&round={round}&season=2023"  
+def get_nrl_data(round=21, year=2023):
+    url = f"https://www.nrl.com/draw/?competition=111&round={round}&season={year}"  
 
     # Webscrape the shit out of the NRL website
     options = webdriver.ChromeOptions()
@@ -50,14 +50,22 @@ def get_nrl_data(round=21):
 
 if __name__ == "__main__":
     match_json_datas = [] 
-    for round_nu in range(1, 22):  
-        match_json = get_nrl_data(round_nu)
-        match_json_datas.append(match_json)
-    
+    s_year = 2023
+    for year in [2015, 2016, 2017, 2018, 2022, 2023]:
+        year_json_data = [] 
+        for round_nu in range(1, 22):  
+            match_json = get_nrl_data(round_nu, year)
+            year_json_data.append(match_json)
+        year_data = {
+                f"{year}": year_json_data
+        }
+        match_json_datas.append(year_data)
+        
+        
     overall_data = {
                 "NRL": match_json_datas
             }
     overall_data_json = json.dumps(overall_data, indent=4)
     
-    with open("nrl_data.json", "w") as file:
+    with open("nrl_data_multi_years.json", "w") as file:
         file.write(overall_data_json)
