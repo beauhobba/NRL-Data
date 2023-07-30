@@ -65,5 +65,5 @@ if __name__ == "__main__":
             }
     overall_data_json = json.dumps(overall_data, indent=4)
     
-    with open("nrl_data_multi_years_2.json", "w") as file:
+    with open("./data/nrl_data_multi_years_2.json", "w") as file:
         file.write(overall_data_json)
