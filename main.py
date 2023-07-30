@@ -1,7 +1,6 @@
 """
 Webscraper for finding NRL data related to team statistics
 """
-import requests
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
@@ -50,7 +49,6 @@ def get_nrl_data(round=21, year=2023):
 
 if __name__ == "__main__":
     match_json_datas = [] 
-    s_year = 2023
     for year in [2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2022, 2023]:
         year_json_data = [] 
         for round_nu in range(1, 22):  

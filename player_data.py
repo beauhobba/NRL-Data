@@ -1,23 +1,15 @@
 """
-Webscraper for finding NRL data related to team statistics
+Webscraper for finding NRL data related to player statistics
 """
-import requests
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
-import json
-"""
-Webscraper for finding NRL data related to team statistics
-"""
-import requests
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 import json
 import pandas as pd 
-import json
 import numpy as np
-from sklearn.metrics import r2_score
 
 
 teams = ["Broncos", "Roosters", "Wests Tigers", "Rabbitohs", "Storm", "Eels", "Raiders", "Knights", "Dragons", "Sea Eagles", "Panthers", "Sharks", "Bulldogs", "Dolphins", "Titans", "Cowboys", "Warriors"]
@@ -55,6 +47,7 @@ try:
             driver.quit()
 
             soup = BeautifulSoup(page_source, "html.parser")
+            
             # Find all the rows (tr elements) within the tbody
             rows = soup.find_all("tr", class_="table-tbody__tr")
 
@@ -68,7 +61,6 @@ try:
                 player_name_elem = row.find("a", class_="table__content-link")
                 player_name = player_name_elem.get_text(strip=True, separator=' ')
                 player_info["Name"] = player_name
-                
                 
                 # Extract other statistics (time, tries, etc.)
                 statistics = row.find_all("td", class_="table__cell table-tbody__td")
@@ -101,9 +93,6 @@ try:
                     f"{round}": round_data_
                 }
         match_json_datas.append(round_data_op)
-
-            
-
 except:
     pass
     
@@ -116,61 +105,3 @@ overall_data_json = json.dumps(overall_data, indent=4)
 with open("player_statistics_2023.json", "w") as file:
     file.write(overall_data_json)
 
-# url = f"https://www.nrl.com/draw/nrl-premiership/2023/round-20/knights-v-wests-tigers/"  
-
-# # Webscrape the shit out of the NRL website
-# options = webdriver.ChromeOptions()
-# options.add_argument("--headless")
-# driver = webdriver.Chrome(executable_path=ChromeDriverManager(version="114.0.5735.90").install(), options=options)
-# driver.get(url)
-# page_source = driver.page_source
-# driver.quit()
-
-
-# soup = BeautifulSoup(page_source, "html.parser")
-# # Find all the rows (tr elements) within the tbody
-# rows = soup.find_all("tr", class_="table-tbody__tr")
-
-# # Initialize a list to store player information
-# players_info = []
-
-# # Loop through each row and extract player data
-# for row in rows:
-#     player_info = {}
-#     # Extract player name
-#     player_name_elem = row.find("a", class_="table__content-link")
-#     player_name = player_name_elem.get_text(strip=True, separator=' ')
-#     player_info["Name"] = player_name
-    
-    
-#     # Extract other statistics (time, tries, etc.)
-#     statistics = row.find_all("td", class_="table__cell table-tbody__td")
-#     stats_labels = [
-#     "Number", "Position", "Mins Played", "Points", "Tries", "Conversions", "Conversion Attempts",
-#     "Penalty Goals", "Goal Conversion Rate", "1 Point Field Goals",
-#     "2 Point Field Goals", "Total Points", "All Runs", "All Run Metres",
-#     "Kick Return Metres", "Post Contact Metres", "Line Breaks",
-#     "Line Break Assists", "Try Assists", "Line Engaged Runs", "Tackle Breaks",
-#     "Hit Ups", "Play The Ball", "Average Play The Ball Speed",
-#     "Dummy Half Runs", "Dummy Half Run Metres", "One on One Steal",
-#     "Offloads", "Dummy Passes", "Passes", "Receipts", "Passes To Run Ratio",
-#     "Tackle Efficiency", "Tackles Made", "Missed Tackles",
-#     "Ineffective Tackles", "Intercepts", "Kicks Defused", "Kicks",
-#     "Kicking Metres", "Forced Drop Outs", "Bomb Kicks", "Grubbers",
-#     "40/20", "20/40", "Cross Field Kicks", "Kicked Dead", "Errors",
-#     "Handling Errors", "One on One Lost", "Penalties", "Ruck Infringements",
-#     "Inside 10 Metres", "On Report", "Sin Bins", "Send Offs",
-#     "Stint One", "Stint Two"
-#     ]
-#     for i, label in enumerate(stats_labels):
-#         player_info[label] = statistics[i].get_text(strip=True)
-    
-#     # Append player info to the list
-#     players_info.append(player_info)
-
-# # Print the extracted data for both players
-# for player_info in players_info:
-#     print(player_info)
-
-
-# print('yo')
