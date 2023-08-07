@@ -15,9 +15,9 @@ import numpy as np
 teams = ["Broncos", "Roosters", "Wests Tigers", "Rabbitohs", "Storm", "Eels", "Raiders", "Knights", "Dragons", "Sea Eagles", "Panthers", "Sharks", "Bulldogs", "Dolphins", "Titans", "Cowboys", "Warriors"]
 variables =["Year", "Win", "Versus",  "Round"]
 years =  [2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2022, 2023]
-
+years =  [2023] 
 years_arr = {}
-with open('./data/nrl_data_multi_years_2.json', 'r') as file:
+with open('./data/nrl_data_multi_years_2023.json', 'r') as file:
     data = json.load(file)
     data = data['NRL']
     for year in years:
@@ -25,14 +25,15 @@ with open('./data/nrl_data_multi_years_2.json', 'r') as file:
 file.close()
 
 
-years =  [2022, 2023]    
+years =  [2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2022, 2023] 
+years =  [2023] 
 df = pd.DataFrame(columns=[f"{team} {variable}" for team in teams for variable in variables])
 all_store = []
 match_json_datas_2 = [] 
 for year in years:
+    match_json_datas = [] 
     try:
-        match_json_datas = [] 
-        for round in range(0, 22):
+        for round in range(0, 26):
             round_data = years_arr[year][round][str(round+1)]
             round_data_ = []
             # Create an empty feature array 
@@ -97,20 +98,20 @@ for year in years:
                         f"{round}": round_data_
                     }
             match_json_datas.append(round_data_op)
-        year_data_op = {
-                    f"{year}": match_json_datas
-                } 
-        match_json_datas_2.append(year_data_op)
-        
-        
     except:
         pass
+    year_data_op = {
+                f"{year}": match_json_datas
+            } 
+    match_json_datas_2.append(year_data_op)
     
-    
+
 overall_data = {
         "PlayerStats": match_json_datas_2
     }
+
 overall_data_json = json.dumps(overall_data, indent=4)
+
 
 with open("./data/player_statistics_2023_2022.json", "w") as file:
     file.write(overall_data_json)

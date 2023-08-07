@@ -47,13 +47,17 @@ def get_nrl_data(round=21, year=2023):
             }
     return round_data
 
+years = [2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2022, 2023]
 if __name__ == "__main__":
     match_json_datas = [] 
-    for year in [2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2022, 2023]:
+    for year in [2023]:
         year_json_data = [] 
-        for round_nu in range(1, 22):  
-            match_json = get_nrl_data(round_nu, year)
-            year_json_data.append(match_json)
+        for round_nu in range(1, 26):  
+            try:
+                match_json = get_nrl_data(round_nu, year)
+                year_json_data.append(match_json)
+            except:
+                pass
         year_data = {
                 f"{year}": year_json_data
         }
