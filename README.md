@@ -5,7 +5,7 @@ This project is a webscraper for NRL data, and provides a TensorFlow machine lea
 
 
 ## Data
-All data for this project is hosted on [this website](nrlpredictions.com)
+All data for this project is hosted on [this website](nrlpredictions.net)
 
 ## Table of Contents
 
