@@ -5,16 +5,25 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 import json
+import chromedriver_autoinstaller
+from selenium.webdriver.chrome.options import Options
+
+chromedriver_autoinstaller.install() 
+
+
 
 def get_nrl_data(round=21, year=2023):
     url = f"https://www.nrl.com/draw/?competition=111&round={round}&season={year}"  
 
-    # Webscrape the shit out of the NRL website
-    options = webdriver.ChromeOptions()
-    options.add_argument("--headless")
-    driver = webdriver.Chrome(executable_path=ChromeDriverManager(version="114.0.5735.90").install(), options=options)
+    # Webscrape the NRL WEBSITE 
+    options = Options()
+    options.add_argument('--ignore-certificate-errors')
+    options.add_experimental_option('excludeSwitches', ['enable-logging'])
+    driver = webdriver.Chrome(options=options)
     driver.get(url)
     page_source = driver.page_source
+                
+                
     driver.quit()
 
     # get the goodies 
@@ -48,6 +57,7 @@ def get_nrl_data(round=21, year=2023):
     return round_data
 
 years = [2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2022, 2023]
+years = [2024]
 if __name__ == "__main__":
     match_json_datas = [] 
     for year in [2023]:
@@ -69,5 +79,5 @@ if __name__ == "__main__":
             }
     overall_data_json = json.dumps(overall_data, indent=4)
     
-    with open("./data/nrl_data_multi_years_2.json", "w") as file:
+    with open("./data/nrl_data_2024.json", "w") as file:
         file.write(overall_data_json)
