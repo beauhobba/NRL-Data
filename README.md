@@ -49,6 +49,8 @@ There are **two** different machine learning models:
 * Update the website to display prediction results
 * Clean up all the code
 * Optimise the current machine learning model 
+* Update requirements.txt
+* Provide a more descriptive README
 
 ## Help 
 I intend for this project to be open source, so help is always handy!
