@@ -56,28 +56,28 @@ def get_nrl_data(round=21, year=2023):
             }
     return round_data
 
-years = [2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2022, 2023]
-years = [2024]
-if __name__ == "__main__":
-    match_json_datas = [] 
-    for year in [2023]:
-        year_json_data = [] 
-        for round_nu in range(1, 26):  
-            try:
-                match_json = get_nrl_data(round_nu, year)
-                year_json_data.append(match_json)
-            except:
-                pass
-        year_data = {
-                f"{year}": year_json_data
-        }
-        match_json_datas.append(year_data)
+# years = [2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2022, 2023]
+# years = [2024]
+# if __name__ == "__main__":
+#     match_json_datas = [] 
+#     for year in [2023]:
+#         year_json_data = [] 
+#         for round_nu in range(1, 26):  
+#             try:
+#                 match_json = get_nrl_data(round_nu, year)
+#                 year_json_data.append(match_json)
+#             except:
+#                 pass
+#         year_data = {
+#                 f"{year}": year_json_data
+#         }
+#         match_json_datas.append(year_data)
         
         
-    overall_data = {
-                "NRL": match_json_datas
-            }
-    overall_data_json = json.dumps(overall_data, indent=4)
+#     overall_data = {
+#                 "NRL": match_json_datas
+#             }
+#     overall_data_json = json.dumps(overall_data, indent=4)
     
-    with open("./data/nrl_data_2024.json", "w") as file:
-        file.write(overall_data_json)
+#     with open("./data/nrl_data_2024.json", "w") as file:
+#         file.write(overall_data_json)
