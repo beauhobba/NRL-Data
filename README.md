@@ -8,6 +8,7 @@ This project is a webscraper for NRL data, and provides a TensorFlow machine lea
 All data for this project is hosted on [this website](nrlpredictions.com).
 I personally host this website with all data being stored on a S3 instance. 
 
+
 ## Table of Contents
 - [NRL Machine Learning Models and Data Scraper](#nrl-machine-learning-models-and-data-scraper)
   - [Description](#description)
