@@ -16,4 +16,4 @@ PLAYER_LABELS =     ["Number", "Position", "Mins Played", "Points", "Tries", "Co
                     "Inside 10 Metres", "On Report", "Sin Bins", "Send Offs",
                     "Stint One", "Stint Two"]
 
-
+NRL_2024_ROUND = 1
