@@ -6,6 +6,7 @@
 # Imports
 from utilities.get_nrl_data import get_nrl_data
 import json
+sys.path.append('..')
 import ENVIRONMENT_VARIABLES as EV
 
 years = [2024]
