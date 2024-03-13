@@ -1,0 +1,20 @@
+Number	Position	Mins Played	Points	Tries	Conversions	Conversion Attempts	Penalty Goals	Goal Conversion Rate	1 Point Field Goals	2 Point Field Goals	Total Points	All Runs	All Run Metres	Kick Return Metres	Post Contact Metres	Line Breaks	Line Break Assists	Try Assists	Line Engaged Runs	Tackle Breaks	Hit Ups	Play The Ball	Average Play The Ball Speed	Dummy Half Runs	Dummy Half Run Metres	One on One Steal	Offloads	Dummy Passes	Passes	Receipts	Passes To Run Ratio	Tackle Efficiency	Tackles Made	Missed Tackles	Ineffective Tackles	Intercepts	Kicks Defused	Kicks	Kicking Metres	Forced Drop Outs	Bomb Kicks	Grubbers	40/20	20/40	Cross Field Kicks	Kicked Dead	Errors	Handling Errors	One on One Lost	Penalties	Ruck Infringements	Inside 10 Metres	On Report	Sin Bins	Send Offs	Stint One	Stint Two	Round	Team	Opposition
+4	Centre	80:00	-	-	-	-	-	-	-	-	28	8	49	5	18	-	1	1	-	-	-	-	3.17s	-	-	-	2	-	2	12	0.25	81.82%	18	3	1	-	3	-	-	-	-	-	-	-	-	-	1	-	-	1	-	-	-	-	-	80:00	-	1	Warriors	Knights
+4	Centre	80:00	-	-	-	-	-	-	-	-	16	11	96	-	29	-	1	-	-	-	-	-	3.72s	-	-	-	-	1	4	12	0.36	77.78%	14	3	1	-	1	-	-	-	-	-	-	-	-	-	1	-	-	1	-	-	-	-	-	80:00	-	2	Warriors	Roosters
+4	Centre	80:00	-	-	-	-	-	-	-	-	49	15	152	-	42	-	1	1	-	2	2	-	3.8s	1	11	-	2	-	2	17	0.13	83.33%	20	3	1	-	-	-	-	-	-	-	-	-	-	-	2	2	-	-	-	-	-	-	-	80:00	-	3	Warriors	Cowboys
+4	Centre	80:00	-	-	-	-	-	-	-	-	23	16	91	-	47	-	-	-	-	3	-	-	4.79s	-	-	-	1	2	5	19	0.31	88.89%	8	-	1	-	-	-	-	-	-	-	-	-	-	-	2	1	-	-	-	-	-	-	-	80:00	-	4	Warriors	Bulldogs
+4	Centre	80:00	-	-	-	-	-	-	-	-	32	9	78	-	37	-	1	1	-	4	-	-	4.03s	-	-	-	-	-	3	11	0.33	87.5%	14	1	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	80:00	-	5	Warriors	Sharks
+4	Centre	80:00	8	2	-	-	-	-	-	-	73	13	129	-	31	2	1	1	-	6	-	-	3.19s	-	-	-	1	-	5	18	0.38	80%	16	2	2	-	-	1	11	1	-	1	-	-	-	-	1	1	-	1	-	-	-	-	-	80:00	-	6	Warriors	Knights
+4	Centre	80:00	-	-	-	-	-	-	-	-	34	6	94	-	24	-	-	-	-	5	-	-	4.36s	-	-	-	1	-	6	13	1	90.91%	10	1	-	1	1	1	23	-	-	1	-	-	-	1	1	1	-	-	-	-	-	-	-	80:00	-	7	Warriors	Cowboys
+4	Centre	80:00	-	-	-	-	-	-	-	-	35	11	116	8	42	-	1	1	-	2	1	-	3.73s	-	-	-	-	-	4	15	0.36	81.82%	9	1	1	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	-	-	80:00	-	8	Warriors	Storm
+4	Centre	80:00	-	-	-	-	-	-	-	-	21	13	108	-	31	-	-	-	-	2	1	-	3.97s	-	-	-	-	-	2	14	0.15	90%	18	2	-	-	-	-	-	-	-	-	-	-	-	-	2	2	-	1	1	-	-	-	-	80:00	-	9	Warriors	Roosters
+4	Centre	80:00	-	-	-	-	-	-	-	-	38	19	138	7	52	-	1	-	-	8	-	-	3.14s	-	-	-	2	1	8	27	0.42	62.5%	5	3	-	-	2	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	80:00	-	10	Warriors	Panthers
+4	Centre	80:00	-	-	-	-	-	-	-	-	27	11	160	-	48	-	1	-	-	3	-	-	3.94s	-	-	-	1	-	7	16	0.64	61.11%	11	6	1	1	-	-	-	-	-	-	-	-	-	-	2	1	-	-	-	-	-	-	-	80:00	-	11	Warriors	Bulldogs
+4	Centre	80:00	-	-	-	-	-	-	-	-	36	10	126	-	40	-	1	1	-	4	-	-	3.77s	-	-	-	2	-	8	15	0.8	75%	9	1	2	-	-	-	-	-	-	-	-	-	-	-	1	1	-	1	-	-	-	-	-	80:00	-	13	Warriors	Broncos
+4	Centre	80:00	-	-	-	-	-	-	-	-	40	10	88	11	34	-	1	-	-	2	-	-	3.62s	-	-	-	2	-	2	9	0.2	84.21%	16	1	2	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	80:00	-	14	Warriors	Dolphins
+4	Centre	80:00	4	-	2	2	-	100%	-	-	27	9	75	-	30	-	1	-	-	-	-	-	3.7s	-	-	-	-	-	3	11	0.33	92.86%	13	1	-	-	-	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	80:00	-	15	Warriors	Raiders
+4	Centre	80:00	-	-	-	-	-	-	-	-	37	10	76	-	21	-	2	-	-	1	-	-	3.49s	-	-	-	3	1	4	14	0.4	81.82%	18	2	2	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	-	-	-	80:00	-	17	Warriors	Dragons
+4	Centre	80:00	-	-	-	-	-	-	-	-	36	10	99	-	38	-	1	1	-	-	-	-	3.05s	-	-	-	-	-	7	13	0.7	100%	24	-	-	-	-	-	-	-	-	-	-	-	-	-	2	1	-	-	-	-	-	-	-	80:00	-	18	Warriors	Rabbitohs
+4	Centre	80:00	-	-	-	-	-	-	-	-	13	7	57	-	26	1	1	1	-	1	-	-	2.88s	-	-	-	-	1	6	15	0.86	73.33%	11	4	-	-	-	-	-	-	-	-	-	-	-	-	6	4	-	-	-	-	-	-	-	80:00	-	19	Warriors	Eels
+4	Centre	80:00	4	1	-	-	-	-	-	-	20	9	66	-	20	1	-	-	-	3	-	-	3.69s	-	-	-	-	1	3	10	0.33	60%	12	8	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	80:00	-	20	Warriors	Sharks
+4	Centre	82:00	-	-	-	-	-	-	-	-	42	14	122	-	50	1	1	-	-	3	-	-	3.31s	2	10	-	-	1	6	21	0.43	95.45%	21	1	-	-	1	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	-	-	-	82:00	-	21	Warriors	Raiders

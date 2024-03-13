@@ -1,0 +1,17 @@
+Number	Position	Mins Played	Points	Tries	Conversions	Conversion Attempts	Penalty Goals	Goal Conversion Rate	1 Point Field Goals	2 Point Field Goals	Total Points	All Runs	All Run Metres	Kick Return Metres	Post Contact Metres	Line Breaks	Line Break Assists	Try Assists	Line Engaged Runs	Tackle Breaks	Hit Ups	Play The Ball	Average Play The Ball Speed	Dummy Half Runs	Dummy Half Run Metres	One on One Steal	Offloads	Dummy Passes	Passes	Receipts	Passes To Run Ratio	Tackle Efficiency	Tackles Made	Missed Tackles	Ineffective Tackles	Intercepts	Kicks Defused	Kicks	Kicking Metres	Forced Drop Outs	Bomb Kicks	Grubbers	40/20	20/40	Cross Field Kicks	Kicked Dead	Errors	Handling Errors	One on One Lost	Penalties	Ruck Infringements	Inside 10 Metres	On Report	Sin Bins	Send Offs	Stint One	Stint Two	Round	Team	Opposition
+13	Lock	80:00	-	-	-	-	-	-	-	-	59	12	114	-	42	-	-	-	-	1	8	-	3.03s	-	-	-	-	1	23	31	1.92	93.1%	54	4	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	80:00	-	1	Panthers	Broncos
+13	Lock	80:00	-	-	-	-	-	-	-	-	61	18	159	-	45	-	1	-	-	3	14	-	2.85s	-	-	-	-	-	21	35	1.17	95.45%	42	-	2	-	-	-	-	-	-	-	-	-	-	-	1	-	-	1	-	-	-	-	-	80:00	-	2	Panthers	Rabbitohs
+13	Lock	83:00	-	-	-	-	-	-	-	-	83	17	152	-	47	-	1	-	-	2	10	-	2.17s	-	-	-	2	1	15	25	0.88	94.34%	50	-	3	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	83:00	-	4	Panthers	Eels
+13	Lock	80:00	-	-	-	-	-	-	-	-	64	20	155	-	40	-	-	-	-	1	10	-	2.88s	-	-	-	1	-	37	48	1.85	95%	38	-	2	-	-	-	-	-	-	-	-	-	-	-	1	1	-	-	1	-	-	-	-	80:00	-	5	Panthers	Raiders
+13	Lock	70:00	-	-	-	-	-	-	-	-	55	28	210	-	27	-	-	-	-	2	9	-	3.44s	-	-	-	2	2	31	40	1.11	96.15%	25	-	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	70:24	-	6	Panthers	Sea Eagles
+13	Lock	81:00	-	-	-	-	-	-	-	-	71	18	147	-	30	-	-	-	-	2	12	-	3.77s	-	-	-	1	2	39	51	2.17	100%	47	-	-	-	-	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	81:00	-	7	Panthers	Knights
+13	Lock	80:00	-	-	-	-	-	-	-	-	71	22	188	-	46	-	-	-	-	1	11	-	2.78s	-	-	-	1	1	27	38	1.23	95.74%	45	-	2	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	80:00	-	8	Panthers	Rabbitohs
+13	Lock	80:00	-	-	-	-	-	-	-	-	58	14	141	-	55	-	-	-	-	2	10	-	2.89s	-	-	-	-	3	18	28	1.29	90.57%	48	4	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	80:00	-	9	Panthers	Wests Tigers
+13	Lock	80:00	-	-	-	-	-	-	-	-	66	17	146	-	37	1	-	-	-	5	11	-	2.84s	-	-	-	-	2	21	33	1.24	87.5%	42	2	4	-	-	-	-	-	-	-	-	-	-	-	1	1	-	1	-	-	-	-	-	80:00	-	10	Panthers	Warriors
+13	Lock	76:00	-	-	-	-	-	-	-	-	58	26	216	-	55	-	-	1	-	3	15	-	3.68s	-	-	-	1	5	22	38	0.85	87.5%	28	3	1	-	-	1	6	-	-	-	-	-	1	-	-	-	-	-	-	-	-	-	-	75:55	-	11	Panthers	Roosters
+13	Lock	80:00	-	-	-	-	-	-	-	-	62	21	185	-	60	-	-	-	-	3	16	-	2.79s	-	-	-	1	5	23	40	1.1	95.45%	42	2	-	-	-	-	-	-	-	-	-	-	-	-	1	1	-	1	-	-	-	-	-	80:00	-	12	Panthers	Broncos
+13	Lock	80:00	-	-	-	-	-	-	-	-	63	15	135	-	51	-	1	1	-	-	13	-	3.05s	-	-	-	2	2	18	31	1.2	93.18%	41	2	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	80:00	-	14	Panthers	Dragons
+13	Lock	80:00	4	1	-	-	-	-	-	-	72	14	150	-	64	1	-	-	-	4	14	-	3.1s	-	-	-	-	-	21	35	1.5	89.19%	33	1	3	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	80:00	-	15	Panthers	Roosters
+13	Lock	76:00	-	-	-	-	-	-	-	-	40	14	114	-	31	-	-	-	-	-	10	-	3.32s	-	-	-	-	1	25	35	1.79	86.84%	33	2	3	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	76:01	-	18	Panthers	Storm
+13	Lock	80:00	4	1	-	-	-	-	-	-	72	12	97	-	42	1	1	-	-	3	9	-	3.09s	-	-	-	1	1	19	29	1.58	97.73%	43	-	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	2	-	-	-	-	-	80:00	-	21	Panthers	Bulldogs
+13	Lock	74:00	4	1	-	-	-	-	-	-	71	24	193	-	65	-	-	-	-	5	15	-	3.31s	-	-	-	-	1	21	37	0.87	91.89%	34	1	2	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	2	-	-	-	-	74:29	-	22	Panthers	Sharks

@@ -1,0 +1,19 @@
+Number	Position	Mins Played	Points	Tries	Conversions	Conversion Attempts	Penalty Goals	Goal Conversion Rate	1 Point Field Goals	2 Point Field Goals	Total Points	All Runs	All Run Metres	Kick Return Metres	Post Contact Metres	Line Breaks	Line Break Assists	Try Assists	Line Engaged Runs	Tackle Breaks	Hit Ups	Play The Ball	Average Play The Ball Speed	Dummy Half Runs	Dummy Half Run Metres	One on One Steal	Offloads	Dummy Passes	Passes	Receipts	Passes To Run Ratio	Tackle Efficiency	Tackles Made	Missed Tackles	Ineffective Tackles	Intercepts	Kicks Defused	Kicks	Kicking Metres	Forced Drop Outs	Bomb Kicks	Grubbers	40/20	20/40	Cross Field Kicks	Kicked Dead	Errors	Handling Errors	One on One Lost	Penalties	Ruck Infringements	Inside 10 Metres	On Report	Sin Bins	Send Offs	Stint One	Stint Two	Round	Team	Opposition
+8	Prop	40:00	-	-	-	-	-	-	-	-	49	13	160	54	67	-	-	-	-	1	10	-	3.36s	-	-	1	-	-	-	13	-	93.94%	31	1	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	18:20	16:43	1	Panthers	Broncos
+8	Prop	45:00	-	-	-	-	-	-	-	-	36	9	67	-	23	-	-	-	-	-	9	-	2.65s	-	-	-	1	-	1	10	0.11	91.18%	31	1	2	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	24:01	21:20	2	Panthers	Rabbitohs
+8	Prop	41:00	-	-	-	-	-	-	-	-	37	5	43	-	16	-	-	-	-	1	5	-	2.74s	-	-	-	-	-	-	6	-	97.37%	37	1	-	-	-	-	-	-	-	-	-	-	-	-	1	1	-	1	-	-	-	-	-	23:44	16:38	4	Panthers	Eels
+8	Prop	47:00	-	-	-	-	-	-	-	-	50	16	162	60	59	-	-	-	-	6	11	-	3.61s	-	-	-	-	-	1	16	0.06	86.96%	20	1	2	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	30:08	16:43	5	Panthers	Raiders
+8	Prop	40:00	-	-	-	-	-	-	-	-	30	14	147	68	34	-	-	-	-	2	9	-	3.19s	-	-	-	1	1	-	14	-	83.33%	10	1	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	24:47	14:58	6	Panthers	Sea Eagles
+8	Prop	45:00	-	-	-	-	-	-	-	-	54	15	144	-	41	-	-	-	-	3	15	-	3.56s	-	-	-	3	-	-	15	-	88.89%	32	4	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	26:17	18:50	7	Panthers	Knights
+8	Prop	39:00	-	-	-	-	-	-	-	-	48	7	63	8	19	-	-	-	-	-	6	-	3.27s	-	-	-	3	-	-	7	-	96.67%	29	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	20:20	19:24	8	Panthers	Rabbitohs
+8	Prop	47:00	-	-	-	-	-	-	-	-	31	10	91	12	38	-	-	-	-	-	9	-	3s	-	-	-	-	-	-	10	-	87.18%	34	5	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	18:41	21:38	9	Panthers	Wests Tigers
+8	Prop	36:00	-	-	-	-	-	-	-	-	33	9	87	15	35	-	-	-	-	2	8	-	3.62s	-	-	-	1	-	-	9	-	92.31%	24	2	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	23:22	13:23	10	Panthers	Warriors
+8	Prop	39:00	-	-	-	-	-	-	-	-	23	16	146	51	39	-	-	-	-	-	12	-	3.68s	-	-	-	1	-	-	16	-	81.25%	13	3	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	26:14	13:19	11	Panthers	Roosters
+8	Prop	49:00	-	-	-	-	-	-	-	-	29	15	135	-	46	-	-	-	-	-	15	-	2.84s	-	-	-	-	-	2	17	0.13	90%	27	2	1	-	1	-	-	-	-	-	-	-	-	-	2	1	-	1	2	-	-	-	-	18:44	29:39	12	Panthers	Broncos
+8	Prop	34:00	4	1	-	-	-	-	-	-	38	10	96	-	40	1	-	-	-	2	10	-	2.81s	-	-	-	-	-	1	11	0.1	89.47%	17	2	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	24:10	10:05	14	Panthers	Dragons
+8	Prop	26:00	-	-	-	-	-	-	-	-	32	10	100	24	28	-	-	-	-	3	8	-	3.22s	-	-	-	-	-	-	10	-	86.96%	20	3	-	-	-	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	15:06	21:23	15	Panthers	Roosters
+8	Prop	38:00	-	-	-	-	-	-	-	-	29	14	123	-	48	-	-	-	-	1	14	-	2.87s	-	-	-	1	-	2	15	0.14	82.61%	19	4	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	22:18	15:39	17	Panthers	Knights
+8	Prop	43:00	-	-	-	-	-	-	-	-	29	12	94	-	32	-	-	-	-	1	12	-	2.96s	-	-	-	-	-	-	13	-	92.86%	26	1	1	-	-	-	-	-	-	-	-	-	-	-	2	2	-	-	1	1	-	-	-	22:44	19:59	18	Panthers	Storm
+8	Prop	43:00	4	1	-	-	-	-	-	-	46	12	129	52	37	-	-	-	-	1	8	-	3.66s	-	-	-	2	-	1	13	0.08	88%	22	3	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	16:12	26:45	20	Panthers	Dolphins
+8	Prop	39:00	-	-	-	-	-	-	-	-	32	14	130	-	57	-	-	-	-	2	14	-	3.49s	-	-	-	-	-	-	14	-	89.47%	17	1	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	26:11	12:39	21	Panthers	Bulldogs
+8	Interchange	37:00	-	-	-	-	-	-	-	-	21	14	131	49	43	-	-	-	-	1	10	-	3.76s	-	-	-	-	-	-	14	-	77.78%	14	4	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	36:50	-	22	Panthers	Sharks

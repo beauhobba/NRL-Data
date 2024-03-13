@@ -1,0 +1,14 @@
+Number	Position	Mins Played	Points	Tries	Conversions	Conversion Attempts	Penalty Goals	Goal Conversion Rate	1 Point Field Goals	2 Point Field Goals	Total Points	All Runs	All Run Metres	Kick Return Metres	Post Contact Metres	Line Breaks	Line Break Assists	Try Assists	Line Engaged Runs	Tackle Breaks	Hit Ups	Play The Ball	Average Play The Ball Speed	Dummy Half Runs	Dummy Half Run Metres	One on One Steal	Offloads	Dummy Passes	Passes	Receipts	Passes To Run Ratio	Tackle Efficiency	Tackles Made	Missed Tackles	Ineffective Tackles	Intercepts	Kicks Defused	Kicks	Kicking Metres	Forced Drop Outs	Bomb Kicks	Grubbers	40/20	20/40	Cross Field Kicks	Kicked Dead	Errors	Handling Errors	One on One Lost	Penalties	Ruck Infringements	Inside 10 Metres	On Report	Sin Bins	Send Offs	Stint One	Stint Two	Round	Team	Opposition
+16	Interchange	16:00	-	-	-	-	-	-	-	-	14	6	57	-	25	-	-	-	-	-	6	-	4.31s	-	-	-	-	-	-	6	-	100%	9	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	15:29	-	1	Eels	Storm
+16	Interchange	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	2	Eels	Sharks
+16	Interchange	14:00	-	-	-	-	-	-	-	-	11	6	52	16	24	-	-	-	-	-	5	-	3.61s	-	-	-	1	-	-	6	-	85.71%	6	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	14:00	-	3	Eels	Sea Eagles
+16	Interchange	14:00	-	-	-	-	-	-	-	-	15	5	56	-	19	-	-	-	-	1	5	-	3.86s	-	-	-	-	-	-	5	-	90.91%	10	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	13:46	-	4	Eels	Panthers
+10	Prop	33:00	-	-	-	-	-	-	-	-	27	11	94	13	33	-	-	-	-	1	9	-	3.42s	-	-	-	-	-	-	11	-	100%	18	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	20:30	06:05	5	Eels	Roosters
+10	Prop	19:00	-	-	-	-	-	-	-	-	15	4	44	22	9	-	-	-	-	1	2	-	3.54s	-	-	-	-	-	-	4	-	91.67%	11	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	18:46	-	6	Eels	Wests Tigers
+16	Interchange	18:00	-	-	-	-	-	-	-	-	20	11	121	-	60	-	-	-	-	-	11	-	3.02s	-	-	-	1	1	-	12	-	100%	6	-	-	-	-	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	10:04	07:34	7	Eels	Bulldogs
+16	Interchange	31:00	-	-	-	-	-	-	-	-	24	10	105	14	37	-	-	-	-	2	8	-	3.13s	-	-	-	-	-	1	10	0.1	82.35%	14	2	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	26:09	04:47	8	Eels	Broncos
+8	Prop	44:00	-	-	-	-	-	-	-	-	41	13	134	25	58	-	-	-	-	1	11	-	3.29s	-	-	-	-	-	-	14	-	91.89%	34	2	1	-	-	-	-	-	-	-	-	-	-	-	2	2	-	-	-	-	-	-	-	21:37	22:15	9	Eels	Knights
+8	Prop	28:00	-	-	-	-	-	-	-	-	22	8	83	15	28	-	-	-	-	-	7	-	4.35s	-	-	-	-	-	-	8	-	94.74%	18	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	20:32	07:13	10	Eels	Titans
+8	Prop	34:00	-	-	-	-	-	-	-	-	31	9	100	-	47	-	-	-	-	1	9	-	3.59s	-	-	-	-	-	-	9	-	88.46%	23	2	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	21:15	12:49	11	Eels	Raiders
+8	Prop	50:00	-	-	-	-	-	-	-	-	43	19	201	26	87	-	-	-	-	2	17	-	3.49s	-	-	-	1	2	1	20	0.05	87.5%	21	1	2	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	24:33	24:32	12	Eels	Rabbitohs
+8	Prop	47:00	4	1	-	-	-	-	-	-	56	15	145	-	57	2	-	-	-	3	15	-	3.64s	-	-	-	-	-	-	15	-	89.66%	26	2	1	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	-	-	-	23:42	22:33	13	Eels	Cowboys

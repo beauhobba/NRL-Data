@@ -1,0 +1,18 @@
+Number	Position	Mins Played	Points	Tries	Conversions	Conversion Attempts	Penalty Goals	Goal Conversion Rate	1 Point Field Goals	2 Point Field Goals	Total Points	All Runs	All Run Metres	Kick Return Metres	Post Contact Metres	Line Breaks	Line Break Assists	Try Assists	Line Engaged Runs	Tackle Breaks	Hit Ups	Play The Ball	Average Play The Ball Speed	Dummy Half Runs	Dummy Half Run Metres	One on One Steal	Offloads	Dummy Passes	Passes	Receipts	Passes To Run Ratio	Tackle Efficiency	Tackles Made	Missed Tackles	Ineffective Tackles	Intercepts	Kicks Defused	Kicks	Kicking Metres	Forced Drop Outs	Bomb Kicks	Grubbers	40/20	20/40	Cross Field Kicks	Kicked Dead	Errors	Handling Errors	One on One Lost	Penalties	Ruck Infringements	Inside 10 Metres	On Report	Sin Bins	Send Offs	Stint One	Stint Two	Round	Team	Opposition
+1	Fullback	80:00	4	1	-	-	-	-	-	-	56	19	204	34	34	-	-	-	-	3	-	-	3.14s	1	10	-	2	1	8	26	0.42	90.91%	10	-	1	-	1	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	80:00	-	1	Warriors	Knights
+1	Fullback	53:00	-	-	-	-	-	-	-	-	13	12	114	55	31	-	-	-	-	-	-	-	3.79s	-	-	-	-	-	5	20	0.42	100%	2	-	-	-	2	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	53:00	-	2	Warriors	Roosters
+1	Fullback	80:00	-	-	-	-	-	-	-	-	47	20	160	12	47	-	-	-	-	5	2	-	3.22s	1	3	-	2	1	17	39	0.85	100%	6	-	-	-	3	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	80:00	-	4	Warriors	Bulldogs
+1	Fullback	80:00	-	-	-	-	-	-	-	-	41	24	207	70	67	-	-	-	-	9	2	-	3.64s	-	-	-	-	1	14	41	0.58	57.14%	4	2	1	-	6	-	-	-	-	-	-	-	-	-	1	2	-	-	-	1	-	-	-	80:00	-	5	Warriors	Sharks
+1	Fullback	80:00	-	-	-	-	-	-	-	-	46	24	245	57	71	-	1	1	-	2	1	-	3.06s	-	-	-	1	3	23	44	0.96	83.33%	5	1	-	-	2	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	80:00	-	6	Warriors	Knights
+1	Fullback	80:00	-	-	-	-	-	-	-	-	21	19	181	63	45	-	-	-	-	5	1	-	3.19s	-	-	-	-	1	10	29	0.53	75%	3	1	-	-	1	-	-	-	-	-	-	-	-	-	2	2	-	2	1	-	-	-	-	80:00	-	7	Warriors	Cowboys
+1	Fullback	55:00	-	-	-	-	-	-	-	-	33	15	124	1	37	-	1	1	-	2	1	-	2.98s	1	6	-	-	-	8	23	0.53	100%	8	-	-	-	2	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	55:00	-	8	Warriors	Storm
+1	Fullback	80:00	-	-	-	-	-	-	-	-	29	25	191	42	43	-	-	-	-	3	1	-	2.75s	-	-	-	1	1	13	39	0.52	62.5%	5	2	1	-	3	-	-	-	-	-	-	-	-	-	2	2	-	-	-	-	-	-	-	80:00	-	10	Warriors	Panthers
+1	Fullback	80:00	-	-	-	-	-	-	-	-	37	26	210	49	59	-	-	-	-	4	2	-	3.71s	-	-	-	-	2	10	34	0.38	85.71%	6	1	-	-	4	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	80:00	-	11	Warriors	Bulldogs
+1	Fullback	65:00	4	1	-	-	-	-	-	-	71	21	240	87	76	1	-	-	-	8	1	-	3.11s	2	19	-	-	-	13	32	0.62	100%	5	-	-	-	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	50:30	14:41	13	Warriors	Broncos
+1	Fullback	80:00	-	-	-	-	-	-	-	-	39	18	186	38	41	1	1	-	-	3	1	-	3s	1	12	-	1	1	23	39	1.28	83.33%	5	1	-	-	5	-	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	80:00	-	14	Warriors	Dolphins
+1	Fullback	80:00	4	1	-	-	-	-	-	-	56	25	211	13	63	1	-	-	-	6	2	-	3.98s	-	-	-	2	3	23	47	0.92	75%	6	1	1	-	3	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	80:00	-	15	Warriors	Raiders
+1	Fullback	80:00	-	-	-	-	-	-	-	-	53	25	198	66	48	1	3	2	-	7	2	-	3.75s	1	14	-	-	1	19	42	0.76	80%	4	1	-	-	2	-	-	-	-	-	-	-	-	-	2	2	-	-	-	-	-	-	-	80:00	-	17	Warriors	Dragons
+1	Fullback	80:00	-	-	-	-	-	-	-	-	31	16	118	68	30	-	-	-	-	5	-	-	4.15s	1	3	-	-	2	9	24	0.56	100%	9	-	-	-	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	80:00	-	18	Warriors	Rabbitohs
+1	Fullback	80:00	-	-	-	-	-	-	-	-	27	21	189	5	68	-	-	-	-	3	1	-	3.63s	-	-	-	-	4	16	38	0.76	57.14%	4	1	2	-	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	80:00	-	19	Warriors	Eels
+1	Fullback	80:00	4	1	-	-	-	-	-	-	39	24	198	43	45	1	1	1	-	1	1	-	3.22s	-	-	-	-	-	17	40	0.71	60%	3	2	-	-	2	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	80:00	-	20	Warriors	Sharks
+1	Fullback	82:00	4	1	-	-	-	-	-	-	52	22	194	16	69	1	-	-	-	5	3	-	3.75s	1	8	-	-	2	12	34	0.55	86.67%	13	2	-	-	2	-	-	-	-	-	-	-	-	-	2	2	-	-	-	-	-	-	-	82:00	-	21	Warriors	Raiders

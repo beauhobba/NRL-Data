@@ -1,0 +1,16 @@
+Number	Position	Mins Played	Points	Tries	Conversions	Conversion Attempts	Penalty Goals	Goal Conversion Rate	1 Point Field Goals	2 Point Field Goals	Total Points	All Runs	All Run Metres	Kick Return Metres	Post Contact Metres	Line Breaks	Line Break Assists	Try Assists	Line Engaged Runs	Tackle Breaks	Hit Ups	Play The Ball	Average Play The Ball Speed	Dummy Half Runs	Dummy Half Run Metres	One on One Steal	Offloads	Dummy Passes	Passes	Receipts	Passes To Run Ratio	Tackle Efficiency	Tackles Made	Missed Tackles	Ineffective Tackles	Intercepts	Kicks Defused	Kicks	Kicking Metres	Forced Drop Outs	Bomb Kicks	Grubbers	40/20	20/40	Cross Field Kicks	Kicked Dead	Errors	Handling Errors	One on One Lost	Penalties	Ruck Infringements	Inside 10 Metres	On Report	Sin Bins	Send Offs	Stint One	Stint Two	Round	Team	Opposition
+20	Replacement	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	Warriors	Knights
+20	Replacement	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	3	Warriors	Cowboys
+9	Hooker	76:00	-	-	-	-	-	-	-	-	42	3	23	-	9	-	-	-	-	1	1	-	6.74s	2	12	-	2	1	104	111	34.67	90%	36	2	2	-	1	3	46	-	-	2	-	-	-	-	-	-	-	1	-	-	-	-	-	40:02	35:50	4	Warriors	Bulldogs
+21	Replacement	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	5	Warriors	Sharks
+9	Hooker	52:00	-	-	-	-	-	-	-	-	29	1	2	-	-	-	-	-	-	-	-	-	4.08s	1	2	-	-	4	56	58	56	93.94%	31	-	2	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	44:48	07:27	7	Warriors	Cowboys
+9	Hooker	80:00	-	-	-	-	-	-	-	-	47	3	28	-	6	-	-	-	-	-	1	-	-	2	25	-	-	-	113	118	37.67	89.83%	53	5	1	-	-	1	18	1	-	1	-	-	-	-	-	-	-	-	-	-	-	-	-	80:00	-	8	Warriors	Storm
+14	Interchange	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	9	Warriors	Roosters
+18	Hooker	30:00	-	-	-	-	-	-	-	-	18	1	13	-	7	-	-	-	-	2	1	-	1.72s	-	-	-	-	1	32	33	32	80.77%	21	4	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	20:32	09:04	10	Warriors	Panthers
+14	Hooker	43:00	-	-	-	-	-	-	-	-	21	6	58	-	21	-	-	-	-	1	2	-	3.53s	4	30	-	-	2	65	70	10.83	90.91%	20	1	1	-	-	-	-	-	-	-	-	-	-	-	1	1	-	1	-	-	-	-	-	20:15	23:20	11	Warriors	Bulldogs
+9	Hooker	47:00	-	-	-	-	-	-	-	-	30	6	53	8	16	-	-	-	-	2	2	-	4.38s	3	32	-	-	-	74	79	12.33	88.24%	30	4	-	-	1	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	47:00	-	13	Warriors	Broncos
+18	Replacement	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	17	Warriors	Dragons
+18	Interchange	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	18	Warriors	Rabbitohs
+17	Interchange	19:00	-	-	-	-	-	-	-	-	20	2	17	-	4	-	1	1	-	-	1	-	4.69s	1	10	-	-	1	34	37	17	82.35%	14	3	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	19:00	-	19	Warriors	Eels
+14	Interchange	15:00	-	-	-	-	-	-	-	-	4	1	10	-	4	-	-	-	-	-	1	-	2.68s	-	-	-	-	-	13	13	13	100%	6	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	15:00	-	20	Warriors	Sharks
+17	Replacement	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	21	Warriors	Raiders

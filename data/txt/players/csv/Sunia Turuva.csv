@@ -1,0 +1,20 @@
+Number	Position	Mins Played	Points	Tries	Conversions	Conversion Attempts	Penalty Goals	Goal Conversion Rate	1 Point Field Goals	2 Point Field Goals	Total Points	All Runs	All Run Metres	Kick Return Metres	Post Contact Metres	Line Breaks	Line Break Assists	Try Assists	Line Engaged Runs	Tackle Breaks	Hit Ups	Play The Ball	Average Play The Ball Speed	Dummy Half Runs	Dummy Half Run Metres	One on One Steal	Offloads	Dummy Passes	Passes	Receipts	Passes To Run Ratio	Tackle Efficiency	Tackles Made	Missed Tackles	Ineffective Tackles	Intercepts	Kicks Defused	Kicks	Kicking Metres	Forced Drop Outs	Bomb Kicks	Grubbers	40/20	20/40	Cross Field Kicks	Kicked Dead	Errors	Handling Errors	One on One Lost	Penalties	Ruck Infringements	Inside 10 Metres	On Report	Sin Bins	Send Offs	Stint One	Stint Two	Round	Team	Opposition
+2	Winger	80:00	-	-	-	-	-	-	-	-	34	16	161	26	56	-	-	-	-	3	-	-	4.48s	-	-	-	-	-	-	18	-	83.33%	5	1	-	-	1	1	8	1	-	1	-	-	-	-	-	-	-	1	-	-	-	-	-	80:00	-	1	Panthers	Broncos
+2	Winger	80:00	-	-	-	-	-	-	-	-	28	20	198	35	61	-	-	-	-	2	-	-	3.14s	-	-	-	-	-	2	23	0.1	100%	4	-	-	-	1	1	24	-	-	-	-	-	1	-	-	-	-	-	-	-	-	-	-	80:00	-	2	Panthers	Rabbitohs
+2	Winger	83:00	-	-	-	-	-	-	-	-	40	27	319	176	54	-	-	-	-	3	-	-	3.33s	-	-	-	-	-	1	29	0.04	50%	1	-	1	-	4	1	21	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	83:00	-	4	Panthers	Eels
+2	Winger	80:00	8	2	-	-	-	-	-	-	44	13	114	-	26	-	-	-	-	2	-	-	4.37s	-	-	-	-	-	-	14	-	100%	5	-	-	-	-	1	17	-	-	1	-	-	-	-	-	-	-	-	-	-	-	-	-	80:00	-	5	Panthers	Raiders
+2	Winger	80:00	-	-	-	-	-	-	-	-	56	15	126	27	23	2	-	-	-	3	-	-	4.31s	-	-	-	1	-	1	17	0.07	100%	7	-	-	-	-	2	40	1	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	80:00	-	6	Panthers	Sea Eagles
+2	Winger	81:00	-	-	-	-	-	-	-	-	27	14	150	40	23	-	-	-	-	1	-	-	4.36s	-	-	-	-	-	2	19	0.14	100%	3	-	-	-	5	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	81:00	-	7	Panthers	Knights
+2	Winger	72:00	-	-	-	-	-	-	-	-	35	16	156	20	59	-	-	-	-	9	-	-	3.75s	-	-	-	-	2	2	21	0.13	40%	2	1	2	-	2	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	72:03	-	8	Panthers	Rabbitohs
+2	Winger	80:00	-	-	-	-	-	-	-	-	16	17	169	42	38	-	-	-	-	1	-	-	3.36s	-	-	-	-	-	-	17	-	50%	2	2	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	80:00	-	9	Panthers	Wests Tigers
+2	Winger	80:00	-	-	-	-	-	-	-	-	42	20	170	32	51	-	-	-	-	9	1	-	3.94s	-	-	-	-	1	-	24	-	72.73%	8	3	-	-	2	-	-	-	-	-	-	-	-	-	3	2	-	-	-	-	-	-	-	80:00	-	10	Panthers	Warriors
+2	Winger	80:00	4	1	-	-	-	-	-	-	36	13	146	16	38	1	-	-	-	1	-	-	4.23s	-	-	-	-	1	1	16	0.08	77.78%	7	1	1	-	-	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	80:00	-	11	Panthers	Roosters
+2	Winger	80:00	4	1	-	-	-	-	-	-	51	20	213	27	66	1	-	-	-	4	-	-	4.21s	-	-	-	-	1	1	23	0.05	85.71%	6	-	1	-	2	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	80:00	-	12	Panthers	Broncos
+2	Winger	80:00	4	1	-	-	-	-	-	-	43	13	113	14	38	-	-	-	-	7	2	-	4.16s	-	-	-	-	-	3	18	0.23	88.89%	8	1	-	-	4	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	80:00	-	14	Panthers	Dragons
+2	Winger	80:00	-	-	-	-	-	-	-	-	33	13	148	43	40	1	-	1	-	5	1	-	4.02s	-	-	-	-	-	2	13	0.15	66.67%	4	2	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	80:00	-	15	Panthers	Roosters
+2	Winger	77:00	-	-	-	-	-	-	-	-	61	22	215	3	59	1	-	-	-	16	1	-	3.76s	-	-	-	-	1	6	27	0.27	80%	4	1	-	-	2	2	15	1	-	1	-	-	-	-	-	-	-	1	-	-	-	-	-	16:05	60:27	16	Panthers	Cowboys
+2	Winger	80:00	-	-	-	-	-	-	-	-	20	15	142	-	44	-	-	-	-	6	1	-	3.7s	-	-	-	-	-	4	22	0.27	57.14%	4	2	1	-	-	-	-	-	-	-	-	-	-	-	3	2	-	-	-	-	-	-	-	80:00	-	17	Panthers	Knights
+2	Winger	80:00	-	-	-	-	-	-	-	-	28	14	147	48	43	-	-	-	-	4	-	-	3.81s	-	-	-	-	-	-	15	-	87.5%	7	1	-	-	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	80:00	-	18	Panthers	Storm
+2	Winger	80:00	-	-	-	-	-	-	-	-	20	13	127	10	35	-	-	-	-	3	1	-	3.6s	-	-	-	-	-	-	17	-	81.82%	9	1	1	-	1	1	20	-	-	1	-	-	-	-	3	3	-	-	-	-	-	-	-	80:00	-	20	Panthers	Dolphins
+2	Winger	80:00	-	-	-	-	-	-	-	-	18	8	78	19	33	-	-	-	-	2	-	-	3.5s	-	-	-	-	-	4	14	0.5	66.67%	10	3	2	-	1	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	80:00	-	21	Panthers	Bulldogs
+2	Winger	80:00	4	1	-	-	-	-	-	-	44	19	164	27	65	1	-	-	-	4	-	-	3.87s	-	-	-	-	-	2	21	0.11	87.5%	7	1	-	-	3	1	2	-	-	1	-	-	-	-	-	-	-	-	-	-	-	-	-	80:00	-	22	Panthers	Sharks

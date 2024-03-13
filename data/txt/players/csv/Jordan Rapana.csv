@@ -1,0 +1,16 @@
+Number	Position	Mins Played	Points	Tries	Conversions	Conversion Attempts	Penalty Goals	Goal Conversion Rate	1 Point Field Goals	2 Point Field Goals	Total Points	All Runs	All Run Metres	Kick Return Metres	Post Contact Metres	Line Breaks	Line Break Assists	Try Assists	Line Engaged Runs	Tackle Breaks	Hit Ups	Play The Ball	Average Play The Ball Speed	Dummy Half Runs	Dummy Half Run Metres	One on One Steal	Offloads	Dummy Passes	Passes	Receipts	Passes To Run Ratio	Tackle Efficiency	Tackles Made	Missed Tackles	Ineffective Tackles	Intercepts	Kicks Defused	Kicks	Kicking Metres	Forced Drop Outs	Bomb Kicks	Grubbers	40/20	20/40	Cross Field Kicks	Kicked Dead	Errors	Handling Errors	One on One Lost	Penalties	Ruck Infringements	Inside 10 Metres	On Report	Sin Bins	Send Offs	Stint One	Stint Two	Round	Team	Opposition
+5	Winger	80:00	-	-	-	-	-	-	-	-	21	13	122	15	47	-	-	-	-	5	3	-	3.92s	1	18	-	-	-	8	25	0.62	100%	2	-	-	-	5	1	8	1	-	1	-	-	-	-	2	1	-	3	-	-	-	-	-	80:00	-	1	Raiders	Cowboys
+5	Winger	80:00	-	-	-	-	-	-	-	-	19	11	89	3	34	-	1	-	-	3	1	-	3.35s	1	8	-	-	-	9	22	0.82	83.33%	5	-	1	-	2	-	-	-	-	-	-	-	-	-	3	3	-	1	-	-	-	-	-	80:00	-	5	Raiders	Panthers
+5	Winger	76:00	8	2	-	-	-	-	-	-	47	12	119	-	36	2	-	-	-	5	2	-	5.1s	2	19	-	-	-	6	20	0.5	70%	7	3	-	-	3	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	76:00	-	6	Raiders	Broncos
+5	Winger	84:00	4	1	-	-	-	-	-	-	50	16	156	20	61	1	1	-	-	4	1	-	3.67s	3	27	-	2	-	3	20	0.19	81.82%	9	1	1	-	-	-	-	-	-	-	-	-	-	-	1	1	-	1	-	-	1	-	-	84:00	-	9	Raiders	Dolphins
+5	Winger	80:00	8	2	-	-	-	-	-	-	41	15	96	1	27	1	-	-	-	3	2	-	4.08s	1	5	1	-	-	3	19	0.2	75%	3	1	-	-	3	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	80:00	-	10	Raiders	Bulldogs
+5	Winger	80:00	-	-	-	-	-	-	-	-	24	14	108	11	49	-	-	1	-	1	2	-	2.93s	1	7	-	1	-	5	21	0.36	80%	8	1	1	-	1	-	-	-	-	-	-	-	-	-	2	1	-	-	-	-	-	-	-	80:00	-	11	Raiders	Eels
+5	Winger	80:00	-	-	-	-	-	-	-	-	13	10	87	14	21	-	-	-	-	1	-	-	3.14s	2	18	-	1	2	7	17	0.7	75%	6	2	-	-	1	-	-	-	-	-	-	-	-	-	2	1	-	-	-	-	-	-	-	80:00	-	12	Raiders	Sea Eagles
+5	Winger	75:00	-	-	-	-	-	-	-	-	40	17	166	43	49	1	-	1	-	6	-	-	3.56s	-	-	-	-	-	5	24	0.29	85.71%	6	1	-	-	1	1	18	-	-	-	-	-	-	-	2	2	-	-	-	-	-	-	-	75:22	-	13	Raiders	Rabbitohs
+5	Winger	80:00	4	1	-	-	-	-	-	-	34	13	111	20	26	-	-	-	-	1	-	-	3.92s	1	10	-	-	-	8	22	0.62	80%	16	4	-	-	3	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	80:00	-	14	Raiders	Wests Tigers
+5	Winger	59:00	-	-	-	-	-	-	-	-	27	11	125	16	34	1	-	-	-	4	-	-	3.99s	2	27	-	-	-	4	14	0.36	75%	3	-	1	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	-	-	-	23:46	34:56	15	Raiders	Warriors
+5	Winger	80:00	-	-	-	-	-	-	-	-	39	18	126	15	27	-	-	-	-	7	-	-	3.38s	2	9	-	2	1	11	29	0.61	87.5%	7	-	1	-	2	-	-	-	-	-	-	-	-	-	1	2	-	-	-	-	-	-	-	80:00	-	17	Raiders	Roosters
+5	Winger	80:00	-	-	-	-	-	-	-	-	30	10	111	16	43	-	1	1	-	6	-	-	3.97s	2	12	-	1	1	2	14	0.2	60%	9	4	2	-	1	-	-	-	-	-	-	-	-	-	1	1	-	2	-	-	-	-	-	80:00	-	18	Raiders	Titans
+5	Winger	80:00	4	1	-	-	-	-	-	-	32	12	89	27	30	1	1	-	-	5	2	-	3.88s	1	5	-	-	-	7	22	0.58	80%	4	1	-	-	2	-	-	-	-	-	-	-	-	-	4	4	-	-	-	-	-	-	-	80:00	-	19	Raiders	Dragons
+5	Winger	82:00	4	1	-	-	-	-	-	-	46	17	129	9	46	2	-	1	-	5	1	-	3.41s	2	11	-	-	3	5	22	0.29	80%	8	2	-	-	-	1	6	-	-	1	-	-	-	-	-	-	-	1	-	1	-	-	-	82:00	-	21	Raiders	Warriors
+5	Winger	80:00	4	1	-	-	-	-	-	-	27	14	121	22	22	2	-	-	-	1	1	-	3.72s	-	-	-	1	-	7	22	0.5	66.67%	6	3	-	-	3	1	15	-	-	-	-	-	-	-	3	3	-	1	-	-	-	-	-	80:00	-	22	Raiders	Knights

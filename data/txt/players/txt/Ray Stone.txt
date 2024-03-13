@@ -1,0 +1,17 @@
+Number	Position	Mins Played	Points	Tries	Conversions	Conversion Attempts	Penalty Goals	Goal Conversion Rate	1 Point Field Goals	2 Point Field Goals	Total Points	All Runs	All Run Metres	Kick Return Metres	Post Contact Metres	Line Breaks	Line Break Assists	Try Assists	Line Engaged Runs	Tackle Breaks	Hit Ups	Play The Ball	Average Play The Ball Speed	Dummy Half Runs	Dummy Half Run Metres	One on One Steal	Offloads	Dummy Passes	Passes	Receipts	Passes To Run Ratio	Tackle Efficiency	Tackles Made	Missed Tackles	Ineffective Tackles	Intercepts	Kicks Defused	Kicks	Kicking Metres	Forced Drop Outs	Bomb Kicks	Grubbers	40/20	20/40	Cross Field Kicks	Kicked Dead	Errors	Handling Errors	One on One Lost	Penalties	Ruck Infringements	Inside 10 Metres	On Report	Sin Bins	Send Offs	Stint One	Stint Two	Round	Team	Opposition
+16	Interchange	36:00	-	-	-	-	-	-	-	-	31	8	58	11	12	-	-	-	-	-	6	-	3.54s	-	-	-	-	-	2	9	0.25	91.67%	22	2	-	-	-	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	36:18	-	1	Dolphins	Roosters
+16	Interchange	26:00	-	-	-	-	-	-	-	-	8	3	32	-	8	-	-	-	-	-	3	-	3.68s	-	-	-	-	-	-	3	-	78.57%	11	3	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	25:46	-	3	Dolphins	Knights
+16	Interchange	54:00	-	-	-	-	-	-	-	-	19	7	48	-	13	-	1	1	-	-	2	-	3.44s	4	30	-	-	-	75	81	10.71	74.07%	20	4	3	-	-	-	-	-	-	-	-	-	-	-	2	2	-	-	-	-	-	-	-	54:00	-	4	Dolphins	Broncos
+16	Interchange	50:00	-	-	-	-	-	-	-	-	27	4	23	-	7	-	-	-	-	-	4	-	3.68s	-	-	-	-	1	7	11	1.75	89.74%	35	4	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	49:41	-	5	Dolphins	Dragons
+16	Prop	49:00	-	-	-	-	-	-	-	-	32	11	91	-	37	-	-	-	-	1	9	-	3.85s	-	-	-	-	-	2	11	0.18	87.5%	28	4	-	-	1	-	-	-	-	-	-	-	-	-	1	1	-	1	-	-	-	-	-	22:47	25:50	6	Dolphins	Cowboys
+16	Prop	54:00	-	-	-	-	-	-	-	-	39	9	81	-	24	-	-	-	-	1	6	-	2.87s	-	-	-	-	-	3	9	0.33	88.1%	37	5	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	23:38	29:53	7	Dolphins	Rabbitohs
+16	Interchange	44:00	-	-	-	-	-	-	-	-	28	10	92	1	31	-	-	-	-	1	8	-	3.71s	-	-	-	-	-	2	11	0.2	76.47%	26	5	3	-	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	37:13	06:50	8	Dolphins	Titans
+16	Interchange	38:00	-	-	-	-	-	-	-	-	35	2	22	-	9	-	-	-	-	1	2	-	2.94s	-	-	-	-	1	-	3	-	90%	36	-	4	-	-	-	-	-	-	-	-	-	-	-	1	-	-	1	1	-	1	-	-	33:55	03:59	9	Dolphins	Raiders
+16	Interchange	38:00	-	-	-	-	-	-	-	-	34	3	21	-	21	-	-	-	-	-	3	-	3.4s	-	-	-	-	-	1	4	0.33	89.47%	34	1	3	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	37:48	-	12	Dolphins	Storm
+13	Lock	58:00	-	-	-	-	-	-	-	-	38	12	115	-	39	-	-	-	-	2	12	-	3.95s	-	-	-	-	-	-	12	-	84.09%	37	6	1	-	-	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	28:05	30:17	13	Dolphins	Dragons
+13	Hooker	68:00	-	-	-	-	-	-	-	-	58	7	51	-	20	-	-	-	-	-	6	-	3.51s	1	-	-	-	-	10	17	1.43	98.21%	55	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	57:18	10:15	14	Dolphins	Warriors
+13	Interchange	61:00	-	-	-	-	-	-	-	-	43	9	78	-	30	-	-	-	-	1	9	-	3.3s	-	-	-	-	-	2	11	0.22	90.91%	40	2	2	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	61:00	-	15	Dolphins	Sea Eagles
+13	Lock	50:00	-	-	-	-	-	-	-	-	33	2	16	-	5	-	-	-	-	-	2	-	3.36s	-	-	-	-	-	1	3	0.5	91.89%	34	1	2	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	50:28	-	17	Dolphins	Eels
+13	Lock	53:00	-	-	-	-	-	-	-	-	30	3	17	-	8	-	-	-	-	-	3	-	3.87s	-	-	-	-	-	-	3	-	89.13%	41	4	1	-	-	-	-	-	-	-	-	-	-	-	1	-	-	1	-	-	-	-	-	50:06	02:28	18	Dolphins	Broncos
+13	Lock	67:00	-	-	-	-	-	-	-	-	44	13	123	-	53	-	-	-	-	-	13	-	2.84s	-	-	-	-	-	1	14	0.08	88.89%	40	3	2	-	-	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	51:21	15:14	19	Dolphins	Titans
+13	Lock	47:00	-	-	-	-	-	-	-	-	33	4	34	-	8	1	-	-	-	-	4	-	3.38s	-	-	-	1	-	2	6	0.5	82.05%	32	7	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	28:26	19:13	20	Dolphins	Panthers

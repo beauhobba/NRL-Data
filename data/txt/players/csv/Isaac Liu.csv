@@ -1,0 +1,20 @@
+Number	Position	Mins Played	Points	Tries	Conversions	Conversion Attempts	Penalty Goals	Goal Conversion Rate	1 Point Field Goals	2 Point Field Goals	Total Points	All Runs	All Run Metres	Kick Return Metres	Post Contact Metres	Line Breaks	Line Break Assists	Try Assists	Line Engaged Runs	Tackle Breaks	Hit Ups	Play The Ball	Average Play The Ball Speed	Dummy Half Runs	Dummy Half Run Metres	One on One Steal	Offloads	Dummy Passes	Passes	Receipts	Passes To Run Ratio	Tackle Efficiency	Tackles Made	Missed Tackles	Ineffective Tackles	Intercepts	Kicks Defused	Kicks	Kicking Metres	Forced Drop Outs	Bomb Kicks	Grubbers	40/20	20/40	Cross Field Kicks	Kicked Dead	Errors	Handling Errors	One on One Lost	Penalties	Ruck Infringements	Inside 10 Metres	On Report	Sin Bins	Send Offs	Stint One	Stint Two	Round	Team	Opposition
+13	Lock	53:00	-	-	-	-	-	-	-	-	36	11	103	-	30	-	-	-	-	1	7	-	3.01s	-	-	-	-	-	4	11	0.36	86.67%	26	1	3	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	29:33	23:21	1	Titans	Wests Tigers
+13	Lock	58:00	-	-	-	-	-	-	-	-	34	16	163	12	56	-	-	-	-	1	13	-	3.73s	-	-	-	-	1	8	22	0.5	85.71%	24	3	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	35:15	23:20	2	Titans	Dragons
+13	Lock	51:00	-	-	-	-	-	-	-	-	37	10	87	-	29	-	-	-	-	1	9	-	3.9s	-	-	-	-	-	6	15	0.6	92.86%	26	1	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	28:30	21:53	3	Titans	Storm
+13	Lock	56:00	-	-	-	-	-	-	-	-	30	8	63	-	14	-	-	-	-	-	6	-	3.46s	-	-	-	-	-	10	16	1.25	96.3%	26	1	-	-	-	-	-	-	-	-	-	-	-	-	1	1	-	1	-	-	-	-	-	28:36	26:50	4	Titans	Cowboys
+13	Lock	48:00	-	-	-	-	-	-	-	-	30	8	69	-	11	-	-	-	-	2	5	-	3.69s	-	-	-	-	-	8	13	1	88.89%	24	2	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	27:03	20:35	6	Titans	Dragons
+13	Lock	51:00	-	-	-	-	-	-	-	-	15	4	28	-	3	-	-	-	-	-	2	-	3.44s	-	-	-	-	-	12	14	3	81.48%	22	4	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	28:38	21:41	7	Titans	Broncos
+13	Lock	54:00	4	1	-	-	-	-	-	-	64	8	88	-	26	1	1	1	-	3	6	-	2.57s	-	-	-	-	3	8	15	1	90.32%	28	2	1	-	-	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	25:59	28:12	8	Titans	Dolphins
+13	Lock	49:00	-	-	-	-	-	-	-	-	32	12	115	21	37	-	-	-	-	-	10	-	3.33s	-	-	-	-	1	11	23	0.92	88.89%	24	1	2	-	-	-	-	-	-	-	-	-	-	-	1	-	-	1	1	-	-	-	-	37:09	11:54	9	Titans	Sea Eagles
+13	Lock	51:00	-	-	-	-	-	-	-	-	34	8	62	-	12	-	-	-	-	1	7	-	3.24s	-	-	-	-	1	11	17	1.38	86.67%	26	2	2	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	30:09	21:29	10	Titans	Eels
+13	Lock	59:00	-	-	-	-	-	-	-	-	37	7	62	-	25	-	-	-	-	-	7	-	3.58s	-	-	-	-	1	14	21	2	93.94%	31	-	2	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	32:57	25:37	11	Titans	Knights
+13	Lock	53:00	-	-	-	-	-	-	-	-	37	18	144	-	53	-	-	-	-	3	12	-	3.59s	-	-	-	-	2	10	24	0.56	100%	22	-	-	-	-	-	-	-	-	-	-	-	-	-	1	1	-	1	1	-	-	-	-	30:07	23:09	12	Titans	Bulldogs
+13	Lock	54:00	-	-	-	-	-	-	-	-	37	14	131	-	51	-	-	-	-	-	12	-	2.74s	-	-	-	-	1	7	20	0.5	91.43%	32	3	-	-	-	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	27:04	27:27	14	Titans	Rabbitohs
+13	Lock	47:00	-	-	-	-	-	-	-	-	23	10	82	-	25	-	-	-	-	-	7	-	3.85s	-	-	-	-	3	11	18	1.1	90.48%	19	1	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	2	-	-	-	-	31:34	14:43	15	Titans	Wests Tigers
+13	Lock	47:00	-	-	-	-	-	-	-	-	15	7	60	-	12	-	-	-	-	-	4	-	3.11s	-	-	-	-	-	9	15	1.29	87.5%	21	3	-	-	-	-	-	-	-	-	-	-	-	-	2	2	-	1	-	-	1	-	-	29:36	17:28	17	Titans	Broncos
+13	Lock	44:00	-	-	-	-	-	-	-	-	24	5	47	-	7	-	-	-	-	-	3	-	3.38s	-	-	-	-	-	7	11	1.4	96.3%	26	1	-	-	-	-	-	-	-	-	-	-	-	-	2	2	-	1	-	-	-	-	-	30:23	14:05	18	Titans	Raiders
+13	Lock	46:00	-	-	-	-	-	-	-	-	49	10	86	12	25	-	2	-	-	2	8	-	3.3s	-	-	-	2	2	4	15	0.4	92.11%	35	3	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	1	-	-	-	-	-	24:56	20:56	19	Titans	Dolphins
+13	Lock	38:00	-	-	-	-	-	-	-	-	33	12	100	29	25	-	1	1	-	-	7	-	3.79s	-	-	-	-	3	5	16	0.42	76.19%	16	2	3	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	24:58	13:24	20	Titans	Eels
+10	Interchange	47:00	-	-	-	-	-	-	-	-	30	9	91	-	42	-	-	-	-	1	8	-	3.1s	-	-	-	-	-	4	13	0.44	82.86%	29	5	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	47:13	-	21	Titans	Roosters
+10	Prop	52:00	-	-	-	-	-	-	-	-	34	12	103	-	33	-	-	-	-	1	12	-	3.74s	-	-	-	1	3	3	15	0.25	92.31%	24	1	1	-	-	-	-	-	-	-	-	-	-	-	1	1	-	1	-	-	-	-	-	26:40	24:46	22	Titans	Cowboys

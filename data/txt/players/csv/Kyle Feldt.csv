@@ -1,0 +1,19 @@
+Number	Position	Mins Played	Points	Tries	Conversions	Conversion Attempts	Penalty Goals	Goal Conversion Rate	1 Point Field Goals	2 Point Field Goals	Total Points	All Runs	All Run Metres	Kick Return Metres	Post Contact Metres	Line Breaks	Line Break Assists	Try Assists	Line Engaged Runs	Tackle Breaks	Hit Ups	Play The Ball	Average Play The Ball Speed	Dummy Half Runs	Dummy Half Run Metres	One on One Steal	Offloads	Dummy Passes	Passes	Receipts	Passes To Run Ratio	Tackle Efficiency	Tackles Made	Missed Tackles	Ineffective Tackles	Intercepts	Kicks Defused	Kicks	Kicking Metres	Forced Drop Outs	Bomb Kicks	Grubbers	40/20	20/40	Cross Field Kicks	Kicked Dead	Errors	Handling Errors	One on One Lost	Penalties	Ruck Infringements	Inside 10 Metres	On Report	Sin Bins	Send Offs	Stint One	Stint Two	Round	Team	Opposition
+2	Winger	80:00	-	-	-	-	-	-	-	-	22	12	113	21	31	-	-	-	-	5	-	-	3.74s	3	25	-	-	-	1	12	0.08	87.5%	7	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	2	-	-	-	-	-	80:00	-	1	Cowboys	Raiders
+2	Winger	80:00	-	-	-	-	-	-	-	-	23	14	141	16	48	-	-	-	-	1	-	-	3.15s	-	-	-	-	-	-	13	-	87.5%	7	-	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	80:00	-	2	Cowboys	Broncos
+2	Winger	80:00	-	-	-	-	-	-	-	-	23	15	125	19	26	-	-	-	-	3	-	-	3.57s	-	-	-	-	-	4	21	0.27	60%	6	2	2	-	3	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	80:00	-	3	Cowboys	Warriors
+2	Winger	80:00	-	-	-	-	-	-	-	-	13	14	119	21	23	-	-	-	-	1	2	-	3.54s	1	8	-	-	-	1	17	0.07	90.91%	10	1	-	-	-	-	-	-	-	-	-	-	-	-	4	2	-	-	-	-	-	-	-	80:00	-	4	Cowboys	Titans
+2	Winger	85:00	-	-	-	-	-	-	-	-	18	14	121	9	16	-	-	-	-	2	1	-	3.17s	-	-	-	-	-	1	18	0.07	100%	2	-	-	-	4	1	11	-	1	-	-	-	-	-	-	1	-	2	-	-	-	-	-	85:00	-	5	Cowboys	Bulldogs
+2	Winger	80:00	8	2	-	-	-	-	-	-	46	14	132	-	47	2	-	-	-	3	-	-	2.79s	-	-	-	1	-	3	17	0.21	100%	1	-	-	-	2	-	-	-	-	-	-	-	-	-	-	-	-	2	-	-	-	-	-	80:00	-	6	Cowboys	Dolphins
+2	Winger	80:00	-	-	-	-	-	-	-	-	24	11	89	22	16	1	-	-	-	3	-	-	2.62s	-	-	-	-	-	2	13	0.18	77.78%	7	1	1	-	-	2	57	-	-	1	-	-	-	1	-	-	-	-	-	-	-	-	-	80:00	-	7	Cowboys	Warriors
+2	Winger	80:00	4	1	-	-	-	-	-	-	46	18	213	2	65	2	-	-	-	2	-	-	2.92s	-	-	-	1	1	3	20	0.17	83.33%	5	1	-	-	2	1	11	-	-	1	-	-	-	-	-	-	-	1	-	-	-	-	-	80:00	-	8	Cowboys	Knights
+2	Winger	80:00	4	1	-	-	-	-	-	-	39	17	141	-	32	-	-	-	-	1	-	-	3.73s	-	-	-	-	-	1	21	0.06	92.86%	13	1	-	-	2	-	-	-	-	-	-	-	-	-	3	-	-	-	-	-	-	-	-	80:00	-	9	Cowboys	Sharks
+2	Winger	80:00	-	-	-	-	-	-	-	-	34	17	156	16	42	-	-	-	-	6	-	-	3.7s	-	-	-	-	-	3	19	0.18	80%	8	1	1	-	1	-	-	-	-	-	-	-	-	-	2	1	-	-	-	-	-	-	-	80:00	-	10	Cowboys	Roosters
+2	Winger	80:00	8	2	-	-	-	-	-	-	55	18	211	38	36	-	-	-	-	3	1	-	3.01s	-	-	-	-	-	4	24	0.22	100%	5	-	-	-	1	1	16	1	-	1	-	-	-	-	-	-	-	-	-	-	-	-	-	80:00	-	11	Cowboys	Dragons
+2	Winger	80:00	4	1	-	-	-	-	-	-	37	14	140	41	26	1	-	-	-	2	-	-	2.97s	-	-	-	-	-	4	20	0.29	81.82%	9	1	1	-	2	-	-	-	-	-	-	-	-	-	3	2	-	-	-	-	-	-	-	80:00	-	12	Cowboys	Wests Tigers
+2	Winger	80:00	8	2	-	-	-	-	-	-	56	21	175	-	51	2	-	-	-	2	-	-	3.51s	-	-	-	1	-	7	25	0.33	100%	9	-	-	-	1	2	41	-	-	1	-	-	-	-	1	1	-	-	-	-	-	-	-	80:00	-	13	Cowboys	Eels
+2	Replacement	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	14	Cowboys	Storm
+2	Winger	89:00	4	1	-	-	-	-	-	-	54	25	259	69	86	2	-	1	-	4	1	-	3.43s	-	-	-	1	-	3	28	0.12	66.67%	2	1	-	-	-	1	11	-	-	1	-	-	-	-	1	1	-	-	-	-	-	-	-	89:00	-	16	Cowboys	Panthers
+2	Replacement	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	17	Cowboys	Rabbitohs
+19	Replacement	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	18	Cowboys	Wests Tigers
+19	Replacement	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	22	Cowboys	Titans

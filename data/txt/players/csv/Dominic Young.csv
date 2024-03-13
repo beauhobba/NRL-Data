@@ -1,0 +1,19 @@
+Number	Position	Mins Played	Points	Tries	Conversions	Conversion Attempts	Penalty Goals	Goal Conversion Rate	1 Point Field Goals	2 Point Field Goals	Total Points	All Runs	All Run Metres	Kick Return Metres	Post Contact Metres	Line Breaks	Line Break Assists	Try Assists	Line Engaged Runs	Tackle Breaks	Hit Ups	Play The Ball	Average Play The Ball Speed	Dummy Half Runs	Dummy Half Run Metres	One on One Steal	Offloads	Dummy Passes	Passes	Receipts	Passes To Run Ratio	Tackle Efficiency	Tackles Made	Missed Tackles	Ineffective Tackles	Intercepts	Kicks Defused	Kicks	Kicking Metres	Forced Drop Outs	Bomb Kicks	Grubbers	40/20	20/40	Cross Field Kicks	Kicked Dead	Errors	Handling Errors	One on One Lost	Penalties	Ruck Infringements	Inside 10 Metres	On Report	Sin Bins	Send Offs	Stint One	Stint Two	Round	Team	Opposition
+5	Winger	80:00	-	-	-	-	-	-	-	-	9	10	80	10	16	-	-	-	-	-	-	-	3.58s	-	-	-	-	-	3	11	0.3	60%	3	2	-	-	2	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	-	-	80:00	-	1	Knights	Warriors
+5	Winger	70:00	8	2	-	-	-	-	-	-	56	16	177	29	38	2	-	-	-	9	-	-	3.51s	-	-	-	-	-	3	21	0.19	100%	2	-	-	-	2	-	-	-	-	-	-	-	-	-	-	1	-	1	-	-	-	1	-	70:00	-	2	Knights	Wests Tigers
+5	Winger	80:00	-	-	-	-	-	-	-	-	14	13	172	44	54	1	-	-	-	1	-	-	3.68s	-	-	-	-	-	5	20	0.38	66.67%	2	-	1	-	1	-	-	-	-	-	-	-	-	-	6	4	-	-	-	-	-	-	-	80:00	-	3	Knights	Dolphins
+20	Winger	90:00	16	4	-	-	-	-	-	-	79	18	227	4	47	4	-	-	-	5	-	-	3.06s	-	-	-	-	-	5	19	0.28	60%	3	2	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	90:00	-	5	Knights	Sea Eagles
+2	Winger	80:00	4	1	-	-	-	-	-	-	35	12	105	-	33	1	1	-	-	4	-	-	4s	-	-	-	-	-	3	15	0.25	66.67%	2	-	1	-	3	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	-	-	-	80:00	-	6	Knights	Warriors
+2	Winger	81:00	-	-	-	-	-	-	-	-	18	15	143	5	31	-	-	-	-	3	1	-	2.82s	-	-	-	-	-	1	15	0.07	100%	4	-	-	-	-	-	-	-	-	-	-	-	-	-	3	1	-	-	-	-	-	-	-	81:00	-	7	Knights	Panthers
+2	Winger	80:00	4	1	-	-	-	-	-	-	32	11	84	-	19	1	-	-	-	1	-	-	2.69s	-	-	-	1	-	2	15	0.18	80%	4	1	-	-	1	-	-	-	-	-	-	-	-	-	3	3	-	-	-	-	-	-	-	80:00	-	8	Knights	Cowboys
+2	Winger	80:00	4	1	-	-	-	-	-	-	37	13	124	-	36	2	-	-	-	4	-	-	3.57s	-	-	-	1	-	5	19	0.38	83.33%	5	1	-	-	-	-	-	-	-	-	-	-	-	-	3	2	-	-	-	-	-	-	-	80:00	-	9	Knights	Eels
+2	Winger	80:00	8	2	-	-	-	-	-	-	43	13	177	7	25	-	-	-	-	4	-	-	3.74s	-	-	-	-	-	-	14	-	50%	2	1	1	1	-	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	80:00	-	11	Knights	Titans
+2	Winger	80:00	-	-	-	-	-	-	-	-	12	11	116	-	47	-	-	-	-	2	-	-	3.31s	-	-	-	-	-	1	14	0.09	75%	3	1	-	-	-	-	-	-	-	-	-	-	-	-	2	2	-	-	-	-	-	-	-	80:00	-	12	Knights	Sharks
+2	Winger	80:00	4	1	-	-	-	-	-	-	58	13	227	26	34	2	-	-	-	8	2	-	3.87s	-	-	-	-	-	1	16	0.08	50%	1	-	1	-	1	1	22	1	-	1	-	-	-	-	-	1	-	-	-	-	-	-	-	80:00	-	13	Knights	Sea Eagles
+2	Winger	80:00	8	2	-	-	-	-	-	-	62	15	201	20	49	3	-	1	-	4	1	-	3.61s	-	-	-	-	-	1	15	0.07	100%	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	80:00	-	15	Knights	Broncos
+2	Winger	80:00	8	2	-	-	-	-	-	-	27	13	123	11	15	-	-	-	-	2	-	-	3.48s	-	-	-	-	-	3	16	0.23	33.33%	1	2	-	-	2	-	-	-	-	-	-	-	-	-	2	1	-	-	-	-	-	-	-	80:00	-	16	Knights	Roosters
+2	Winger	80:00	-	-	-	-	-	-	-	-	31	12	104	2	20	1	-	1	-	2	-	-	3.51s	-	-	-	3	-	4	17	0.33	66.67%	2	1	-	-	3	1	-	-	-	-	-	-	-	-	3	2	-	-	-	1	-	-	-	80:00	-	17	Knights	Panthers
+2	Winger	80:00	-	-	-	-	-	-	-	-	22	14	99	-	30	-	-	-	-	6	-	-	3.59s	-	-	-	1	-	1	18	0.07	100%	1	-	-	-	1	1	33	-	-	-	-	-	-	-	3	2	-	-	-	-	-	-	-	80:00	-	18	Knights	Bulldogs
+2	Winger	80:00	8	2	-	-	-	-	-	-	68	12	139	-	34	3	-	1	-	7	-	-	3.98s	-	-	-	-	1	2	14	0.17	100%	6	-	-	-	-	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	80:00	-	20	Knights	Wests Tigers
+2	Winger	80:00	4	1	-	-	-	-	-	-	36	14	121	-	38	1	-	-	-	5	1	-	4.55s	-	-	-	1	-	1	15	0.07	50%	2	2	-	-	2	-	-	-	-	-	-	-	-	-	1	3	-	-	-	-	-	-	-	80:00	-	21	Knights	Storm
+2	Winger	80:00	4	1	-	-	-	-	-	-	39	16	136	9	52	1	-	-	-	5	-	-	3.39s	-	-	-	-	-	-	18	-	100%	3	-	-	-	1	1	40	-	1	-	-	-	-	-	2	1	-	-	-	1	-	-	-	80:00	-	22	Knights	Raiders

@@ -1,0 +1,18 @@
+Number	Position	Mins Played	Points	Tries	Conversions	Conversion Attempts	Penalty Goals	Goal Conversion Rate	1 Point Field Goals	2 Point Field Goals	Total Points	All Runs	All Run Metres	Kick Return Metres	Post Contact Metres	Line Breaks	Line Break Assists	Try Assists	Line Engaged Runs	Tackle Breaks	Hit Ups	Play The Ball	Average Play The Ball Speed	Dummy Half Runs	Dummy Half Run Metres	One on One Steal	Offloads	Dummy Passes	Passes	Receipts	Passes To Run Ratio	Tackle Efficiency	Tackles Made	Missed Tackles	Ineffective Tackles	Intercepts	Kicks Defused	Kicks	Kicking Metres	Forced Drop Outs	Bomb Kicks	Grubbers	40/20	20/40	Cross Field Kicks	Kicked Dead	Errors	Handling Errors	One on One Lost	Penalties	Ruck Infringements	Inside 10 Metres	On Report	Sin Bins	Send Offs	Stint One	Stint Two	Round	Team	Opposition
+11	2nd Row	69:00	-	-	-	-	-	-	-	-	31	7	53	-	22	-	-	-	-	1	7	-	4.78s	-	-	-	-	-	1	9	0.14	91.11%	41	3	1	-	-	-	-	-	-	-	-	-	-	-	2	2	-	1	-	-	1	1	-	69:00	-	1	Roosters	Dolphins
+11	2nd Row	80:00	-	-	-	-	-	-	-	-	44	10	108	-	39	-	-	-	-	2	10	-	3.95s	-	-	-	-	-	2	13	0.2	94.74%	36	2	-	-	-	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	80:00	-	2	Roosters	Warriors
+11	2nd Row	80:00	-	-	-	-	-	-	-	-	37	9	54	-	13	-	-	-	-	1	9	-	3.8s	-	-	-	-	-	2	12	0.22	87.5%	42	4	2	-	-	-	-	-	-	-	-	-	-	-	2	2	-	-	-	-	-	-	-	80:00	-	3	Roosters	Rabbitohs
+11	2nd Row	80:00	-	-	-	-	-	-	-	-	38	12	108	-	42	-	-	-	-	-	12	-	3.43s	-	-	-	-	-	1	13	0.08	85.71%	36	4	2	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	80:00	-	5	Roosters	Eels
+11	2nd Row	80:00	-	-	-	-	-	-	-	-	53	8	63	-	33	-	-	-	-	1	8	-	3.35s	-	-	-	2	-	-	9	-	90.74%	49	5	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	80:00	-	6	Roosters	Storm
+11	2nd Row	80:00	4	1	-	-	-	-	-	-	56	9	85	-	31	1	-	-	-	1	9	-	3.37s	-	-	-	-	-	1	12	0.11	86.96%	40	3	3	-	-	2	14	-	-	1	-	-	-	-	-	-	-	-	-	-	-	-	-	80:00	-	7	Roosters	Sharks
+11	2nd Row	80:00	-	-	-	-	-	-	-	-	52	10	115	-	33	1	-	1	-	4	9	-	3.56s	-	-	-	-	-	2	13	0.2	81.82%	36	5	3	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	-	-	-	80:00	-	8	Roosters	Dragons
+11	2nd Row	80:00	-	-	-	-	-	-	-	-	66	10	90	-	32	-	-	-	-	1	10	-	3.52s	-	-	-	-	-	1	13	0.1	96.36%	53	-	2	-	1	-	-	-	-	-	-	-	-	-	1	1	-	1	-	-	-	-	-	80:00	-	9	Roosters	Warriors
+11	2nd Row	13:00	-	-	-	-	-	-	-	-	13	2	18	-	4	-	-	-	-	-	2	-	1.88s	-	-	-	-	1	-	2	-	100%	12	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	13:00	-	10	Roosters	Cowboys
+11	2nd Row	75:00	-	-	-	-	-	-	-	-	36	8	55	-	21	-	-	-	-	1	8	-	3.26s	-	-	-	-	-	4	12	0.5	92.11%	35	3	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	75:29	-	12	Roosters	Dragons
+11	2nd Row	80:00	-	-	-	-	-	-	-	-	44	8	60	-	21	-	-	-	-	-	8	-	2.94s	-	-	-	-	-	3	11	0.38	91.67%	44	3	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	80:00	-	14	Roosters	Bulldogs
+11	2nd Row	80:00	-	-	-	-	-	-	-	-	41	9	52	-	23	-	-	-	-	-	9	-	3.5s	-	-	-	-	-	1	11	0.11	86%	43	5	2	1	1	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	80:00	-	15	Roosters	Panthers
+11	2nd Row	80:00	-	-	-	-	-	-	-	-	63	11	91	-	36	-	-	-	-	-	11	-	3.7s	-	-	1	1	1	4	18	0.36	100%	45	-	-	-	1	-	-	-	-	-	-	-	-	-	1	1	-	1	-	-	-	-	-	80:00	-	16	Roosters	Knights
+11	2nd Row	50:00	-	-	-	-	-	-	-	-	19	8	69	-	23	-	-	-	-	1	8	-	4.68s	-	-	-	-	1	1	11	0.13	72%	18	3	4	-	1	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	50:00	-	17	Roosters	Raiders
+15	Interchange	38:00	-	-	-	-	-	-	-	-	38	17	141	30	54	-	-	-	-	1	12	-	3.36s	1	2	-	1	1	5	20	0.29	86.36%	19	-	3	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	32:43	04:55	20	Roosters	Storm
+15	2nd Row	80:00	4	1	-	-	-	-	-	-	77	11	120	-	36	2	-	1	-	5	10	-	3.67s	-	-	-	-	1	2	12	0.18	88.37%	38	4	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	80:00	-	21	Roosters	Titans
+11	2nd Row	11:00	-	-	-	-	-	-	-	-	6	2	22	-	8	-	-	-	-	-	2	-	3s	-	-	-	-	-	-	2	-	85.71%	6	-	1	-	-	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	11:00	-	22	Roosters	Broncos

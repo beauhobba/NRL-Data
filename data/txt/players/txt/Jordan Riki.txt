@@ -1,0 +1,17 @@
+Number	Position	Mins Played	Points	Tries	Conversions	Conversion Attempts	Penalty Goals	Goal Conversion Rate	1 Point Field Goals	2 Point Field Goals	Total Points	All Runs	All Run Metres	Kick Return Metres	Post Contact Metres	Line Breaks	Line Break Assists	Try Assists	Line Engaged Runs	Tackle Breaks	Hit Ups	Play The Ball	Average Play The Ball Speed	Dummy Half Runs	Dummy Half Run Metres	One on One Steal	Offloads	Dummy Passes	Passes	Receipts	Passes To Run Ratio	Tackle Efficiency	Tackles Made	Missed Tackles	Ineffective Tackles	Intercepts	Kicks Defused	Kicks	Kicking Metres	Forced Drop Outs	Bomb Kicks	Grubbers	40/20	20/40	Cross Field Kicks	Kicked Dead	Errors	Handling Errors	One on One Lost	Penalties	Ruck Infringements	Inside 10 Metres	On Report	Sin Bins	Send Offs	Stint One	Stint Two	Round	Team	Opposition
+12	2nd Row	80:00	-	-	-	-	-	-	-	-	46	10	85	-	24	-	-	-	-	2	9	-	3.57s	-	-	-	-	-	1	9	0.1	88.64%	39	4	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	80:00	-	1	Broncos	Panthers
+12	2nd Row	80:00	-	-	-	-	-	-	-	-	27	9	82	-	27	-	-	-	-	4	6	-	3.14s	1	8	-	-	-	2	10	0.22	86.21%	25	4	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	2	-	-	-	-	-	80:00	-	2	Broncos	Cowboys
+12	2nd Row	80:00	-	-	-	-	-	-	-	-	43	8	83	-	36	-	-	-	-	1	8	-	2.94s	-	-	-	-	-	-	8	-	96.97%	32	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	80:00	-	3	Broncos	Dragons
+12	2nd Row	75:00	-	-	-	-	-	-	-	-	39	4	35	-	17	-	-	-	-	-	4	-	4.28s	-	-	-	-	-	2	7	0.5	85%	34	5	1	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	75:00	-	4	Broncos	Dolphins
+12	2nd Row	80:00	8	2	-	-	-	-	-	-	47	8	68	-	19	1	-	-	-	2	8	-	4.05s	-	-	-	-	-	-	9	-	80%	24	3	3	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	80:00	-	5	Broncos	Wests Tigers
+12	2nd Row	80:00	4	1	-	-	-	-	-	-	51	12	92	-	35	-	-	-	-	-	12	-	3.56s	-	-	-	-	-	4	17	0.33	90.24%	37	3	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	-	1	-	-	80:00	-	6	Broncos	Raiders
+12	2nd Row	70:00	4	1	-	-	-	-	-	-	47	3	94	66	14	1	-	-	-	3	2	-	3.96s	-	-	-	-	-	3	6	1	88.24%	30	2	2	-	-	-	-	-	-	-	-	-	-	-	1	1	-	3	-	-	-	-	-	70:23	-	7	Broncos	Titans
+12	2nd Row	77:00	-	-	-	-	-	-	-	-	31	9	84	-	32	-	-	-	-	2	9	-	3.14s	-	-	-	-	-	-	9	-	82.14%	23	2	3	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	76:33	-	8	Broncos	Eels
+12	2nd Row	75:00	-	-	-	-	-	-	-	-	21	5	55	-	18	-	-	-	-	-	5	-	2.67s	-	-	-	-	-	2	7	0.4	76.47%	26	7	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	75:13	-	9	Broncos	Rabbitohs
+12	2nd Row	74:00	-	-	-	-	-	-	-	-	38	12	95	-	26	-	-	-	-	2	12	-	3.13s	-	-	-	-	-	1	13	0.08	92.59%	25	2	-	-	-	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	74:29	-	10	Broncos	Sea Eagles
+12	2nd Row	80:00	-	-	-	-	-	-	-	-	38	5	40	-	16	-	-	-	-	-	5	-	3.18s	-	-	-	-	1	4	9	0.8	85.71%	42	3	4	-	-	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	80:00	-	11	Broncos	Storm
+12	2nd Row	75:00	-	-	-	-	-	-	-	-	38	5	44	-	14	-	-	-	-	1	5	-	2.81s	-	-	-	-	-	-	5	-	87.5%	35	4	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	75:09	-	12	Broncos	Panthers
+12	2nd Row	80:00	4	1	-	-	-	-	-	-	59	10	113	-	42	1	-	-	-	2	9	-	3.53s	-	-	-	-	-	3	11	0.3	95.35%	41	1	1	-	-	-	-	-	-	-	-	-	-	-	1	1	-	2	1	-	-	-	-	80:00	-	13	Broncos	Warriors
+12	2nd Row	80:00	-	-	-	-	-	-	-	-	59	12	153	84	40	-	-	-	-	1	10	-	3.46s	-	-	-	-	-	1	14	0.08	95.12%	39	-	2	-	3	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	80:00	-	14	Broncos	Sharks
+12	2nd Row	74:00	-	-	-	-	-	-	-	-	50	9	81	-	22	-	-	-	-	3	9	-	2.92s	-	-	-	-	1	1	10	0.11	93.02%	40	2	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	74:18	-	15	Broncos	Knights
+12	2nd Row	72:00	-	-	-	-	-	-	-	-	49	10	85	-	34	-	-	-	-	3	10	-	3.78s	-	-	-	1	1	-	11	-	93.75%	30	2	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	1	-	-	-	-	-	71:56	-	17	Broncos	Titans

@@ -1,0 +1,18 @@
+Number	Position	Mins Played	Points	Tries	Conversions	Conversion Attempts	Penalty Goals	Goal Conversion Rate	1 Point Field Goals	2 Point Field Goals	Total Points	All Runs	All Run Metres	Kick Return Metres	Post Contact Metres	Line Breaks	Line Break Assists	Try Assists	Line Engaged Runs	Tackle Breaks	Hit Ups	Play The Ball	Average Play The Ball Speed	Dummy Half Runs	Dummy Half Run Metres	One on One Steal	Offloads	Dummy Passes	Passes	Receipts	Passes To Run Ratio	Tackle Efficiency	Tackles Made	Missed Tackles	Ineffective Tackles	Intercepts	Kicks Defused	Kicks	Kicking Metres	Forced Drop Outs	Bomb Kicks	Grubbers	40/20	20/40	Cross Field Kicks	Kicked Dead	Errors	Handling Errors	One on One Lost	Penalties	Ruck Infringements	Inside 10 Metres	On Report	Sin Bins	Send Offs	Stint One	Stint Two	Round	Team	Opposition
+6	Five-Eighth	80:00	4	1	-	-	-	-	-	-	37	6	35	2	2	-	-	-	-	1	-	-	4.78s	1	9	-	-	2	22	42	3.67	82.76%	24	5	-	-	-	13	421	-	2	2	-	-	-	-	1	1	-	1	-	-	-	-	-	80:00	-	1	Raiders	Cowboys
+6	Five-Eighth	80:00	4	1	-	-	-	-	-	-	41	12	94	-	9	1	-	-	-	-	-	-	2.9s	1	13	-	-	2	26	43	2.17	84.62%	11	2	-	-	-	10	245	-	3	2	-	-	-	-	2	2	-	-	-	-	-	-	-	80:00	-	2	Raiders	Dolphins
+6	Five-Eighth	80:00	-	-	-	-	-	-	-	-	40	12	100	-	11	-	1	1	-	1	-	-	4.57s	1	8	-	1	1	23	38	1.92	85%	17	1	2	-	1	6	270	-	1	-	-	-	-	1	3	1	-	1	-	-	-	-	-	80:00	-	3	Raiders	Sharks
+6	Five-Eighth	70:00	4	1	-	-	-	-	-	-	27	18	140	-	10	1	-	-	-	1	-	-	4.14s	1	7	-	-	8	42	57	2.33	62.5%	10	5	1	1	-	9	307	-	-	2	-	-	-	-	3	2	-	2	-	-	2	1	-	70:00	-	4	Raiders	Knights
+6	Five-Eighth	80:00	-	-	-	-	-	-	-	-	28	13	69	-	6	-	-	-	-	5	-	-	3.94s	3	14	-	-	4	29	40	2.23	73.33%	22	4	4	-	-	3	133	-	-	-	-	-	-	-	3	2	-	-	-	-	-	-	-	80:00	-	7	Raiders	Dragons
+6	Five-Eighth	84:00	4	1	-	-	-	-	-	-	64	17	128	-	33	1	2	-	-	6	1	-	3.4s	1	11	-	3	4	31	49	1.82	83.33%	15	3	-	-	-	6	174	1	1	1	-	-	-	-	2	2	-	-	-	-	-	-	-	84:00	-	9	Raiders	Dolphins
+6	Five-Eighth	80:00	-	-	-	-	-	-	-	-	29	13	103	15	28	-	-	1	-	5	-	-	2.79s	1	1	-	-	7	30	46	2.31	76.92%	10	3	-	-	1	5	151	-	1	-	-	-	-	-	2	1	-	1	-	-	-	-	-	80:00	-	10	Raiders	Bulldogs
+6	Five-Eighth	80:00	-	-	-	-	-	-	-	-	40	4	31	-	10	-	1	1	-	1	-	-	2.93s	2	15	-	-	3	36	45	9	94.44%	17	1	-	-	-	6	172	-	1	1	1	-	-	-	-	-	-	-	-	-	-	-	-	80:00	-	11	Raiders	Eels
+6	Five-Eighth	80:00	-	-	-	-	-	-	-	-	22	10	65	-	-	1	2	1	-	-	-	-	3.72s	-	-	-	-	1	33	39	3.3	77.78%	14	4	-	-	-	5	44	-	2	-	-	-	1	-	2	-	-	-	-	-	-	-	-	80:00	-	12	Raiders	Sea Eagles
+6	Five-Eighth	80:00	-	-	-	-	-	-	-	-	39	4	30	-	9	-	2	-	-	1	-	-	2.5s	-	-	-	1	1	30	37	7.5	100%	27	-	-	-	1	4	117	-	1	-	-	-	1	-	-	-	-	2	1	-	-	-	-	80:00	-	13	Raiders	Rabbitohs
+6	Five-Eighth	80:00	-	-	-	-	-	-	-	-	23	7	47	-	5	-	-	-	-	1	-	-	2.04s	1	5	-	1	4	31	36	4.43	70%	21	7	2	-	-	3	128	-	1	-	1	-	-	-	2	2	-	1	-	-	-	-	-	80:00	-	14	Raiders	Wests Tigers
+6	Five-Eighth	80:00	4	1	-	-	-	-	-	-	32	19	126	-	30	-	-	-	-	2	1	-	3.14s	3	34	-	1	7	41	56	2.16	68.18%	15	6	1	-	-	5	171	-	1	1	-	-	-	-	2	2	-	2	-	-	1	-	-	80:00	-	15	Raiders	Warriors
+6	Five-Eighth	80:00	4	1	-	-	-	-	-	-	63	20	138	-	24	-	-	-	-	4	-	-	3.31s	1	2	-	3	10	33	50	1.65	86.36%	19	2	1	-	-	6	228	-	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	80:00	-	17	Raiders	Roosters
+6	Five-Eighth	80:00	-	-	-	-	-	-	-	-	38	11	122	-	39	-	-	-	-	3	-	-	3.36s	1	-	-	-	5	20	33	1.82	85%	17	2	1	-	-	4	156	1	-	-	-	-	-	1	-	-	-	-	-	-	-	-	-	80:00	-	18	Raiders	Titans
+6	Five-Eighth	49:00	-	-	-	-	-	-	-	-	20	7	61	-	16	-	-	-	-	-	6	-	3.39s	-	-	-	-	-	13	20	1.86	77.78%	21	5	1	-	-	1	52	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	26:59	22:10	19	Raiders	Dragons
+6	Five-Eighth	82:00	4	1	-	-	-	-	-	-	29	11	109	-	15	-	1	-	-	-	1	-	3.07s	3	16	-	-	3	30	43	2.73	89.47%	17	2	-	-	-	5	128	-	1	1	-	-	1	-	3	2	-	1	-	-	-	-	-	82:00	-	21	Raiders	Warriors
+6	Five-Eighth	80:00	-	-	-	-	-	-	-	-	35	11	101	-	17	1	1	-	-	1	-	-	3.31s	-	-	-	1	4	26	34	2.36	78.95%	15	3	1	-	-	1	34	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	80:00	-	22	Raiders	Knights

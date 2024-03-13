@@ -1,0 +1,19 @@
+Number	Position	Mins Played	Points	Tries	Conversions	Conversion Attempts	Penalty Goals	Goal Conversion Rate	1 Point Field Goals	2 Point Field Goals	Total Points	All Runs	All Run Metres	Kick Return Metres	Post Contact Metres	Line Breaks	Line Break Assists	Try Assists	Line Engaged Runs	Tackle Breaks	Hit Ups	Play The Ball	Average Play The Ball Speed	Dummy Half Runs	Dummy Half Run Metres	One on One Steal	Offloads	Dummy Passes	Passes	Receipts	Passes To Run Ratio	Tackle Efficiency	Tackles Made	Missed Tackles	Ineffective Tackles	Intercepts	Kicks Defused	Kicks	Kicking Metres	Forced Drop Outs	Bomb Kicks	Grubbers	40/20	20/40	Cross Field Kicks	Kicked Dead	Errors	Handling Errors	One on One Lost	Penalties	Ruck Infringements	Inside 10 Metres	On Report	Sin Bins	Send Offs	Stint One	Stint Two	Round	Team	Opposition
+8	Prop	56:00	-	-	-	-	-	-	-	-	59	13	129	25	38	-	-	-	-	8	11	-	3.98s	-	-	-	-	-	2	17	0.15	84.78%	39	4	3	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	-	-	28:49	26:38	1	Roosters	Dolphins
+8	Prop	77:00	-	-	-	-	-	-	-	-	46	16	184	18	71	-	-	-	-	1	15	-	3.75s	-	-	-	-	-	-	18	-	89.47%	34	4	-	-	-	1	22	1	-	1	-	-	-	-	1	1	-	-	-	-	-	-	-	67:14	09:25	2	Roosters	Warriors
+10	Prop	56:00	-	-	-	-	-	-	-	-	40	15	125	11	32	-	-	-	-	1	14	-	3.79s	-	-	-	1	-	1	17	0.07	78.79%	26	4	3	-	-	1	7	-	-	1	-	-	-	-	-	-	-	-	-	-	-	-	-	30:09	25:44	3	Roosters	Rabbitohs
+10	Prop	59:00	-	-	-	-	-	-	-	-	65	16	138	-	58	-	1	-	-	2	16	-	2.91s	-	-	-	3	-	3	19	0.19	100%	29	-	-	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	30:45	28:03	5	Roosters	Eels
+10	Prop	54:00	-	-	-	-	-	-	-	-	33	8	81	-	28	-	-	-	-	-	8	-	2.67s	-	-	-	-	-	-	8	-	86.67%	39	5	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	2	-	-	-	-	-	27:16	26:56	6	Roosters	Storm
+10	Prop	52:00	-	-	-	-	-	-	-	-	35	14	133	-	65	-	-	-	-	1	14	-	2.79s	-	-	-	-	-	-	15	-	86.21%	25	3	1	-	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	30:46	20:57	7	Roosters	Sharks
+10	Prop	54:00	-	-	-	-	-	-	-	-	37	14	140	51	46	-	-	-	-	2	10	-	3.42s	-	-	-	-	-	3	17	0.21	83.33%	25	2	3	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	28:04	25:46	8	Roosters	Dragons
+10	Prop	53:00	-	-	-	-	-	-	-	-	39	14	147	13	49	-	-	-	-	2	13	-	3.31s	-	-	-	2	-	-	15	-	78.13%	25	6	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	27:37	25:30	9	Roosters	Warriors
+10	Prop	49:00	-	-	-	-	-	-	-	-	46	11	98	10	29	-	-	-	-	4	10	-	3.13s	-	-	-	-	-	-	12	-	90.91%	30	1	2	-	1	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	-	-	26:29	22:38	10	Roosters	Cowboys
+10	Prop	54:00	-	-	-	-	-	-	-	-	43	7	46	-	14	-	-	-	-	-	6	-	3.45s	-	-	-	-	-	2	11	0.29	90.91%	40	3	1	-	1	1	5	-	-	1	-	-	-	-	-	-	-	-	-	-	-	-	-	28:14	25:34	11	Roosters	Panthers
+10	Prop	43:00	-	-	-	-	-	-	-	-	35	13	137	20	49	-	-	-	-	-	12	-	3.03s	-	-	-	-	-	1	14	0.08	92.31%	24	1	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	24:04	19:08	12	Roosters	Dragons
+10	Prop	57:00	-	-	-	-	-	-	-	-	40	9	87	44	27	-	-	-	-	-	5	-	3.58s	-	-	-	-	-	-	9	-	96.97%	32	-	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	26:44	29:34	14	Roosters	Bulldogs
+10	Prop	54:00	-	-	-	-	-	-	-	-	49	9	95	-	36	-	-	-	-	1	9	-	3.58s	-	-	-	1	-	1	10	0.11	87.76%	43	3	3	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	25:00	28:39	15	Roosters	Panthers
+10	Prop	48:00	4	1	-	-	-	-	-	-	64	9	83	18	25	1	-	-	-	2	8	-	3.27s	-	-	-	1	-	2	11	0.22	92.68%	38	1	2	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	26:19	21:51	17	Roosters	Raiders
+10	Prop	57:00	-	-	-	-	-	-	-	-	34	14	131	-	53	-	-	-	-	-	14	-	2.81s	-	-	-	-	3	1	16	0.07	84.85%	28	4	1	-	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	31:38	24:59	18	Roosters	Sea Eagles
+10	Prop	42:00	-	-	-	-	-	-	-	-	22	7	44	-	18	-	-	-	-	1	7	-	3.61s	-	-	-	-	-	-	7	-	72.73%	24	8	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	24:25	17:56	20	Roosters	Storm
+10	Prop	54:00	4	1	-	-	-	-	-	-	59	9	79	-	26	2	-	-	-	4	9	-	4.02s	-	-	-	1	1	2	12	0.22	88.89%	32	1	3	-	-	-	-	-	-	-	-	-	-	-	2	2	-	-	2	-	-	-	-	53:48	-	21	Roosters	Titans
+10	Prop	52:00	-	-	-	-	-	-	-	-	22	14	107	23	47	-	-	-	-	1	12	-	3.75s	-	-	-	-	-	-	15	-	80%	28	5	2	-	-	-	-	-	-	-	-	-	-	-	2	1	-	2	-	-	-	-	-	24:46	26:54	22	Roosters	Broncos

@@ -1,0 +1,18 @@
+Number	Position	Mins Played	Points	Tries	Conversions	Conversion Attempts	Penalty Goals	Goal Conversion Rate	1 Point Field Goals	2 Point Field Goals	Total Points	All Runs	All Run Metres	Kick Return Metres	Post Contact Metres	Line Breaks	Line Break Assists	Try Assists	Line Engaged Runs	Tackle Breaks	Hit Ups	Play The Ball	Average Play The Ball Speed	Dummy Half Runs	Dummy Half Run Metres	One on One Steal	Offloads	Dummy Passes	Passes	Receipts	Passes To Run Ratio	Tackle Efficiency	Tackles Made	Missed Tackles	Ineffective Tackles	Intercepts	Kicks Defused	Kicks	Kicking Metres	Forced Drop Outs	Bomb Kicks	Grubbers	40/20	20/40	Cross Field Kicks	Kicked Dead	Errors	Handling Errors	One on One Lost	Penalties	Ruck Infringements	Inside 10 Metres	On Report	Sin Bins	Send Offs	Stint One	Stint Two	Round	Team	Opposition
+19	Interchange	79:00	-	-	-	-	-	-	-	-	33	10	94	-	14	-	1	1	-	2	-	-	4s	-	-	-	-	-	27	40	2.7	68%	17	4	4	1	1	7	223	-	-	-	-	-	-	1	3	2	-	1	-	-	-	-	-	79:00	-	2	Knights	Wests Tigers
+6	Five-Eighth	80:00	4	1	-	-	-	-	-	-	52	8	58	-	13	-	1	1	-	2	-	-	3.22s	-	-	-	1	1	22	32	2.75	92.31%	24	2	-	-	-	3	96	1	1	1	-	-	-	-	2	2	-	-	1	-	-	-	-	80:00	-	3	Knights	Dolphins
+6	Five-Eighth	80:00	-	-	-	-	-	-	-	-	27	7	69	-	16	-	1	1	-	2	-	-	3.49s	1	19	-	-	2	36	44	5.14	73.91%	17	6	-	-	-	5	153	-	-	1	-	-	1	-	-	-	-	-	-	-	-	-	-	80:00	-	4	Knights	Raiders
+6	Five-Eighth	65:00	-	-	-	-	-	-	-	-	35	7	71	-	27	-	-	-	-	3	-	-	2.82s	2	27	-	1	2	29	38	4.14	86.67%	26	4	-	-	-	2	28	-	-	-	-	-	2	-	-	-	-	-	-	-	-	-	-	65:00	-	5	Knights	Sea Eagles
+6	Five-Eighth	81:00	5	1	-	-	-	-	1	-	39	5	36	-	6	1	-	-	-	1	-	-	3.15s	1	10	-	-	3	26	33	5.2	91.67%	11	-	1	1	-	3	84	1	-	1	-	-	-	1	-	-	-	1	-	-	-	-	-	81:00	-	7	Knights	Panthers
+14	Five-Eighth	54:00	-	-	-	-	-	-	-	-	28	10	78	3	10	-	-	-	-	1	2	-	3.21s	-	-	-	-	-	15	19	1.5	83.87%	26	4	1	-	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	53:44	-	8	Knights	Cowboys
+14	Interchange	28:00	-	-	-	-	-	-	-	-	15	9	44	-	10	-	-	-	-	-	4	-	3.25s	-	-	-	1	2	12	17	1.33	73.68%	14	2	3	-	-	-	-	-	-	-	-	-	-	-	1	1	-	-	1	-	-	-	-	28:22	-	9	Knights	Eels
+14	Interchange	25:00	-	-	-	-	-	-	-	-	8	2	23	-	10	-	-	-	-	-	2	-	4.38s	-	-	-	-	1	9	12	4.5	80%	8	1	1	-	-	1	24	-	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	25:00	-	11	Knights	Titans
+14	Interchange	41:00	-	-	-	-	-	-	-	-	19	4	30	-	9	-	-	-	-	-	2	-	3.44s	1	-	-	-	3	31	35	7.75	91.67%	22	2	-	-	-	1	8	-	-	1	-	-	-	-	-	-	-	1	-	-	-	-	-	11:19	29:44	12	Knights	Sharks
+6	Five-Eighth	80:00	-	-	-	-	-	-	-	-	39	13	106	-	7	1	-	1	-	2	-	-	3.92s	-	-	-	1	4	34	40	2.62	90.48%	19	1	1	-	1	2	22	1	-	2	-	-	-	-	3	2	-	-	-	-	-	-	-	80:00	-	13	Knights	Sea Eagles
+6	Five-Eighth	80:00	-	-	-	-	-	-	-	-	24	9	68	-	11	-	-	-	-	1	-	-	4.14s	-	-	-	1	-	39	47	4.33	67.74%	21	8	2	-	-	4	93	1	1	1	-	-	1	-	1	-	-	-	-	-	-	-	-	80:00	-	15	Knights	Broncos
+6	Five-Eighth	80:00	-	-	-	-	-	-	-	-	29	14	149	28	23	-	-	-	-	1	-	-	3.36s	-	-	-	1	5	36	46	2.57	72.73%	16	5	1	-	-	4	114	-	3	-	-	-	-	1	-	-	-	1	-	-	-	-	-	80:00	-	16	Knights	Roosters
+6	Five-Eighth	80:00	-	-	-	-	-	-	-	-	21	5	29	-	-	-	-	-	-	-	-	-	-	-	-	-	1	1	36	40	7.2	72.73%	24	8	1	-	-	4	133	-	1	1	-	-	-	-	1	1	-	-	-	-	-	-	-	80:00	-	17	Knights	Panthers
+6	Five-Eighth	80:00	-	-	-	-	-	-	-	-	32	6	42	10	11	-	1	1	-	-	-	-	3.85s	-	-	-	-	1	34	50	5.67	86.96%	20	3	-	-	-	11	417	-	3	-	-	-	-	-	2	2	-	1	-	-	-	-	-	80:00	-	18	Knights	Bulldogs
+6	Five-Eighth	80:00	4	1	-	-	-	-	-	-	44	20	136	9	20	-	1	-	-	2	1	-	3.59s	-	-	-	1	-	23	40	1.15	81.48%	22	5	-	-	-	8	214	-	3	1	-	-	-	-	2	2	-	-	-	-	-	-	-	80:00	-	20	Knights	Wests Tigers
+6	Five-Eighth	80:00	-	-	-	-	-	-	-	-	38	8	36	-	2	-	-	-	-	2	-	-	3.84s	-	-	-	-	2	41	51	5.13	84.62%	22	1	3	-	-	7	175	2	2	-	1	-	1	-	1	1	-	2	-	-	-	-	-	80:00	-	21	Knights	Storm
+6	Five-Eighth	80:00	4	1	-	-	-	-	-	-	51	10	95	-	6	-	-	-	-	-	-	-	1.92s	1	5	-	-	-	38	51	3.8	78.57%	22	6	-	-	1	9	266	2	3	1	-	-	-	-	-	-	-	1	-	-	-	-	-	80:00	-	22	Knights	Raiders

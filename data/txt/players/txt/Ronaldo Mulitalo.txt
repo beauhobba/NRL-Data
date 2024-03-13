@@ -1,0 +1,19 @@
+Number	Position	Mins Played	Points	Tries	Conversions	Conversion Attempts	Penalty Goals	Goal Conversion Rate	1 Point Field Goals	2 Point Field Goals	Total Points	All Runs	All Run Metres	Kick Return Metres	Post Contact Metres	Line Breaks	Line Break Assists	Try Assists	Line Engaged Runs	Tackle Breaks	Hit Ups	Play The Ball	Average Play The Ball Speed	Dummy Half Runs	Dummy Half Run Metres	One on One Steal	Offloads	Dummy Passes	Passes	Receipts	Passes To Run Ratio	Tackle Efficiency	Tackles Made	Missed Tackles	Ineffective Tackles	Intercepts	Kicks Defused	Kicks	Kicking Metres	Forced Drop Outs	Bomb Kicks	Grubbers	40/20	20/40	Cross Field Kicks	Kicked Dead	Errors	Handling Errors	One on One Lost	Penalties	Ruck Infringements	Inside 10 Metres	On Report	Sin Bins	Send Offs	Stint One	Stint Two	Round	Team	Opposition
+5	Winger	80:00	-	-	-	-	-	-	-	-	15	5	43	13	17	1	-	-	-	2	-	-	3.63s	-	-	-	-	-	7	12	1.4	37.5%	3	3	2	-	1	-	-	-	-	-	-	-	-	-	2	2	-	-	-	-	-	-	-	80:00	-	1	Sharks	Rabbitohs
+5	Winger	80:00	4	1	-	-	-	-	-	-	40	14	172	27	46	-	1	-	-	3	-	-	3.04s	-	-	-	-	-	4	17	0.29	100%	1	-	-	1	2	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	80:00	-	2	Sharks	Eels
+5	Winger	80:00	4	1	-	-	-	-	-	-	47	16	139	48	12	1	-	1	-	2	-	-	3.68s	1	3	-	1	1	2	15	0.13	100%	4	-	-	-	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	80:00	-	3	Sharks	Raiders
+5	Winger	80:00	8	2	-	-	-	-	-	-	47	12	125	4	18	3	-	1	-	3	-	-	3.4s	-	-	-	-	-	4	17	0.33	66.67%	2	1	-	-	-	1	14	-	-	-	-	-	-	-	2	2	-	-	-	-	-	-	-	80:00	-	4	Sharks	Dragons
+5	Winger	80:00	8	2	-	-	-	-	-	-	42	12	130	8	34	2	-	-	-	2	-	-	4s	-	-	-	-	-	3	15	0.25	80%	4	1	-	-	3	-	-	-	-	-	-	-	-	-	2	2	-	-	-	-	-	-	-	80:00	-	5	Sharks	Warriors
+5	Winger	80:00	4	1	-	-	-	-	-	-	38	14	107	26	43	1	-	-	-	5	-	-	3.79s	1	2	-	-	-	3	18	0.21	66.67%	2	1	-	1	4	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	80:00	-	7	Sharks	Roosters
+5	Winger	80:00	-	-	-	-	-	-	-	-	53	18	204	1	54	3	-	1	-	6	-	-	3.76s	-	-	-	-	-	3	21	0.17	85.71%	6	-	1	-	1	-	-	-	-	-	-	-	-	-	4	2	-	-	-	-	-	-	-	80:00	-	8	Sharks	Bulldogs
+5	Winger	80:00	8	2	-	-	-	-	-	-	63	15	162	20	17	3	-	-	-	3	1	-	3.67s	1	8	-	-	-	5	20	0.33	75%	3	1	-	-	3	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	-	-	80:00	-	9	Sharks	Cowboys
+5	Winger	80:00	4	1	-	-	-	-	-	-	43	13	107	63	5	2	-	-	-	3	-	-	2.84s	-	-	-	2	1	6	21	0.46	80%	4	1	-	-	1	-	-	-	-	-	-	-	-	-	2	3	-	-	-	-	-	-	-	80:00	-	10	Sharks	Dolphins
+5	Winger	80:00	-	-	-	-	-	-	-	-	39	20	139	27	31	-	-	-	-	6	1	-	3.38s	-	-	-	1	-	3	23	0.15	100%	8	-	-	-	4	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	80:00	-	11	Sharks	Sea Eagles
+5	Winger	80:00	4	1	-	-	-	-	-	-	42	19	182	47	60	1	-	-	-	2	2	-	3.63s	-	-	-	1	-	4	22	0.21	66.67%	2	1	-	-	2	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	80:00	-	12	Sharks	Knights
+5	Winger	80:00	-	-	-	-	-	-	-	-	30	18	193	34	35	2	-	-	-	1	-	-	3.74s	-	-	-	1	-	5	25	0.28	100%	4	-	-	-	3	-	-	-	-	-	-	-	-	-	5	5	-	1	-	-	1	-	-	80:00	-	14	Sharks	Broncos
+5	Winger	80:00	4	1	-	-	-	-	-	-	45	15	132	40	31	2	-	1	-	2	-	-	3.63s	-	-	-	-	-	4	17	0.27	80%	4	1	-	-	2	1	32	1	-	1	-	-	-	-	-	-	-	-	-	-	-	-	-	80:00	-	15	Sharks	Storm
+5	Winger	80:00	4	1	-	-	-	-	-	-	34	12	121	19	29	-	-	-	-	1	-	-	3.08s	-	-	-	1	-	3	15	0.25	85.71%	6	-	1	-	2	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	80:00	-	16	Sharks	Bulldogs
+5	Winger	80:00	8	2	-	-	-	-	-	-	45	15	164	62	49	2	-	-	-	1	1	-	3.32s	-	-	-	-	1	2	19	0.13	83.33%	5	1	-	-	2	1	10	-	-	1	-	-	-	-	1	-	-	1	-	-	-	-	-	80:00	-	18	Sharks	Dragons
+5	Winger	80:00	-	-	-	-	-	-	-	-	7	10	99	49	26	-	-	-	-	2	-	-	3.1s	-	-	-	-	-	4	17	0.4	50%	2	1	1	-	2	-	-	-	-	-	-	-	-	-	4	2	-	-	-	-	-	-	-	80:00	-	19	Sharks	Wests Tigers
+5	Winger	80:00	-	-	-	-	-	-	-	-	13	8	50	21	15	1	-	-	-	2	-	-	3.39s	-	-	-	-	-	2	13	0.25	77.78%	7	2	-	-	3	2	2	-	-	1	-	-	-	-	3	1	-	-	-	-	-	-	-	80:00	-	20	Sharks	Warriors
+5	Winger	80:00	4	1	-	-	-	-	-	-	27	15	117	20	43	1	-	1	-	-	-	-	3.26s	-	-	-	-	-	1	17	0.07	40%	4	3	3	-	3	1	17	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	80:00	-	21	Sharks	Sea Eagles

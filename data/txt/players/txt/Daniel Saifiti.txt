@@ -1,0 +1,18 @@
+Number	Position	Mins Played	Points	Tries	Conversions	Conversion Attempts	Penalty Goals	Goal Conversion Rate	1 Point Field Goals	2 Point Field Goals	Total Points	All Runs	All Run Metres	Kick Return Metres	Post Contact Metres	Line Breaks	Line Break Assists	Try Assists	Line Engaged Runs	Tackle Breaks	Hit Ups	Play The Ball	Average Play The Ball Speed	Dummy Half Runs	Dummy Half Run Metres	One on One Steal	Offloads	Dummy Passes	Passes	Receipts	Passes To Run Ratio	Tackle Efficiency	Tackles Made	Missed Tackles	Ineffective Tackles	Intercepts	Kicks Defused	Kicks	Kicking Metres	Forced Drop Outs	Bomb Kicks	Grubbers	40/20	20/40	Cross Field Kicks	Kicked Dead	Errors	Handling Errors	One on One Lost	Penalties	Ruck Infringements	Inside 10 Metres	On Report	Sin Bins	Send Offs	Stint One	Stint Two	Round	Team	Opposition
+8	Prop	53:00	-	-	-	-	-	-	-	-	47	15	136	36	40	-	-	-	-	3	12	-	3.82s	-	-	-	-	-	-	15	-	96.77%	30	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	30:29	23:09	1	Knights	Warriors
+8	Prop	60:00	-	-	-	-	-	-	-	-	40	16	157	25	63	-	-	-	-	-	14	-	3.9s	-	-	-	-	-	-	16	-	86.11%	31	3	2	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	52:01	08:16	2	Knights	Wests Tigers
+8	Prop	47:00	-	-	-	-	-	-	-	-	39	10	126	62	55	-	-	-	-	-	6	-	3.05s	-	-	-	-	-	-	10	-	96.15%	25	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	47:03	-	3	Knights	Dolphins
+8	Prop	51:00	-	-	-	-	-	-	-	-	45	12	163	15	73	-	-	-	-	-	10	-	3.16s	-	-	-	1	1	-	12	-	85.37%	35	5	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	28:04	23:10	4	Knights	Raiders
+8	Prop	67:00	-	-	-	-	-	-	-	-	47	16	159	47	59	-	1	1	-	-	11	-	3.82s	-	-	-	-	-	2	17	0.13	87.88%	29	2	2	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	31:25	35:29	5	Knights	Sea Eagles
+8	Prop	51:00	-	-	-	-	-	-	-	-	26	9	91	27	28	-	-	-	-	-	7	-	4.57s	-	-	-	-	-	-	9	-	90.91%	20	1	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	25:06	26:22	6	Knights	Warriors
+8	Prop	58:00	-	-	-	-	-	-	-	-	33	10	126	30	40	-	-	-	-	-	8	-	3.35s	-	-	-	-	-	-	10	-	78.38%	29	4	4	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	33:37	22:45	7	Knights	Panthers
+8	Prop	48:00	-	-	-	-	-	-	-	-	42	12	100	25	43	-	-	-	-	-	10	-	2.97s	-	-	-	3	-	-	12	-	96%	24	1	-	-	-	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	28:23	20:01	8	Knights	Cowboys
+8	Prop	45:00	-	-	-	-	-	-	-	-	37	13	135	42	64	-	-	-	-	-	10	-	4.19s	-	-	-	-	-	1	14	0.08	88.89%	24	2	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	29:39	15:07	9	Knights	Eels
+8	Prop	47:00	-	-	-	-	-	-	-	-	36	17	160	14	61	-	-	-	-	3	15	-	3.65s	-	-	-	1	-	2	18	0.12	87.5%	14	2	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	26:57	20:06	11	Knights	Titans
+8	Prop	50:00	-	-	-	-	-	-	-	-	44	15	170	22	49	-	-	-	-	2	11	-	2.69s	-	-	-	1	1	3	16	0.2	92%	23	-	2	-	-	-	-	-	-	-	-	-	-	-	1	1	-	1	-	-	-	-	-	29:32	20:08	12	Knights	Sharks
+8	Prop	68:00	-	-	-	-	-	-	-	-	43	15	159	59	51	-	-	-	-	-	12	-	3.09s	-	-	-	-	-	-	15	-	83.33%	30	3	3	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	48:10	19:53	13	Knights	Sea Eagles
+8	Prop	49:00	-	-	-	-	-	-	-	-	44	17	179	22	43	-	-	-	-	-	15	-	3.56s	-	-	-	1	-	4	20	0.24	87.5%	21	1	2	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	27:29	22:24	15	Knights	Broncos
+8	Prop	34:00	-	-	-	-	-	-	-	-	28	8	88	18	33	-	-	-	-	-	7	-	4.22s	-	-	-	-	-	-	9	-	88%	22	1	2	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	21:41	12:02	17	Knights	Panthers
+8	Interchange	30:00	-	-	-	-	-	-	-	-	26	12	116	13	48	-	-	-	-	1	10	-	4.04s	-	-	-	-	-	1	12	0.08	88.24%	15	1	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	30:05	-	18	Knights	Bulldogs
+8	Prop	47:00	4	1	-	-	-	-	-	-	54	14	146	13	56	1	-	-	-	6	12	-	3.74s	-	-	-	-	-	1	15	0.07	88.89%	16	-	2	-	-	-	-	-	-	-	-	-	-	-	2	1	-	-	-	-	-	-	-	26:45	20:21	20	Knights	Wests Tigers
+8	Prop	15:00	-	-	-	-	-	-	-	-	5	1	4	-	1	-	-	-	-	-	1	-	4.44s	-	-	-	-	-	-	1	-	84.62%	11	2	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	15:20	-	21	Knights	Storm

@@ -1,0 +1,18 @@
+Number	Position	Mins Played	Points	Tries	Conversions	Conversion Attempts	Penalty Goals	Goal Conversion Rate	1 Point Field Goals	2 Point Field Goals	Total Points	All Runs	All Run Metres	Kick Return Metres	Post Contact Metres	Line Breaks	Line Break Assists	Try Assists	Line Engaged Runs	Tackle Breaks	Hit Ups	Play The Ball	Average Play The Ball Speed	Dummy Half Runs	Dummy Half Run Metres	One on One Steal	Offloads	Dummy Passes	Passes	Receipts	Passes To Run Ratio	Tackle Efficiency	Tackles Made	Missed Tackles	Ineffective Tackles	Intercepts	Kicks Defused	Kicks	Kicking Metres	Forced Drop Outs	Bomb Kicks	Grubbers	40/20	20/40	Cross Field Kicks	Kicked Dead	Errors	Handling Errors	One on One Lost	Penalties	Ruck Infringements	Inside 10 Metres	On Report	Sin Bins	Send Offs	Stint One	Stint Two	Round	Team	Opposition
+13	Interchange	30:00	-	-	-	-	-	-	-	-	44	12	122	-	42	-	-	-	-	8	11	-	3.86s	-	-	-	1	1	3	14	0.25	80%	20	4	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	27:41	02:16	1	Wests Tigers	Titans
+13	Lock	35:00	-	-	-	-	-	-	-	-	39	10	75	-	17	-	-	-	-	2	8	-	3.81s	-	-	-	1	4	9	17	0.9	96.3%	26	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	20:21	15:18	2	Wests Tigers	Knights
+16	Interchange	28:00	-	-	-	-	-	-	-	-	25	10	61	-	10	-	-	-	-	-	10	-	2.96s	-	-	-	1	-	-	10	-	93.75%	15	-	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	28:08	-	3	Wests Tigers	Bulldogs
+19	Replacement	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	5	Wests Tigers	Broncos
+16	Interchange	30:00	-	-	-	-	-	-	-	-	31	9	96	-	31	-	-	-	-	-	8	-	3s	-	-	-	-	1	1	9	0.11	100%	22	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	30:48	-	6	Wests Tigers	Eels
+15	Interchange	40:00	-	-	-	-	-	-	-	-	31	14	129	-	32	-	-	-	-	2	12	-	3.56s	-	-	-	-	1	10	21	0.71	95%	19	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	40:17	-	8	Wests Tigers	Sea Eagles
+15	Interchange	38:00	-	-	-	-	-	-	-	-	26	13	119	14	59	-	-	-	-	2	12	-	3.56s	-	-	-	-	-	1	14	0.08	86.36%	19	3	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	38:06	-	9	Wests Tigers	Panthers
+15	Interchange	38:00	-	-	-	-	-	-	-	-	33	12	95	13	33	-	-	-	-	-	11	-	3.47s	-	-	-	1	1	-	12	-	88.89%	24	2	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	36:45	01:32	10	Wests Tigers	Dragons
+15	Interchange	39:00	-	-	-	-	-	-	-	-	26	7	63	-	33	-	-	-	-	-	7	-	3.11s	-	-	-	-	1	3	10	0.43	88.89%	24	2	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	38:40	-	11	Wests Tigers	Rabbitohs
+15	Lock	51:00	4	1	-	-	-	-	-	-	36	12	97	11	32	1	-	-	-	1	10	-	3s	-	-	-	-	1	10	21	0.83	95%	19	1	-	-	-	-	-	-	-	-	-	-	-	-	1	1	-	1	-	-	-	-	-	23:15	28:28	12	Wests Tigers	Cowboys
+10	Prop	10:00	-	-	-	-	-	-	-	-	10	2	10	-	1	-	-	-	-	-	2	-	2.94s	-	-	-	-	-	-	2	-	100%	9	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	09:34	-	13	Eels	Cowboys
+15	Interchange	30:00	-	-	-	-	-	-	-	-	24	10	96	23	28	-	-	-	-	-	8	-	4.28s	-	-	-	-	-	1	11	0.1	100%	17	-	-	-	-	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	29:40	-	16	Eels	Sea Eagles
+15	Interchange	23:00	-	-	-	-	-	-	-	-	15	5	46	-	16	-	-	-	-	1	5	-	2.9s	-	-	-	-	1	3	8	0.6	78.95%	15	3	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	22:59	-	17	Eels	Dolphins
+15	Interchange	34:00	-	-	-	-	-	-	-	-	33	9	93	7	25	-	-	-	-	2	8	-	2.91s	-	-	-	-	1	1	10	0.11	86.67%	26	4	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	34:44	-	19	Eels	Warriors
+15	Interchange	12:00	-	-	-	-	-	-	-	-	6	4	37	-	14	-	-	-	-	-	4	-	4.47s	-	-	-	-	-	-	4	-	77.78%	7	2	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	12:18	-	20	Eels	Titans
+15	Interchange	36:00	-	-	-	-	-	-	-	-	16	10	107	9	38	-	-	-	-	-	9	-	3.2s	-	-	-	-	-	1	12	0.1	84.21%	16	3	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	1	-	-	-	-	-	29:58	06:00	21	Eels	Cowboys
+15	Interchange	26:00	-	-	-	-	-	-	-	-	21	6	47	6	17	-	-	-	-	-	5	-	3.46s	-	-	-	-	-	-	6	-	95%	19	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	25:43	-	22	Eels	Storm

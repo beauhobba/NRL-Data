@@ -1,0 +1,18 @@
+Number	Position	Mins Played	Points	Tries	Conversions	Conversion Attempts	Penalty Goals	Goal Conversion Rate	1 Point Field Goals	2 Point Field Goals	Total Points	All Runs	All Run Metres	Kick Return Metres	Post Contact Metres	Line Breaks	Line Break Assists	Try Assists	Line Engaged Runs	Tackle Breaks	Hit Ups	Play The Ball	Average Play The Ball Speed	Dummy Half Runs	Dummy Half Run Metres	One on One Steal	Offloads	Dummy Passes	Passes	Receipts	Passes To Run Ratio	Tackle Efficiency	Tackles Made	Missed Tackles	Ineffective Tackles	Intercepts	Kicks Defused	Kicks	Kicking Metres	Forced Drop Outs	Bomb Kicks	Grubbers	40/20	20/40	Cross Field Kicks	Kicked Dead	Errors	Handling Errors	One on One Lost	Penalties	Ruck Infringements	Inside 10 Metres	On Report	Sin Bins	Send Offs	Stint One	Stint Two	Round	Team	Opposition
+1	Fullback	80:00	8	2	-	-	-	-	-	-	38	17	128	52	23	-	-	-	-	3	-	-	4.37s	1	12	-	-	1	14	34	0.82	60%	3	1	1	-	2	3	55	-	2	1	-	-	-	-	1	1	-	-	-	-	-	-	-	80:00	-	1	Cowboys	Raiders
+1	Fullback	70:00	-	-	-	-	-	-	-	-	10	14	105	40	21	-	-	-	-	1	-	-	3.69s	-	-	-	-	2	10	26	0.71	75%	6	2	-	-	3	3	128	-	-	-	-	-	-	-	1	2	-	2	-	-	1	1	-	70:00	-	2	Cowboys	Broncos
+1	Fullback	80:00	-	-	-	-	-	-	-	-	27	12	81	8	15	-	2	2	-	2	-	-	3.52s	1	-	-	1	6	15	23	1.25	50%	4	3	1	-	-	2	55	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	80:00	-	6	Cowboys	Dolphins
+1	Fullback	80:00	-	-	-	-	-	-	-	-	27	19	126	11	22	-	3	1	-	1	-	-	3.56s	-	-	-	-	4	27	45	1.42	63.64%	7	3	1	-	1	6	140	1	-	3	-	-	-	1	1	1	-	2	-	-	-	-	-	80:00	-	7	Cowboys	Warriors
+1	Fullback	80:00	-	-	-	-	-	-	-	-	63	27	245	68	15	2	1	2	-	5	-	-	3.75s	1	7	-	2	5	24	47	0.89	72.73%	8	3	-	-	3	2	21	-	-	1	-	-	1	-	3	3	-	1	-	-	-	-	-	80:00	-	8	Cowboys	Knights
+1	Fullback	80:00	-	-	-	-	-	-	-	-	41	20	174	69	24	-	-	-	-	1	1	-	4.27s	4	35	-	2	-	13	41	0.65	100%	9	-	-	-	4	7	241	-	2	-	-	-	1	-	2	2	-	1	1	-	1	-	-	80:00	-	9	Cowboys	Sharks
+1	Fullback	80:00	-	-	-	-	-	-	-	-	44	16	140	59	29	-	-	-	-	6	-	-	4.27s	2	9	-	-	5	20	44	1.25	80%	8	2	-	-	2	9	207	-	2	3	-	-	-	-	2	1	-	-	-	-	-	-	-	80:00	-	10	Cowboys	Roosters
+1	Fullback	80:00	-	-	-	-	-	-	-	-	33	13	122	20	15	-	3	1	-	1	-	-	2.55s	-	-	-	2	1	20	31	1.54	66.67%	4	2	-	-	-	2	80	-	1	-	-	-	-	-	1	1	-	-	-	-	-	-	-	80:00	-	11	Cowboys	Dragons
+1	Fullback	80:00	-	-	-	-	-	-	-	-	57	15	131	52	19	-	2	3	-	5	-	-	3.3s	1	6	-	1	-	10	28	0.67	66.67%	10	5	-	-	6	4	112	-	-	1	-	-	1	-	1	1	-	-	-	-	-	-	-	80:00	-	12	Cowboys	Wests Tigers
+1	Fullback	80:00	4	1	-	-	-	-	-	-	75	22	155	44	17	1	3	2	-	4	-	-	3.48s	-	-	-	-	-	29	54	1.32	84.62%	11	1	1	-	4	6	176	1	4	1	-	-	-	-	2	2	-	-	-	-	-	-	-	80:00	-	13	Cowboys	Eels
+1	Fullback	80:00	-	-	-	-	-	-	-	-	49	22	160	34	38	-	4	2	-	6	2	-	3.47s	1	10	-	1	3	20	40	0.91	50%	2	1	1	-	1	1	16	-	-	1	-	-	-	-	1	1	-	-	-	-	-	-	-	80:00	-	14	Cowboys	Storm
+1	Fullback	89:00	8	2	-	-	-	-	-	-	57	17	200	52	32	1	-	-	-	7	-	-	3.67s	2	26	-	-	4	21	39	1.24	70%	7	3	-	-	1	3	118	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	89:00	-	16	Cowboys	Panthers
+1	Fullback	80:00	1	-	-	-	-	-	1	-	77	19	231	56	33	2	1	3	-	11	-	-	3.47s	-	-	-	-	6	22	40	1.16	66.67%	6	3	-	-	1	5	82	1	1	2	-	-	1	-	4	4	1	-	-	-	-	-	-	80:00	-	17	Cowboys	Rabbitohs
+1	Fullback	70:00	8	2	-	-	-	-	-	-	101	21	234	65	39	1	4	5	-	3	1	-	4.06s	1	2	-	4	10	22	40	1.05	71.43%	5	2	-	-	-	4	81	-	-	2	-	-	-	-	-	-	-	-	-	-	-	-	-	69:40	-	18	Cowboys	Wests Tigers
+1	Fullback	80:00	4	1	-	-	-	-	-	-	57	17	201	67	29	1	1	-	-	5	2	-	3.55s	-	-	-	2	8	26	42	1.53	75%	6	-	2	-	3	2	76	-	-	-	-	-	-	-	2	2	-	-	-	-	-	-	-	80:00	-	20	Cowboys	Sea Eagles
+1	Fullback	80:00	4	1	-	-	-	-	-	-	71	19	168	42	37	3	1	1	-	10	-	-	3.09s	3	18	-	-	7	7	28	0.37	66.67%	10	3	2	-	2	4	98	-	1	1	-	-	-	-	1	-	-	-	1	-	-	-	-	80:00	-	21	Cowboys	Eels
+1	Fullback	80:00	-	-	-	-	-	-	-	-	37	15	109	34	24	-	1	1	-	6	-	-	3.14s	1	13	-	1	2	20	36	1.33	85.71%	6	1	-	-	3	2	58	-	1	-	-	-	-	-	3	4	-	-	-	-	-	-	-	80:00	-	22	Cowboys	Titans

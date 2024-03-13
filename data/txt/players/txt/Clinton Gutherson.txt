@@ -1,0 +1,20 @@
+Number	Position	Mins Played	Points	Tries	Conversions	Conversion Attempts	Penalty Goals	Goal Conversion Rate	1 Point Field Goals	2 Point Field Goals	Total Points	All Runs	All Run Metres	Kick Return Metres	Post Contact Metres	Line Breaks	Line Break Assists	Try Assists	Line Engaged Runs	Tackle Breaks	Hit Ups	Play The Ball	Average Play The Ball Speed	Dummy Half Runs	Dummy Half Run Metres	One on One Steal	Offloads	Dummy Passes	Passes	Receipts	Passes To Run Ratio	Tackle Efficiency	Tackles Made	Missed Tackles	Ineffective Tackles	Intercepts	Kicks Defused	Kicks	Kicking Metres	Forced Drop Outs	Bomb Kicks	Grubbers	40/20	20/40	Cross Field Kicks	Kicked Dead	Errors	Handling Errors	One on One Lost	Penalties	Ruck Infringements	Inside 10 Metres	On Report	Sin Bins	Send Offs	Stint One	Stint Two	Round	Team	Opposition
+1	Fullback	84:00	-	-	-	-	-	-	-	-	34	20	141	32	34	-	1	1	-	5	-	-	4.13s	5	39	-	2	-	20	42	1	80%	4	1	-	-	1	2	21	-	-	2	-	-	-	-	2	2	-	1	-	-	-	-	-	84:00	-	1	Eels	Storm
+1	Fullback	65:00	-	-	-	-	-	-	-	-	34	12	133	22	42	-	1	-	-	1	-	-	3.22s	1	9	-	1	1	19	32	1.58	80%	8	2	-	-	1	1	15	1	-	1	-	-	-	-	1	1	-	-	-	1	-	-	-	07:32	57:39	2	Eels	Sharks
+1	Fullback	80:00	8	2	-	-	-	-	-	-	53	15	156	20	33	2	-	-	-	2	1	-	3.68s	1	11	-	1	4	23	38	1.53	66.67%	6	2	1	-	1	-	-	-	-	-	-	-	-	-	3	3	-	-	-	-	-	-	-	80:00	-	3	Eels	Sea Eagles
+1	Fullback	83:00	-	-	-	-	-	-	-	-	32	23	218	66	45	-	-	-	-	2	1	-	3.91s	4	50	-	-	-	21	45	0.91	50%	1	-	1	-	6	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	83:00	-	4	Eels	Panthers
+1	Fullback	80:00	4	1	-	-	-	-	-	-	46	17	117	31	18	1	-	-	-	3	1	-	4.63s	1	1	-	2	2	26	41	1.53	100%	3	-	-	-	4	-	-	-	-	-	-	-	-	-	2	1	-	-	1	-	-	-	-	80:00	-	5	Eels	Roosters
+1	Fullback	80:00	4	1	-	-	-	-	-	-	45	14	109	16	35	-	1	1	-	2	-	-	3.76s	3	19	-	2	1	26	41	1.86	80%	8	1	1	-	2	1	20	-	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	80:00	-	6	Eels	Wests Tigers
+1	Fullback	80:00	-	-	-	-	-	-	-	-	45	18	151	51	38	-	1	2	-	3	-	-	4.6s	2	18	-	-	2	16	35	0.89	100%	8	-	-	-	3	3	40	1	-	3	-	-	-	-	1	-	-	-	-	-	-	-	-	80:00	-	7	Eels	Bulldogs
+1	Fullback	80:00	4	1	-	-	-	-	-	-	32	15	125	36	44	1	-	-	-	1	-	-	3.84s	-	-	-	2	-	18	36	1.2	50%	3	2	1	-	1	2	28	1	-	2	-	-	-	-	1	1	-	1	-	-	-	-	-	80:00	-	8	Eels	Broncos
+1	Fullback	80:00	12	3	-	-	-	-	-	-	79	24	192	16	41	2	-	-	-	9	-	-	4.26s	3	17	-	1	2	30	53	1.25	71.43%	5	-	2	-	4	-	-	-	-	-	-	-	-	-	3	2	-	1	-	-	-	-	-	80:00	-	9	Eels	Knights
+1	Fullback	70:00	6	1	1	1	-	100%	-	-	40	22	206	91	33	-	2	1	-	-	-	-	3.72s	1	3	-	2	1	28	44	1.27	75%	3	1	-	-	1	-	-	-	-	-	-	-	-	-	1	1	-	1	-	-	-	1	-	70:00	-	10	Eels	Titans
+1	Fullback	80:00	6	-	2	3	1	75%	-	-	36	15	208	142	53	-	1	-	-	1	-	-	4.7s	1	4	-	2	-	10	26	0.67	80%	4	1	-	-	2	1	27	-	-	-	-	-	1	-	2	2	-	1	-	-	-	-	-	80:00	-	11	Eels	Raiders
+1	Fullback	80:00	-	-	-	-	-	-	-	-	19	10	82	52	14	-	-	-	-	1	-	-	4.69s	-	-	-	1	1	23	35	2.3	80%	4	1	-	-	3	1	21	-	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	80:00	-	12	Eels	Rabbitohs
+1	Fullback	80:00	-	-	-	-	-	-	-	-	35	21	266	110	70	1	-	-	-	2	-	-	3.71s	2	26	-	-	-	31	50	1.48	80%	4	1	-	-	3	1	10	-	-	1	-	-	-	-	3	3	-	-	-	-	-	-	-	80:00	-	13	Eels	Cowboys
+1	Fullback	80:00	12	3	-	-	-	-	-	-	71	15	190	81	32	2	1	1	-	6	-	-	4.35s	-	-	-	-	1	33	50	2.2	66.67%	4	2	-	-	3	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	-	-	-	80:00	-	15	Eels	Bulldogs
+1	Fullback	80:00	14	1	5	6	-	83.33%	-	-	75	17	141	34	34	1	2	2	-	7	-	-	4.15s	2	16	1	1	3	22	41	1.29	80%	4	1	-	-	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	80:00	-	16	Eels	Sea Eagles
+1	Fullback	80:00	8	2	-	-	-	-	-	-	57	19	188	28	31	2	2	1	-	2	-	-	3.56s	1	13	-	2	4	24	39	1.26	33.33%	1	1	1	-	1	-	-	-	-	-	-	-	-	-	3	3	-	-	-	-	-	-	-	80:00	-	17	Eels	Dolphins
+1	Fullback	80:00	4	1	-	-	-	-	-	-	43	13	109	13	26	1	-	-	-	5	-	-	4.14s	1	14	-	2	3	31	44	2.38	66.67%	6	3	-	-	1	2	38	-	-	1	-	-	-	-	2	2	-	1	-	-	-	-	-	80:00	-	20	Eels	Titans
+1	Fullback	80:00	-	-	-	-	-	-	-	-	75	20	202	64	51	1	1	3	-	2	-	-	4.33s	3	48	-	8	2	22	42	1.1	81.82%	9	2	-	-	1	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	80:00	-	21	Eels	Cowboys
+1	Fullback	80:00	-	-	-	-	-	-	-	-	33	19	185	97	37	-	2	1	-	3	1	-	4.04s	4	33	-	-	4	20	38	1.05	70%	7	3	-	-	1	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	80:00	-	22	Eels	Storm

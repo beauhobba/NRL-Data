@@ -1,0 +1,19 @@
+Number	Position	Mins Played	Points	Tries	Conversions	Conversion Attempts	Penalty Goals	Goal Conversion Rate	1 Point Field Goals	2 Point Field Goals	Total Points	All Runs	All Run Metres	Kick Return Metres	Post Contact Metres	Line Breaks	Line Break Assists	Try Assists	Line Engaged Runs	Tackle Breaks	Hit Ups	Play The Ball	Average Play The Ball Speed	Dummy Half Runs	Dummy Half Run Metres	One on One Steal	Offloads	Dummy Passes	Passes	Receipts	Passes To Run Ratio	Tackle Efficiency	Tackles Made	Missed Tackles	Ineffective Tackles	Intercepts	Kicks Defused	Kicks	Kicking Metres	Forced Drop Outs	Bomb Kicks	Grubbers	40/20	20/40	Cross Field Kicks	Kicked Dead	Errors	Handling Errors	One on One Lost	Penalties	Ruck Infringements	Inside 10 Metres	On Report	Sin Bins	Send Offs	Stint One	Stint Two	Round	Team	Opposition
+1	Fullback	80:00	4	1	-	-	-	-	-	-	42	12	109	33	19	2	-	1	-	3	-	-	3.91s	2	40	-	-	-	14	24	1.17	100%	4	-	-	-	3	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	80:00	-	2	Dragons	Titans
+1	Fullback	80:00	4	1	-	-	-	-	-	-	44	9	90	19	24	1	-	-	-	3	-	-	4.05s	2	15	-	-	1	6	19	0.67	66.67%	8	3	1	-	2	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	-	-	80:00	-	3	Dragons	Broncos
+1	Fullback	80:00	-	-	-	-	-	-	-	-	27	9	70	21	17	-	-	-	-	2	-	-	3.53s	2	17	-	-	2	12	21	1.33	69.23%	9	1	3	-	2	-	-	-	-	-	-	-	-	-	-	1	-	1	-	-	-	-	-	80:00	-	4	Dragons	Sharks
+1	Fullback	80:00	4	1	-	-	-	-	-	-	52	9	147	62	8	2	-	-	-	4	-	-	3.21s	-	-	-	2	1	15	23	1.67	66.67%	4	2	-	-	1	1	19	-	-	-	-	-	1	-	1	1	-	-	-	-	-	-	-	80:00	-	5	Dragons	Dolphins
+1	Fullback	80:00	-	-	-	-	-	-	-	-	8	12	100	43	14	-	-	-	-	2	-	-	4.39s	1	6	-	-	2	18	30	1.5	80%	4	1	-	-	-	-	-	-	-	-	-	-	-	-	4	3	-	-	-	-	-	-	-	80:00	-	6	Dragons	Titans
+1	Fullback	80:00	-	-	-	-	-	-	-	-	50	23	165	39	7	-	1	1	-	8	-	-	3.61s	-	-	-	2	1	19	38	0.83	83.33%	5	1	-	-	4	2	11	-	-	2	-	-	-	-	2	4	-	-	-	-	-	-	-	80:00	-	7	Dragons	Raiders
+1	Fullback	80:00	4	1	-	-	-	-	-	-	43	15	142	24	26	-	1	1	-	5	-	-	3.71s	-	-	-	2	-	14	25	0.93	25%	1	3	-	-	1	2	26	-	-	2	-	-	-	1	-	-	-	-	-	-	-	-	-	80:00	-	8	Dragons	Roosters
+1	Fullback	80:00	-	-	-	-	-	-	-	-	18	12	80	23	18	-	-	-	-	1	-	-	4.02s	1	5	-	3	1	14	27	1.17	20%	1	1	3	-	2	1	14	-	-	1	-	-	-	-	-	-	-	-	1	-	-	-	-	80:00	-	9	Dragons	Bulldogs
+1	Fullback	80:00	-	-	-	-	-	-	-	-	10	12	99	14	16	-	-	-	-	3	-	-	3.61s	-	-	-	1	-	34	43	2.83	60%	3	2	-	-	2	1	-	-	-	1	-	-	-	-	2	2	-	3	-	-	-	-	-	80:00	-	10	Dragons	Wests Tigers
+1	Fullback	80:00	-	-	-	1	-	-	-	-	27	10	79	10	11	-	-	-	-	1	-	-	3.1s	-	-	-	2	-	13	23	1.3	62.5%	5	2	1	-	2	1	25	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	80:00	-	11	Dragons	Cowboys
+1	Fullback	80:00	-	-	-	-	-	-	-	-	12	11	34	12	13	-	-	1	-	2	-	-	3.7s	2	-	-	-	1	13	28	1.18	57.14%	4	3	-	-	1	2	37	-	-	-	-	-	1	-	1	1	-	-	-	-	-	-	-	80:00	-	12	Dragons	Roosters
+1	Fullback	80:00	-	-	-	-	-	-	-	-	20	16	108	33	32	-	-	-	-	3	2	-	3.1s	2	18	-	1	3	16	31	1	88.89%	8	1	-	-	2	-	-	-	-	-	-	-	-	-	-	1	-	3	-	-	-	-	-	80:00	-	13	Dragons	Dolphins
+1	Fullback	80:00	-	-	-	-	-	-	-	-	34	12	92	34	16	1	1	-	-	2	-	-	3.59s	-	-	-	2	1	16	27	1.33	85.71%	6	1	-	-	3	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	80:00	-	14	Dragons	Panthers
+1	Fullback	80:00	-	-	-	-	-	-	-	-	47	20	186	66	42	1	1	2	-	5	-	-	3.26s	-	-	-	1	3	13	29	0.65	66.67%	4	2	-	-	3	-	-	-	-	-	-	-	-	-	3	3	-	-	-	-	-	-	-	80:00	-	15	Dragons	Rabbitohs
+1	Fullback	80:00	4	1	-	-	-	-	-	-	40	10	116	-	12	2	-	-	-	7	-	-	4.04s	-	-	-	1	-	14	24	1.4	42.86%	3	3	1	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	-	-	-	80:00	-	17	Dragons	Warriors
+1	Fullback	80:00	4	1	-	-	-	-	-	-	61	12	178	31	25	1	-	-	-	4	-	-	3.73s	2	26	-	1	-	8	20	0.67	81.25%	13	3	-	-	2	-	-	-	-	-	-	-	-	-	1	1	-	-	1	-	-	-	-	80:00	-	18	Dragons	Sharks
+1	Fullback	70:00	4	1	-	-	-	-	-	-	23	12	89	40	23	1	-	-	-	3	-	-	3.95s	-	-	-	1	1	7	22	0.58	66.67%	2	1	-	-	4	-	-	-	-	-	-	-	-	-	2	2	-	1	-	-	-	1	-	70:00	-	21	Dragons	Wests Tigers
+1	Fullback	80:00	4	1	-	-	-	-	-	-	44	20	169	36	54	1	-	-	-	3	-	-	3.07s	4	27	-	2	2	11	32	0.55	60%	6	3	1	-	2	1	18	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	80:00	-	22	Dragons	Sea Eagles

@@ -1,0 +1,19 @@
+Number	Position	Mins Played	Points	Tries	Conversions	Conversion Attempts	Penalty Goals	Goal Conversion Rate	1 Point Field Goals	2 Point Field Goals	Total Points	All Runs	All Run Metres	Kick Return Metres	Post Contact Metres	Line Breaks	Line Break Assists	Try Assists	Line Engaged Runs	Tackle Breaks	Hit Ups	Play The Ball	Average Play The Ball Speed	Dummy Half Runs	Dummy Half Run Metres	One on One Steal	Offloads	Dummy Passes	Passes	Receipts	Passes To Run Ratio	Tackle Efficiency	Tackles Made	Missed Tackles	Ineffective Tackles	Intercepts	Kicks Defused	Kicks	Kicking Metres	Forced Drop Outs	Bomb Kicks	Grubbers	40/20	20/40	Cross Field Kicks	Kicked Dead	Errors	Handling Errors	One on One Lost	Penalties	Ruck Infringements	Inside 10 Metres	On Report	Sin Bins	Send Offs	Stint One	Stint Two	Round	Team	Opposition
+10	Prop	58:00	-	-	-	-	-	-	-	-	56	14	134	27	40	-	-	-	-	1	12	-	2.52s	-	-	-	3	-	2	16	0.14	82.22%	37	4	4	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	24:42	32:41	1	Storm	Eels
+10	Prop	62:00	-	-	-	-	-	-	-	-	54	18	154	-	55	-	-	-	-	-	15	-	3.22s	-	-	-	3	2	10	26	0.56	86.84%	33	4	1	-	-	-	-	-	-	-	-	-	-	-	1	1	-	1	-	-	-	-	-	28:56	33:25	2	Storm	Bulldogs
+10	Prop	32:00	-	-	-	-	-	-	-	-	36	7	62	28	11	-	-	-	-	1	5	-	3.94s	-	-	-	-	1	1	8	0.14	96.15%	25	-	1	-	-	-	-	-	-	-	-	-	-	-	1	1	-	1	-	1	-	-	-	21:20	10:59	3	Storm	Titans
+10	Prop	47:00	-	-	-	-	-	-	-	-	49	13	124	32	37	-	-	-	-	1	10	-	3.18s	-	-	-	-	3	3	16	0.23	97.56%	40	1	-	-	-	-	-	-	-	-	-	-	-	-	1	1	-	-	1	-	-	-	-	26:45	20:10	4	Storm	Wests Tigers
+10	Prop	46:00	-	-	-	-	-	-	-	-	44	13	125	-	43	-	-	-	-	3	13	-	3.38s	-	-	-	-	2	7	20	0.54	82.93%	34	5	2	1	-	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	25:25	21:14	5	Storm	Rabbitohs
+10	Prop	49:00	-	-	-	-	-	-	-	-	47	14	113	12	28	-	-	-	-	1	13	-	3.75s	-	-	-	1	-	3	17	0.21	96.67%	29	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	27:23	21:36	6	Storm	Roosters
+10	Prop	54:00	-	-	-	-	-	-	-	-	43	16	146	5	47	-	-	-	-	-	11	-	2.87s	-	-	-	1	1	4	16	0.25	89.47%	34	4	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	29:40	12:44	7	Storm	Sea Eagles
+10	Prop	50:00	-	-	-	-	-	-	-	-	37	15	164	43	51	-	-	-	-	1	12	-	3.89s	-	-	-	-	1	1	16	0.07	83.78%	31	6	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	21:42	27:42	8	Storm	Warriors
+10	Prop	44:00	-	-	-	-	-	-	-	-	26	12	108	17	21	-	-	-	-	-	10	-	3.6s	-	-	-	-	-	4	16	0.33	86.67%	26	4	-	-	-	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	24:19	19:37	10	Storm	Rabbitohs
+10	Prop	52:00	-	-	-	-	-	-	-	-	41	15	150	27	47	-	-	-	-	2	13	-	3.74s	-	-	-	-	3	4	19	0.27	86.49%	32	4	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	20:54	31:02	11	Storm	Broncos
+10	Prop	59:00	-	-	-	-	-	-	-	-	41	13	100	11	24	-	-	-	-	-	8	-	3.4s	-	-	-	1	3	10	18	0.77	89.47%	34	3	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	25:57	33:05	12	Storm	Dolphins
+10	Prop	43:00	-	-	-	-	-	-	-	-	48	7	56	-	17	-	-	-	-	1	7	-	3.27s	-	-	-	2	-	5	12	0.71	94.59%	35	1	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	26:01	17:30	14	Storm	Cowboys
+10	Prop	49:00	-	-	-	-	-	-	-	-	52	18	161	32	41	-	-	-	-	2	14	-	3.46s	-	-	-	6	-	3	20	0.17	95.45%	21	-	1	-	-	-	-	-	-	-	-	-	-	-	1	-	-	3	-	-	1	1	-	27:15	26:11	15	Storm	Sharks
+10	Prop	68:00	-	-	-	-	-	-	-	-	62	14	116	-	35	-	-	-	-	-	13	-	3.41s	-	-	-	3	1	6	19	0.43	88.68%	47	4	2	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	30:07	37:44	17	Storm	Sea Eagles
+10	Prop	39:00	-	-	-	-	-	-	-	-	31	8	75	20	22	-	-	-	-	2	6	-	3.24s	-	-	-	2	2	4	12	0.5	88%	22	3	-	-	-	-	-	-	-	-	-	-	-	-	1	1	-	1	-	-	-	-	-	18:36	19:42	18	Storm	Panthers
+10	Prop	43:00	-	-	-	-	-	-	-	-	43	13	99	7	29	-	-	-	-	3	12	-	4.13s	-	-	-	5	-	1	15	0.08	80.65%	25	6	-	-	1	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	12:29	20:19	20	Storm	Roosters
+10	Prop	44:00	-	-	-	-	-	-	-	-	35	11	83	-	23	-	-	-	-	2	11	-	3.82s	-	-	-	3	1	5	16	0.45	85%	17	2	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	22:30	21:11	21	Storm	Knights
+10	Prop	49:00	-	-	-	-	-	-	-	-	63	16	140	46	39	-	-	-	-	3	10	-	2.9s	-	-	-	3	-	3	17	0.19	87.5%	35	1	4	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	-	-	-	21:48	27:12	22	Storm	Eels

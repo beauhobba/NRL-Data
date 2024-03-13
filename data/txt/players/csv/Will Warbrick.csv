@@ -1,0 +1,20 @@
+Number	Position	Mins Played	Points	Tries	Conversions	Conversion Attempts	Penalty Goals	Goal Conversion Rate	1 Point Field Goals	2 Point Field Goals	Total Points	All Runs	All Run Metres	Kick Return Metres	Post Contact Metres	Line Breaks	Line Break Assists	Try Assists	Line Engaged Runs	Tackle Breaks	Hit Ups	Play The Ball	Average Play The Ball Speed	Dummy Half Runs	Dummy Half Run Metres	One on One Steal	Offloads	Dummy Passes	Passes	Receipts	Passes To Run Ratio	Tackle Efficiency	Tackles Made	Missed Tackles	Ineffective Tackles	Intercepts	Kicks Defused	Kicks	Kicking Metres	Forced Drop Outs	Bomb Kicks	Grubbers	40/20	20/40	Cross Field Kicks	Kicked Dead	Errors	Handling Errors	One on One Lost	Penalties	Ruck Infringements	Inside 10 Metres	On Report	Sin Bins	Send Offs	Stint One	Stint Two	Round	Team	Opposition
+2	Winger	84:00	-	-	-	-	-	-	-	-	29	17	130	-	31	-	-	-	-	1	-	-	2.56s	1	9	-	-	-	3	19	0.18	80%	8	1	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	84:00	-	1	Storm	Eels
+2	Winger	80:00	-	-	-	-	-	-	-	-	30	15	146	18	63	-	-	-	-	5	1	-	3.24s	1	7	-	-	-	-	19	-	80%	8	2	-	-	-	-	-	-	-	-	-	-	-	-	1	3	-	-	-	-	-	-	-	80:00	-	2	Storm	Bulldogs
+2	Winger	80:00	-	-	-	-	-	-	-	-	13	10	95	16	31	-	-	-	-	1	-	-	3.8s	-	-	-	-	-	2	12	0.2	54.55%	6	3	2	-	2	-	-	-	-	-	-	-	-	-	2	1	-	-	-	-	-	-	-	80:00	-	3	Storm	Titans
+2	Winger	80:00	4	1	-	-	-	-	-	-	64	21	202	23	71	2	-	-	-	5	-	-	3.75s	-	-	-	2	-	-	21	-	60%	3	1	1	3	1	-	-	-	-	-	-	-	-	-	2	1	-	-	-	-	-	-	-	80:00	-	4	Storm	Wests Tigers
+2	Winger	80:00	4	1	-	-	-	-	-	-	33	17	143	33	29	1	-	-	-	3	1	-	3.76s	1	4	-	-	-	4	20	0.24	55.56%	5	1	3	-	-	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	80:00	-	5	Storm	Rabbitohs
+2	Winger	80:00	-	-	-	-	-	-	-	-	12	10	103	18	32	-	-	-	-	-	-	-	4.29s	-	-	-	-	-	-	14	-	87.5%	7	-	1	-	1	-	-	-	-	-	-	-	-	-	3	1	-	-	-	-	-	-	-	80:00	-	6	Storm	Roosters
+2	Winger	80:00	4	1	-	-	-	-	-	-	38	16	160	3	33	2	-	-	-	-	2	-	3.39s	-	-	-	-	-	2	20	0.13	80%	4	-	1	-	2	-	-	-	-	-	-	-	-	-	2	3	-	-	-	-	-	-	-	80:00	-	7	Storm	Sea Eagles
+2	Winger	80:00	-	-	-	-	-	-	-	-	22	13	137	28	43	-	-	-	-	3	1	-	4.25s	-	-	-	-	-	3	15	0.23	71.43%	5	1	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	80:00	-	8	Storm	Warriors
+2	Winger	80:00	-	-	-	-	-	-	-	-	24	13	159	50	45	-	-	-	-	2	-	-	4.38s	-	-	-	-	-	3	18	0.23	100%	3	-	-	-	-	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	80:00	-	10	Storm	Rabbitohs
+2	Winger	80:00	8	2	-	-	-	-	-	-	44	16	141	30	36	1	-	-	-	2	1	-	3.79s	-	-	-	1	-	1	17	0.06	71.43%	5	2	-	-	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	80:00	-	11	Storm	Broncos
+2	Winger	80:00	4	1	-	-	-	-	-	-	29	11	109	10	30	1	-	-	-	2	-	-	3.27s	-	-	-	-	-	1	14	0.09	100%	5	-	-	-	-	-	-	-	-	-	-	-	-	-	1	2	-	-	-	-	-	-	-	80:00	-	12	Storm	Dolphins
+2	Winger	80:00	-	-	-	-	-	-	-	-	21	13	157	19	54	1	-	-	-	3	-	-	2.63s	-	-	-	-	-	1	15	0.08	-	-	3	-	-	2	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	80:00	-	14	Storm	Cowboys
+2	Winger	80:00	4	1	-	-	-	-	-	-	24	12	90	24	24	1	-	-	-	-	-	-	3.86s	1	5	-	-	-	2	15	0.17	66.67%	4	1	1	-	3	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	80:00	-	15	Storm	Sharks
+2	Winger	80:00	16	4	-	-	-	-	-	-	70	16	156	20	43	3	-	-	-	2	-	-	3.93s	1	17	-	-	-	1	21	0.06	77.78%	7	-	2	-	2	-	-	-	-	-	-	-	-	-	3	2	-	-	-	-	-	-	-	80:00	-	16	Storm	Wests Tigers
+2	Winger	80:00	-	-	-	-	-	-	-	-	49	17	197	27	50	2	-	1	-	3	1	-	3.39s	1	1	-	1	-	2	19	0.12	100%	5	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	80:00	-	17	Storm	Sea Eagles
+2	Winger	48:00	-	-	-	-	-	-	-	-	1	6	52	6	20	-	-	-	-	1	-	-	3.31s	-	-	-	-	-	1	10	0.17	-	-	2	-	-	-	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	48:00	-	18	Storm	Panthers
+2	Winger	80:00	-	-	-	-	-	-	-	-	19	11	93	11	28	-	-	-	-	5	1	-	4.08s	-	-	-	-	-	-	13	-	66.67%	6	2	1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	-	-	-	-	-	80:00	-	20	Storm	Roosters
+2	Winger	80:00	-	-	-	-	-	-	-	-	13	10	67	14	20	-	-	-	-	4	-	-	2.98s	-	-	-	-	-	2	15	0.2	41.67%	5	6	1	-	4	1	17	-	-	1	-	-	-	1	1	1	-	-	-	-	-	-	-	80:00	-	21	Storm	Knights
+2	Winger	80:00	4	1	-	-	-	-	-	-	46	13	122	2	35	1	1	-	-	2	-	-	3.29s	-	-	-	2	-	2	15	0.15	70%	7	2	1	-	-	-	-	-	-	-	-	-	-	-	1	1	-	-	-	-	-	-	-	80:00	-	22	Storm	Eels

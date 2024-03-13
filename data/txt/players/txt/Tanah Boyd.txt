@@ -1,0 +1,20 @@
+Number	Position	Mins Played	Points	Tries	Conversions	Conversion Attempts	Penalty Goals	Goal Conversion Rate	1 Point Field Goals	2 Point Field Goals	Total Points	All Runs	All Run Metres	Kick Return Metres	Post Contact Metres	Line Breaks	Line Break Assists	Try Assists	Line Engaged Runs	Tackle Breaks	Hit Ups	Play The Ball	Average Play The Ball Speed	Dummy Half Runs	Dummy Half Run Metres	One on One Steal	Offloads	Dummy Passes	Passes	Receipts	Passes To Run Ratio	Tackle Efficiency	Tackles Made	Missed Tackles	Ineffective Tackles	Intercepts	Kicks Defused	Kicks	Kicking Metres	Forced Drop Outs	Bomb Kicks	Grubbers	40/20	20/40	Cross Field Kicks	Kicked Dead	Errors	Handling Errors	One on One Lost	Penalties	Ruck Infringements	Inside 10 Metres	On Report	Sin Bins	Send Offs	Stint One	Stint Two	Round	Team	Opposition
+7	Halfback	80:00	6	-	3	4	-	75%	-	-	38	5	32	-	-	-	-	1	-	-	-	-	-	-	-	-	-	-	16	32	3.2	76.92%	20	4	2	-	-	16	497	-	6	-	-	-	-	-	-	-	-	2	-	-	-	-	-	80:00	-	1	Titans	Wests Tigers
+7	Halfback	74:00	6	-	3	3	-	100%	-	-	25	5	34	-	4	-	-	-	-	1	-	-	3.64s	-	-	-	-	2	15	25	3	78.57%	22	4	2	-	1	8	228	-	4	-	-	-	1	-	3	-	-	1	-	-	-	-	-	73:41	-	2	Titans	Dragons
+7	Halfback	67:00	14	-	5	5	2	100%	-	-	42	7	43	-	1	-	-	-	-	-	-	-	3.29s	1	10	-	-	-	21	35	3	76.67%	23	7	-	-	2	10	362	-	1	-	-	-	2	-	1	1	-	-	-	1	-	-	-	19:35	47:43	3	Titans	Storm
+7	Halfback	80:00	4	-	1	2	1	66.67%	-	-	52	10	72	-	4	-	1	-	-	2	-	-	4.8s	-	-	-	-	1	33	49	3.3	88.46%	23	1	2	-	-	16	455	1	8	2	-	-	-	-	1	1	-	-	1	-	-	-	-	80:00	-	4	Titans	Cowboys
+7	Halfback	80:00	8	-	3	3	1	100%	-	-	40	9	80	-	25	-	-	-	-	1	-	-	2.3s	-	-	-	-	3	31	39	3.44	81.48%	22	4	1	-	1	2	34	-	-	1	-	-	-	-	1	1	-	-	1	-	-	-	-	80:00	-	6	Titans	Dragons
+7	Halfback	80:00	10	-	4	4	1	100%	-	-	47	6	38	-	1	-	-	1	-	-	-	-	3.28s	-	-	-	-	1	24	40	4	82.35%	14	3	-	-	-	13	387	1	3	1	-	-	2	-	1	1	-	-	-	-	-	-	-	80:00	-	7	Titans	Broncos
+7	Halfback	80:00	14	1	4	4	1	100%	-	-	74	11	98	-	10	-	-	-	-	1	-	-	4.46s	-	-	-	2	2	29	50	2.64	77.78%	21	4	2	-	-	16	600	-	1	1	-	-	1	-	-	-	-	-	-	-	-	-	-	80:00	-	8	Titans	Dolphins
+7	Halfback	80:00	6	-	2	5	1	50%	-	-	56	6	31	-	5	-	-	1	-	-	-	-	2.69s	-	-	-	-	1	34	53	5.67	100%	23	-	-	-	-	17	459	1	8	1	-	-	2	-	-	-	-	1	-	-	-	-	-	80:00	-	9	Titans	Sea Eagles
+7	Halfback	80:00	6	-	3	5	-	60%	-	-	66	3	17	-	-	-	1	1	-	-	-	-	-	-	-	-	-	-	40	60	13.33	88.46%	23	1	2	-	-	21	829	-	3	1	-	-	-	-	-	-	-	-	-	-	-	-	-	80:00	-	10	Titans	Eels
+7	Halfback	80:00	6	-	3	5	-	60%	-	-	42	6	22	-	1	-	-	1	-	2	-	-	3.64s	-	-	-	-	1	27	42	4.5	87.5%	21	2	1	-	-	13	498	-	4	-	-	-	1	-	4	2	-	-	-	-	-	-	-	80:00	-	11	Titans	Knights
+7	Halfback	80:00	6	-	2	3	1	75%	-	-	43	6	36	7	6	-	-	-	-	-	-	-	4.24s	-	-	-	1	3	35	55	5.83	85.71%	18	2	1	-	1	17	537	2	6	-	-	-	-	-	2	1	-	1	-	-	-	-	-	80:00	-	12	Titans	Bulldogs
+7	Halfback	80:00	8	-	4	5	-	80%	-	-	46	4	29	-	4	1	-	1	-	1	-	-	5s	-	-	-	-	3	33	48	8.25	78.57%	11	2	1	-	-	15	508	2	1	1	-	-	1	1	1	1	-	-	-	-	-	-	-	80:00	-	14	Titans	Rabbitohs
+7	Halfback	80:00	8	-	4	5	-	80%	-	-	65	11	57	2	2	-	1	1	-	1	1	-	3.57s	-	-	-	-	2	37	56	3.36	76.92%	20	3	3	-	-	16	520	2	3	2	-	-	1	-	-	-	-	-	-	-	-	-	-	80:00	-	15	Titans	Wests Tigers
+7	Halfback	80:00	6	-	2	3	1	75%	-	-	34	6	38	-	5	-	-	-	-	-	-	-	3.66s	-	-	-	-	2	23	46	3.83	65.22%	15	5	3	1	1	17	513	-	4	1	-	-	4	1	1	-	-	-	-	-	-	-	-	80:00	-	17	Titans	Broncos
+7	Halfback	80:00	6	-	3	4	-	75%	-	-	48	13	92	-	5	-	-	-	-	-	-	-	3.59s	-	-	-	-	-	30	50	2.31	85.19%	23	2	2	-	-	16	335	2	9	3	-	-	1	-	1	-	-	-	-	1	-	-	-	80:00	-	18	Titans	Raiders
+7	Halfback	85:00	9	-	3	3	1	100%	1	-	40	7	38	-	7	-	-	-	-	-	-	-	5.03s	-	-	-	-	2	39	54	5.57	80%	20	4	1	-	-	10	304	1	1	2	-	-	1	-	-	-	-	-	-	-	-	-	-	85:00	-	19	Titans	Dolphins
+7	Halfback	80:00	12	1	2	4	2	66.67%	-	-	50	3	24	-	-	1	1	-	-	2	-	-	-	-	-	-	-	-	26	43	8.67	75%	18	5	1	-	-	14	437	2	4	2	-	-	1	-	1	1	-	1	-	-	-	-	-	80:00	-	20	Titans	Eels
+7	Halfback	60:00	-	-	-	-	-	-	-	-	14	7	55	-	9	-	-	-	-	-	-	-	4.5s	-	-	-	-	1	17	27	2.43	70.59%	12	3	2	-	-	6	237	-	-	-	-	-	1	-	-	-	-	2	-	-	-	-	-	60:15	-	21	Titans	Roosters
+7	Halfback	80:00	6	-	3	4	-	75%	-	-	49	6	45	-	2	-	-	-	-	1	-	-	3.88s	-	-	-	1	1	38	51	6.33	85.19%	23	4	-	-	-	13	357	1	4	1	-	-	2	-	-	-	-	1	-	-	-	-	-	80:00	-	22	Titans	Cowboys

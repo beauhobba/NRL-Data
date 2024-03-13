@@ -52,6 +52,12 @@ There are **two** different machine learning models:
 * Optimise the current machine learning model 
 * Update requirements.txt
 * Provide a more descriptive README
+* NRLW data
+* Anytime Try Scorer Probability model
+* Try Location Data
+* Team Stats - All Runs, All Run Metres, Post Contact Metres, Line Breaks, Tackle Breaks, Average Set Distance, Kick Return Metres, Average Play the Ball Speed, Offloads, Receipts, Total Passes, Dummy Passes, Kicks, Kicking Metres, Forced Drop Outs, Kick Defusal, Bombs, Grubbers, Effective Tackle, Tackles Made, Missed Tackles, Intercepts, Ineffective Tackles, Errors, Penalities Conceded, Ruck Infringements, On Reports, Interchanges Used 
+* Replicate https://wicky.ai/content/analytics/predictive-analytics-applied-to-rugby-league-looking-at-try-scorers-in-the-nrl/ 
+* Provide a text export 
 
 ## Help 
 I intend for this project to be open source, so help is always handy!
