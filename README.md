@@ -8,14 +8,22 @@ This project is a webscraper for NRL data, and provides a TensorFlow machine lea
 All data for this project is hosted on [this website](nrlpredictions.com).
 I personally host this website with all data being stored on a S3 instance. 
 
+## Workspace
+This code is updated on Jupyter Notebooks (ipynb) and default python (py) files. 
+
+
 
 ## Table of Contents
 - [NRL Machine Learning Models and Data Scraper](#nrl-machine-learning-models-and-data-scraper)
   - [Description](#description)
   - [Data](#data)
+  - [Workspace](#workspace)
   - [Table of Contents](#table-of-contents)
   - [Web Scraping](#web-scraping)
   - [Machine Learning](#machine-learning)
+  - [Web Scraping](#web-scraping-1)
+  - [Visualisations](#visualisations)
+  - [Conveters](#conveters)
   - [Installation](#installation)
   - [Future Tasks](#future-tasks)
   - [Help](#help)
@@ -39,6 +47,18 @@ There are **two** different machine learning models:
 * Match based: Uses match statistics to form the final result. This project requires furthur optimisation. 
 * Player and Match based: Uses player statistics to form the final result. This project is currently WIP (however it provides code on how to manipulate the player data). 
 
+## Web Scraping
+This project utilizes Selenium for web scraping NRL data from the NRL website. Currently, I manually perform this task weekly with limited plans for automation at present. This code is located in: 
+`/scraping/`
+
+## Visualisations
+Ways to Display the data are located in: 
+`/visualisations/`
+
+
+## Conveters
+JSON is the default format for all code. Conversions tools have been generated to assist those who need .txt or .csv formats. These are located in: 
+`/converters/`
 
 ## Installation
 * Download the required data from the above website and place it into the `/data/` folder.
