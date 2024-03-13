@@ -127,5 +127,5 @@ overall_data = {
 overall_data_json = json.dumps(overall_data, indent=4)
 
 
-with open("./data/player_statistics_2022.json", "w") as file:
+with open("../data/player_statistics_2022.json", "w") as file:
     file.write(overall_data_json)
