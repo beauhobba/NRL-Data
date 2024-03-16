@@ -4,14 +4,14 @@
 
 
 # Imports
-import ENVIRONMENT_VARIABLES as EV
+
 from utilities.get_nrl_data import get_nrl_data
 import json
 import sys
 sys.path.append('..')
-
+import ENVIRONMENT_VARIABLES as EV
 # Select the year and the amount of rounds 
-select_year = 2023
+select_year = 2021
 select_rounds = 27
 
 

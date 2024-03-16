@@ -3,10 +3,89 @@
 ## Description
 This project is a webscraper for NRL data, and provides a TensorFlow machine learning model for NRL related predictions. 
 
+## How to Use
+To add this section in later
 
 ## Data
 All data for this project is hosted on [this website](nrlpredictions.com).
-I personally host this website with all data being stored on a S3 instance. 
+I personally host this website with all data being stored in a S3 instance. 
+
+### Player Statistics
+
+### Match Data
+<details>
+<summary>Match Data JSON Schema</summary>
+
+```json
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "NRL": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "2024": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "1": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "Details": {
+                        "type": "string"
+                      },
+                      "Date": {
+                        "type": "string"
+                      },
+                      "Home": {
+                        "type": "string"
+                      },
+                      "Home_Score": {
+                        "type": "string"
+                      },
+                      "Away": {
+                        "type": "string"
+                      },
+                      "Away_Score": {
+                        "type": "string"
+                      },
+                      "Venue": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "Details",
+                      "Date",
+                      "Home",
+                      "Home_Score",
+                      "Away",
+                      "Away_Score",
+                      "Venue"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+```
+
+</details>
+
+
+
+### Detailed Match Data
+
+
 
 ## Workspace
 This code is updated on Jupyter Notebooks (ipynb) and default python (py) files. 
@@ -16,7 +95,11 @@ This code is updated on Jupyter Notebooks (ipynb) and default python (py) files.
 ## Table of Contents
 - [NRL Machine Learning Models and Data Scraper](#nrl-machine-learning-models-and-data-scraper)
   - [Description](#description)
+  - [How to Use](#how-to-use)
   - [Data](#data)
+    - [Player Statistics](#player-statistics)
+    - [Match Data](#match-data)
+    - [Detailed Match Data](#detailed-match-data)
   - [Workspace](#workspace)
   - [Table of Contents](#table-of-contents)
   - [Web Scraping](#web-scraping)

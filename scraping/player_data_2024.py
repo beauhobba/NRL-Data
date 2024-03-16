@@ -2,28 +2,22 @@
 Webscraper for finding NRL data related to player statistics
 """
 
-import ENVIRONMENT_VARIABLES as EV
+
 from bs4 import BeautifulSoup
-from selenium import webdriver
-from bs4 import BeautifulSoup
-from selenium import webdriver
 import json
 import pandas as pd
 import numpy as np
-import chromedriver_autoinstaller
-from selenium.webdriver.chrome.options import Options
+from utilities.set_up_driver import set_up_driver
 import sys
 
-chromedriver_autoinstaller.install()
-
 sys.path.append('..')
-
+import ENVIRONMENT_VARIABLES as EV
 
 # List of variables for data extraction
 variables = ["Year", "Win", "Versus", "Round"]
 
 
-selected_year = 2023
+selected_year = 2021
 selected_rounds = 27
 
 
@@ -70,11 +64,7 @@ for year in years:
                 print(url)
 
                 # Webscrape the NRL Website
-                options = Options()
-                options.add_argument('--ignore-certificate-errors')
-                options.add_experimental_option(
-                    'excludeSwitches', ['enable-logging'])
-                driver = webdriver.Chrome(options=options)
+                driver = set_up_driver()
                 driver.get(url)
                 page_source = driver.page_source
                 driver.quit()

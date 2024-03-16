@@ -12,6 +12,7 @@ import pandas as pd
 import numpy as np
 import chromedriver_autoinstaller
 from selenium.webdriver.chrome.options import Options
+from utilities.set_up_driver import set_up_driver
 
 import sys
 
@@ -67,11 +68,7 @@ for year in years:
                 print(url)
 
                 # Webscrape the shit out of the NRL website
-                options = Options()
-                options.add_argument('--ignore-certificate-errors')
-                options.add_experimental_option(
-                    'excludeSwitches', ['enable-logging'])
-                driver = webdriver.Chrome(options=options)
+                driver = set_up_driver() 
                 driver.get(url)
                 page_source = driver.page_source
                 driver.quit()

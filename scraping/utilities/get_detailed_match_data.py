@@ -2,36 +2,25 @@
 Webscraper for finding NRL data related to team statistics
 """
 from bs4 import BeautifulSoup
-from selenium import webdriver
-import chromedriver_autoinstaller
-from selenium.webdriver.chrome.options import Options
-import re
+from set_up_driver import set_up_driver
 
-chromedriver_autoinstaller.install()
 
 
 def get_detailed_nrl_data(round=1,year=2024,home_team="sea-eagles",away_team="rabbitohs"):
     home_team = home_team.replace(" ", "-")
     away_team = away_team.replace(" ", "-")
-    url = f"https://www.nrl.com/draw/nrl-premiership/{year}/round-{round}/{home_team}-v-{away_team}/"
-    print(url)
+    url = f"{EV.NRL_WEBSITE}{year}/round-{round}/{home_team}-v-{away_team}/"
+    print(f"{round} - {url}")
     
     # Webscrape the NRL WEBSITE
-    options = Options()
-    options.add_argument('--ignore-certificate-errors')
-    options.add_experimental_option('excludeSwitches', ['enable-logging'])
-    driver = webdriver.Chrome(options=options)
+    driver = set_up_driver() 
     driver.get(url)
     page_source = driver.page_source
-
     driver.quit()
 
     # get the goodies
     soup = BeautifulSoup(page_source, "html.parser")
 
-    # Get the NRL data box
-    match_elements = soup.find_all(
-        "div", class_="match o-rounded-box o-shadowed-box")
 
     home_possession, away_possession = None, None
     try:

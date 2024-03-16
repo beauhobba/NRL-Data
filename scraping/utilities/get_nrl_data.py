@@ -2,22 +2,15 @@
 Webscraper for finding NRL data related to team statistics
 """
 from bs4 import BeautifulSoup
-from selenium import webdriver
-import chromedriver_autoinstaller
-from selenium.webdriver.chrome.options import Options
+from set_up_driver import set_up_driver
 
-chromedriver_autoinstaller.install()
 
 
 def get_nrl_data(round=21, year=2023):
     url = f"https://www.nrl.com/draw/?competition=111&round={round}&season={year}"
-
+    print(url)
     # Webscrape the NRL WEBSITE
-    options = Options()
-    options.add_argument('--ignore-certificate-errors')
-    options.add_experimental_option('excludeSwitches', ['enable-logging'])
-    driver = webdriver.Chrome(options=options)
-    driver.get(url)
+    driver = set_up_driver() 
     page_source = driver.page_source
 
     driver.quit()
