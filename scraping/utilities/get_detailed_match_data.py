@@ -10,13 +10,12 @@ import re
 chromedriver_autoinstaller.install()
 
 
-def get_nrl_data(
-        round=1,
-        year=2024,
-        home_team="sea-eagles",
-        away_team="rabbitohs"):
+def get_detailed_nrl_data(round=1,year=2024,home_team="sea-eagles",away_team="rabbitohs"):
+    home_team = home_team.replace(" ", "-")
+    away_team = away_team.replace(" ", "-")
     url = f"https://www.nrl.com/draw/nrl-premiership/{year}/round-{round}/{home_team}-v-{away_team}/"
-
+    print(url)
+    
     # Webscrape the NRL WEBSITE
     options = Options()
     options.add_argument('--ignore-certificate-errors')
@@ -34,11 +33,16 @@ def get_nrl_data(
     match_elements = soup.find_all(
         "div", class_="match o-rounded-box o-shadowed-box")
 
-    # Home possession
-    home_possession = soup.find(
-        'p', class_='match-centre-card-donut__value--home').text.strip()
-    away_possession = soup.find(
-        'p', class_='match-centre-card-donut__value--away').text.strip()
+    home_possession, away_possession = None, None
+    try:
+        # Home possession
+        home_possession = soup.find(
+            'p', class_='match-centre-card-donut__value--home').text.strip()
+        away_possession = soup.find(
+            'p', class_='match-centre-card-donut__value--away').text.strip()
+    except:
+        print("error in home possession")
+
 
     home_all_run_metres_list = soup.find_all(
         'dd',
@@ -104,19 +108,21 @@ def get_nrl_data(
                  'ruck_infringements': -1,
                  'inside_10_metres': -1,
                  'interchanges_used': -1}
+    try:
+        # Loop through each element
+        for item, bar_name in zip(home_all_run_metres_list, home_bars.keys()):
+            # Get the text of each element and strip any whitespace
+            home_all_run_metres = item.get_text(strip=True)
+            # Do whatever you want with the text
+            home_bars[bar_name] = home_all_run_metres
 
-    # Loop through each element
-    for item, bar_name in zip(home_all_run_metres_list, home_bars.keys()):
-        # Get the text of each element and strip any whitespace
-        home_all_run_metres = item.get_text(strip=True)
-        # Do whatever you want with the text
-        home_bars[bar_name] = home_all_run_metres
-
-    for item, bar_name in zip(away_all_run_metres_list, away_bars.keys()):
-        # Get the text of each element and strip any whitespace
-        home_all_run_metres = item.get_text(strip=True)
-        # Do whatever you want with the text
-        away_bars[bar_name] = home_all_run_metres
+        for item, bar_name in zip(away_all_run_metres_list, away_bars.keys()):
+            # Get the text of each element and strip any whitespace
+            home_all_run_metres = item.get_text(strip=True)
+            # Do whatever you want with the text
+            away_bars[bar_name] = home_all_run_metres
+    except:
+        print(f"Error with home bars")
 
     home_donut = {
         'Completion Rate': -1,
@@ -128,70 +134,83 @@ def get_nrl_data(
         'Average_Play_Ball_Speed': -1,
         'Kick_Defusal': -1,
         'Effective_Tackle': -1}
+    try:
+        elements = soup.find_all("p", class_="donut-chart-stat__value")
+        # Loop through each element to extract the numbers
+        numbers = []
+        for element in elements:
+            # Extract the text from the element
+            text = element.get_text()
+            # Find the number in the text
+            number = ''.join(filter(lambda x: x.isdigit() or x == '.', text))
+            numbers.append(number)
+        home_donut.update({k: v for k, v in zip(home_donut, numbers[::2])})
+        away_donut.update({k: v for k, v in zip(away_donut, numbers[1::2])})
+    except:
+        print("error in donuts")
 
-    elements = soup.find_all("p", class_="donut-chart-stat__value")
-    # Loop through each element to extract the numbers
-    numbers = []
-    for element in elements:
-        # Extract the text from the element
-        text = element.get_text()
-        # Find the number in the text
-        number = ''.join(filter(lambda x: x.isdigit() or x == '.', text))
-        numbers.append(number)
-    home_donut.update({k: v for k, v in zip(home_donut, numbers[::2])})
-    away_donut.update({k: v for k, v in zip(away_donut, numbers[1::2])})
-
-    li_elements = soup.find(
-        "ul", class_="match-centre-summary-group__list--home").find_all("li")
 
     # Initialize a list to store all names
     home_try_names_list = []
     home_try_minute_list = []
-    # Loop through each <li> element and extract the name
-    for li in li_elements:
-        # Extract the text and remove leading/trailing whitespace
-        text = li.get_text(strip=True)
-        # Split the text at the space character
-        parts = text.split()
-        # Join the parts except the last one (which is the number) to get the
-        # name
-        name = ' '.join(parts[:-1])
-        # Get the last part as the number
-        number = parts[-1]
-        # Append name and number to their respective lists
-        home_try_names_list.append(name)
-        home_try_minute_list.append(number)
+    
+    try:
+        li_elements = soup.find(
+            "ul", class_="match-centre-summary-group__list--home").find_all("li")
 
+        # Loop through each <li> element and extract the name
+        for li in li_elements:
+            # Extract the text and remove leading/trailing whitespace
+            text = li.get_text(strip=True)
+            # Split the text at the space character
+            parts = text.split()
+            # Join the parts except the last one (which is the number) to get the
+            # name
+            name = ' '.join(parts[:-1])
+            # Get the last part as the number
+            number = parts[-1]
+            # Append name and number to their respective lists
+            home_try_names_list.append(name)
+            home_try_minute_list.append(number)
+    except:
+        print("error in home try scorers")
     home_first_try_scorer = home_try_names_list[0] if len(
         home_try_names_list) > 0 else None
     home_first_minute_scorer = home_try_minute_list[0] if len(
         home_try_minute_list) > 0 else None
-
-    li_elements = soup.find(
-        "ul", class_="match-centre-summary-group__list--away").find_all("li")
-    # Initialize a list to store all names
+    
+    
+    
+    
     away_try_names_list = []
     away_try_minute_list = []
+    try:
+        li_elements = soup.find(
+            "ul", class_="match-centre-summary-group__list--away").find_all("li")
+        # Initialize a list to store all names
 
-    # Loop through each <li> element and extract the name
-    for li in li_elements:
-        # Extract the text and remove leading/trailing whitespace
-        text = li.get_text(strip=True)
-        # Split the text at the space character
-        parts = text.split()
-        # Join the parts except the last one (which is the number) to get the
-        # name
-        name = ' '.join(parts[:-1])
-        # Get the last part as the number
-        number = parts[-1]
-        # Append name and number to their respective lists
-        away_try_names_list.append(name)
-        away_try_minute_list.append(number)
 
+        # Loop through each <li> element and extract the name
+        for li in li_elements:
+            # Extract the text and remove leading/trailing whitespace
+            text = li.get_text(strip=True)
+            # Split the text at the space character
+            parts = text.split()
+            # Join the parts except the last one (which is the number) to get the
+            # name
+            name = ' '.join(parts[:-1])
+            # Get the last part as the number
+            number = parts[-1]
+            # Append name and number to their respective lists
+            away_try_names_list.append(name)
+            away_try_minute_list.append(number)
+    except:
+        print("error in away try scoers")
     away_first_try_scorer = away_try_names_list[0] if len(
         away_try_names_list) > 0 else None
     away_first_minute_scorer = away_try_minute_list[0] if len(
         away_try_minute_list) > 0 else None
+
 
     overall_first_try_scorer, overall_first_try_minute, overall_first_scorer_team = None, None, None 
     if away_first_try_scorer is None and home_first_try_scorer is None:
@@ -214,53 +233,73 @@ def get_nrl_data(
             overall_first_try_minute = home_first_minute_scorer
             overall_first_scorer_team = home_team
 
-    home_game_stats = {'tries': -1, 'conversions': -1, 'half_time': -1}
-    away_game_stats = {'tries': -1, 'conversions': -1, 'half_time': -1}
+    home_game_stats = {'tries': -1, 'conversions': -1, 'penalty_goals':-1, 'half_time': -1}
+    away_game_stats = {'tries': -1, 'conversions': -1, 'penalty_goals':-1, 'half_time': -1}
 
     numbers = []
-    span_elements = soup.find_all(
-        "span", class_="match-centre-summary-group__value")
-    # Loop through each <span> element and extract the number
-    for span_element in span_elements:
-        numbers.append(span_element.span.get_text(strip=True))
-    home_game_stats.update(
-        {k: v for k, v in zip(home_game_stats, numbers[::2])})
-    away_game_stats.update(
-        {k: v for k, v in zip(away_game_stats, numbers[1::2])})
-
+    try:
+        span_elements = soup.find_all(
+            "span", class_="match-centre-summary-group__value")
+        # Loop through each <span> element and extract the number
+        for span_element in span_elements:
+            numbers.append(span_element.span.get_text(strip=True))
+        home_game_stats.update(
+            {k: v for k, v in zip(home_game_stats, numbers[::2])})
+        away_game_stats.update(
+            {k: v for k, v in zip(away_game_stats, numbers[1::2])})
+        
+        if home_game_stats['half_time'] == -1:
+            home_game_stats['half_time'] = home_game_stats['penalty_goals']
+            home_game_stats['penalty_goals'] = 0
+        if away_game_stats['half_time'] == -1:
+            away_game_stats['half_time'] = away_game_stats['penalty_goals']
+            away_game_stats['penalty_goals'] = 0
+    except:
+        print("error with match top data")
+        
+        
     main_ref_name = None
     ref_names = []
     ref_positions = []
-    a_elements = soup.find_all("a", class_="card-team-mate")
-    for a in a_elements:
-        # Extract the name from <h3> element
-        name = a.find("h3", class_="card-team-mate__name").get_text(strip=True)
-        ref_names.append(name)
+    try:
+        a_elements = soup.find_all("a", class_="card-team-mate")
+        for a in a_elements:
+            # Extract the name from <h3> element
+            name = a.find("h3", class_="card-team-mate__name").get_text(strip=True)
+            ref_names.append(name)
 
-        # Extract the position from <p> element
-        position = a.find(
-            "p", class_="card-team-mate__position").get_text(strip=True)
-        ref_positions.append(position)
-    main_ref_name = ref_names[0]
-
-    # Find all <p> elements with class 'match-weather__text'
-    p_elements = soup.find_all("p", class_="match-weather__text")
+            # Extract the position from <p> element
+            position = a.find(
+                "p", class_="card-team-mate__position").get_text(strip=True)
+            ref_positions.append(position)
+        main_ref_name = ref_names[0]
+    except:
+        print("error with ref data")
 
     # Initialize variables to store ground condition and weather condition
     ground_condition = ""
     weather_condition = ""
+    
+    try:
+        # Find all <p> elements with class 'match-weather__text'
+        p_elements = soup.find_all("p", class_="match-weather__text")
 
-    # Loop through each <p> element and extract the text
-    for p_element in p_elements:
-        # Extract the text from the <span> element within the <p>
-        condition_type = p_element.get_text(strip=True).split(":")[0].strip()
-        condition_value = p_element.span.get_text(strip=True)
 
-        # Check condition type and assign values accordingly
-        if condition_type == "Ground Conditions":
-            ground_condition = condition_value
-        elif condition_type == "Weather":
-            weather_condition = condition_value
+
+        # Loop through each <p> element and extract the text
+        for p_element in p_elements:
+            # Extract the text from the <span> element within the <p>
+            condition_type = p_element.get_text(strip=True).split(":")[0].strip()
+            condition_value = p_element.span.get_text(strip=True)
+
+            # Check condition type and assign values accordingly
+            if condition_type == "Ground Conditions":
+                ground_condition = condition_value
+            elif condition_type == "Weather":
+                weather_condition = condition_value
+    except:
+        print("error with conditions")
+                
 
     # Join all the data togethor into an export
     home_data = {**{'possession': home_possession,
@@ -299,4 +338,3 @@ def get_nrl_data(
     return game_data
 
 
-gd = get_nrl_data()
