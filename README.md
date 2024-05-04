@@ -1,5 +1,6 @@
-# NRL Machine Learning Models and Data Scraper
+# NRL Machine Learning Models, Data Analytics and Data Scraper
 
+This library is still a Work-In-Progress. Feel free to help out by adding to the repository. 
 ## Description
 This project is a webscraper for NRL data, and provides a TensorFlow machine learning model for NRL related predictions. 
 
@@ -93,7 +94,7 @@ This code is updated on Jupyter Notebooks (ipynb) and default python (py) files.
 
 
 ## Table of Contents
-- [NRL Machine Learning Models and Data Scraper](#nrl-machine-learning-models-and-data-scraper)
+- [NRL Machine Learning Models, Data Analytics and Data Scraper](#nrl-machine-learning-models-data-analytics-and-data-scraper)
   - [Description](#description)
   - [How to Use](#how-to-use)
   - [Data](#data)
@@ -158,7 +159,7 @@ JSON is the default format for all code. Conversions tools have been generated t
 * NRLW data
 * Anytime Try Scorer Probability model
 * Try Location Data
-* Team Stats - All Runs, All Run Metres, Post Contact Metres, Line Breaks, Tackle Breaks, Average Set Distance, Kick Return Metres, Average Play the Ball Speed, Offloads, Receipts, Total Passes, Dummy Passes, Kicks, Kicking Metres, Forced Drop Outs, Kick Defusal, Bombs, Grubbers, Effective Tackle, Tackles Made, Missed Tackles, Intercepts, Ineffective Tackles, Errors, Penalities Conceded, Ruck Infringements, On Reports, Interchanges Used 
+* ~~Team Stats - All Runs, All Run Metres, Post Contact Metres, Line Breaks, Tackle Breaks, Average Set Distance, Kick Return Metres, Average Play the Ball Speed, Offloads, Receipts, Total Passes, Dummy Passes, Kicks, Kicking Metres, Forced Drop Outs, Kick Defusal, Bombs, Grubbers, Effective Tackle, Tackles Made, Missed Tackles, Intercepts, Ineffective Tackles, Errors, Penalities Conceded, Ruck Infringements, On Reports, Interchanges Used~~
 * Replicate https://wicky.ai/content/analytics/predictive-analytics-applied-to-rugby-league-looking-at-try-scorers-in-the-nrl/ 
 * Provide a text export 
 

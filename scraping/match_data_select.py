@@ -11,7 +11,7 @@ import sys
 sys.path.append('..')
 import ENVIRONMENT_VARIABLES as EV
 # Select the year and the amount of rounds 
-select_year = 2021
+select_year = 2020
 select_rounds = 27
 
 
@@ -43,6 +43,6 @@ if __name__ == "__main__":
     # readability
     overall_data_json = json.dumps(overall_data, indent=4)
 
-    # Write JSON data to a file
+    # # Write JSON data to a file
     with open(f"../data/nrl_data_{select_year}.json", "w") as file:
         file.write(overall_data_json)

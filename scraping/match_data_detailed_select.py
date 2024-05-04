@@ -18,7 +18,7 @@ variables = [
     "Round"]
 
 
-select_year = 2023
+select_year = 2020
 select_round = 27
 
 
@@ -70,7 +70,20 @@ for round in range(0, select_round):
                     f"{h_team} v {a_team}": game_data
                 }
             except Exception as ex:
-                print(f"{error}")
+                try:
+                    # Try again 
+                    print(f"{ex}")
+                    game_data = get_detailed_nrl_data(
+                        round=round + 1,
+                        year=year,
+                        home_team=h_team.lower(),
+                        away_team=a_team.lower())
+                    game_data['match']
+                    data = {
+                        f"{h_team} v {a_team}": game_data
+                    }
+                except Exception as ex:
+                    print(f"{ex}")
             round_data_scores.append(data)
         match_json_datas.append({round + 1: round_data_scores})
 
@@ -82,5 +95,5 @@ overall_data = {
 overall_data_json = json.dumps(overall_data, indent=4)
 
 # Write JSON data to a file
-with open("../data/nrl_detailed_match_data_{select_year}.json", "w") as file:
+with open(f"../data/nrl_detailed_match_data_{select_year}.json", "w") as file:
     file.write(overall_data_json)

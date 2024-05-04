@@ -2,22 +2,24 @@
 Webscraper for finding NRL data related to team statistics
 """
 from bs4 import BeautifulSoup
-from set_up_driver import set_up_driver
+from utilities.set_up_driver import set_up_driver
 
-
+import sys
+sys.path.append('..')
+sys.path.append('..')
+import ENVIRONMENT_VARIABLES as EV
 
 def get_nrl_data(round=21, year=2023):
     url = f"https://www.nrl.com/draw/?competition=111&round={round}&season={year}"
-    print(url)
     # Webscrape the NRL WEBSITE
     driver = set_up_driver() 
+    driver.get(url)
     page_source = driver.page_source
 
     driver.quit()
 
     # get the goodies
     soup = BeautifulSoup(page_source, "html.parser")
-
     # Get the NRL data box
     match_elements = soup.find_all(
         "div", class_="match o-rounded-box o-shadowed-box")

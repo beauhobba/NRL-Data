@@ -11,6 +11,7 @@ from selenium.webdriver.chrome.options import Options
 
 chromedriver_autoinstaller.install()
 
+
 def set_up_driver():
     """Set up the Chrome Web Driver for Scalping.
 
@@ -21,10 +22,13 @@ def set_up_driver():
     options = Options()
     # Ignore annoying messages from the NRL website 
     options.add_argument('--ignore-certificate-errors')
+    
     # Run Selenium in headless mode
     options.add_argument('--headless')
     options.add_argument('log-level=3')
+    
     # Exclude logging to assist with errors caused by NRL website 
     options.add_experimental_option('excludeSwitches', ['enable-logging'])
+    
     driver = webdriver.Chrome(options=options)
     return driver
