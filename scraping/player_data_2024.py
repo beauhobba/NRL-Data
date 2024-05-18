@@ -2,34 +2,33 @@
 Webscraper for finding NRL data related to player statistics
 """
 
+
 from bs4 import BeautifulSoup
-from selenium import webdriver
-from bs4 import BeautifulSoup
-from selenium import webdriver
 import json
 import pandas as pd
 import numpy as np
-import chromedriver_autoinstaller
-from selenium.webdriver.chrome.options import Options
+from utilities.set_up_driver import set_up_driver
 import sys
-
-chromedriver_autoinstaller.install()
 
 sys.path.append('..')
 import ENVIRONMENT_VARIABLES as EV
 
-
 # List of variables for data extraction
 variables = ["Year", "Win", "Versus", "Round"]
 
-years_overall = [2024]
-years = [2024] # Find only 2022 data for the time being 
+
+selected_year = 2021
+selected_rounds = 27
+
+
+years_overall = [selected_year]
+years = [selected_year]  # Find only 2022 data for the time being
 
 # Dictionary to store data for the specific year(s) of interest
 years_arr = {}
 
 # Opening the JSON file containing NRL data
-with open('../data/nrl_data_2024.json', 'r') as file:
+with open('../data/nrl_data_{selected_year}.json', 'r') as file:
     data = json.load(file)
     data = data['NRL']
 
@@ -41,19 +40,20 @@ with open('../data/nrl_data_2024.json', 'r') as file:
 file.close()
 
 
-years = [2024] # Find only 2022 data for the time being 
+years = [2023]  # Find only 2022 data for the time being
 df = pd.DataFrame(
-    columns=[f"{team} {variable}" for team in EV.TEAMS for variable in variables])
+    columns=[
+        f"{team} {variable}" for team in EV.TEAMS for variable in variables])
 all_store = []
 match_json_datas_2 = []
 for year in years:
     match_json_datas = []
     try:
-        for round in range(0, EV.NRL_2024_ROUND):
-            round_data = years_arr[year][round][str(round+1)]
+        for round in range(0, selected_rounds):
+            round_data = years_arr[year][round][str(round + 1)]
             round_data_ = []
             # Create an empty feature array
-            round_store = np.zeros([len(EV.TEAMS)*len(variables)], dtype=int)
+            round_store = np.zeros([len(EV.TEAMS) * len(variables)], dtype=int)
             round_teams = []
 
             for game in round_data:
@@ -63,12 +63,8 @@ for year in years:
 
                 print(url)
 
-                # Webscrape the shit out of the NRL website
-                options = Options()
-                options.add_argument('--ignore-certificate-errors')
-                options.add_experimental_option(
-                    'excludeSwitches', ['enable-logging'])
-                driver = webdriver.Chrome(options=options)
+                # Webscrape the NRL Website
+                driver = set_up_driver()
                 driver.get(url)
                 page_source = driver.page_source
                 driver.quit()
@@ -101,7 +97,7 @@ for year in years:
                         try:
                             player_info[label] = statistics[i].get_text(
                                 strip=True)
-                        except:
+                        except BaseException:
                             player_info[label] = "na"
 
                     # Append player info to the list
@@ -129,5 +125,5 @@ overall_data = {
 overall_data_json = json.dumps(overall_data, indent=4)
 
 
-with open("../data/player_statistics_2024.json", "w") as file:
+with open("../data/player_statistics_{selected_year}.json", "w") as file:
     file.write(overall_data_json)
