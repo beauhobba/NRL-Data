@@ -8,7 +8,7 @@ This project is a webscraper for NRL data, and provides a TensorFlow machine lea
 To add this section in later
 
 ## Data
-All data for this project is hosted on [this website](nrlpredictions.com).
+All data for this project is hosted on [this website]([nrlpredictions.net](https://nrlpredictions.net/sport)).
 I personally host this website with all data being stored in a S3 instance. 
 
 ### Player Statistics
