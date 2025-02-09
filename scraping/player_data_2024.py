@@ -9,16 +9,18 @@ import pandas as pd
 import numpy as np
 from utilities.set_up_driver import set_up_driver
 import sys
-
-sys.path.append('..')
+import os
+# sys.path.append('..')
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import ENVIRONMENT_VARIABLES as EV
 
 # List of variables for data extraction
 variables = ["Year", "Win", "Versus", "Round"]
 
 
-selected_year = 2021
-selected_rounds = 27
+selected_year = 2024
+# selected_rounds = 27
+selected_rounds = 1
 
 
 years_overall = [selected_year]
@@ -28,7 +30,7 @@ years = [selected_year]  # Find only 2022 data for the time being
 years_arr = {}
 
 # Opening the JSON file containing NRL data
-with open('../data/nrl_data_{selected_year}.json', 'r') as file:
+with open(f'data/nrl_data_{selected_year}.json', 'r') as file:
     data = json.load(file)
     data = data['NRL']
 
@@ -40,7 +42,7 @@ with open('../data/nrl_data_{selected_year}.json', 'r') as file:
 file.close()
 
 
-years = [2023]  # Find only 2022 data for the time being
+# years = [2023]  # Find only 2022 data for the time being
 df = pd.DataFrame(
     columns=[
         f"{team} {variable}" for team in EV.TEAMS for variable in variables])
@@ -72,40 +74,52 @@ for year in years:
 
                 soup = BeautifulSoup(page_source, "html.parser")
 
-                # Find all the rows (tr elements) within the tbody
-                rows = soup.find_all("tr", class_="table-tbody__tr")
 
                 # Initialize a list to store player information
                 players_info = []
 
-                # Loop through each row and extract player data
-                for row in rows:
-                    player_info = {}
-                    # Extract player name
-                    player_name_elem = row.find(
-                        "a", class_="table__content-link")
-                    player_name = player_name_elem.get_text(
-                        strip=True, separator=' ')
+                # Find all statistic tables
+                # These are table elements but need to ignore the duplicate table with aria-hidden=true
+                tables = soup.select('table.table:not([aria-hidden="true"])')
 
-                    player_info["Name"] = player_name
+                # Process each table
+                for table in tables:
+                    # Find the team name from the table caption
+                    team_name = table.find("caption").get_text(strip=True, separator=' ').replace(" Player Stats", "")
+                    
+                    # Get player rows for this team
+                    rows = table.find_all("tr", class_="table-tbody__tr")
 
-                    # Extract other statistics (time, tries, etc.)
-                    statistics = row.find_all(
-                        "td", class_="table__cell table-tbody__td")
+                    # Loop through each row and extract player data
+                    for row in rows:
+                        player_info = {}
 
-                    for i, label in enumerate(EV.PLAYER_LABELS):
-                        try:
-                            player_info[label] = statistics[i].get_text(
-                                strip=True)
-                        except BaseException:
-                            player_info[label] = "na"
+                        # Extract player name
+                        player_name_elem = row.find(
+                            "a", class_="table__content-link")
+                        player_name = player_name_elem.get_text(
+                            strip=True, separator=' ')
 
-                    # Append player info to the list
-                    players_info.append(player_info)
-                    # input(players_info)
-                game_data = {
-                    f"{year}-{round+1}-{h_team}-v-{a_team}": players_info}
-                round_data_.append(game_data)
+                        player_info["Name"] = player_name
+                        player_info["Team"] = team_name
+
+                        # Extract other statistics (time, tries, etc.)
+                        statistics = row.find_all(
+                            "td", class_="table__cell table-tbody__td")
+
+                        for i, label in enumerate(EV.PLAYER_LABELS):
+                            try:
+                                player_info[label] = statistics[i].get_text(
+                                    strip=True)
+                            except BaseException:
+                                player_info[label] = "na"
+
+                        # Append player info to the list
+                        players_info.append(player_info)
+                        # input(players_info)
+                    game_data = {
+                        f"{year}-{round+1}-{h_team}-v-{a_team}": players_info}
+                    round_data_.append(game_data)
             round_data_op = {
                 f"{round}": round_data_
             }
