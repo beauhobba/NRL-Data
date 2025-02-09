@@ -4,14 +4,11 @@
 
 
 # Imports
-
 from utilities.get_nrl_data import get_nrl_data
 import json
-import sys
-sys.path.append('..')
-import ENVIRONMENT_VARIABLES as EV
+
 # Select the year and the amount of rounds 
-select_year = 2020
+select_year = 2024
 select_rounds = 27
 
 
@@ -21,6 +18,7 @@ if __name__ == "__main__":
     for year in years:
         year_json_data = []  # List to store JSON data for a particular year
         for round_nu in range(1, select_rounds + 1):  # Loop through 25 rounds
+            print(f"Fetching data for round {round_nu} of {year}")
             try:
                 # Attempt to fetch NRL data for a specific round and year
                 match_json = get_nrl_data(round_nu, year)
@@ -44,5 +42,5 @@ if __name__ == "__main__":
     overall_data_json = json.dumps(overall_data, indent=4)
 
     # # Write JSON data to a file
-    with open(f"../data/nrl_data_{select_year}.json", "w") as file:
+    with open(f"data/nrl_data_{select_year}.json", "w") as file:
         file.write(overall_data_json)

@@ -4,11 +4,6 @@ Webscraper for finding NRL data related to team statistics
 from bs4 import BeautifulSoup
 from utilities.set_up_driver import set_up_driver
 
-import sys
-sys.path.append('..')
-sys.path.append('..')
-import ENVIRONMENT_VARIABLES as EV
-
 def get_nrl_data(round=21, year=2023):
     url = f"https://www.nrl.com/draw/?competition=111&round={round}&season={year}"
     # Webscrape the NRL WEBSITE
