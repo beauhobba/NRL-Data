@@ -1,16 +1,16 @@
 """
 Webscraper for finding NRL data related to player statistics
+Notes: ~3 min per round
 """
 
 
 from bs4 import BeautifulSoup
 import json
-import pandas as pd
 import numpy as np
 from utilities.set_up_driver import set_up_driver
 import sys
 import os
-# sys.path.append('..')
+
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import ENVIRONMENT_VARIABLES as EV
 
@@ -19,9 +19,8 @@ variables = ["Year", "Win", "Versus", "Round"]
 
 
 selected_year = 2024
-# selected_rounds = 27
-selected_rounds = 1
-
+from_round = 1
+to_round = 27
 
 years_overall = [selected_year]
 years = [selected_year]  # Find only 2022 data for the time being
@@ -42,16 +41,13 @@ with open(f'data/nrl_data_{selected_year}.json', 'r') as file:
 file.close()
 
 
-# years = [2023]  # Find only 2022 data for the time being
-df = pd.DataFrame(
-    columns=[
-        f"{team} {variable}" for team in EV.TEAMS for variable in variables])
-all_store = []
 match_json_datas_2 = []
+
 for year in years:
     match_json_datas = []
     try:
-        for round in range(0, selected_rounds):
+        for round in range(from_round-1, to_round):
+            print(f'\n---------- SCRAPING ROUND {round+1} ----------')
             round_data = years_arr[year][round][str(round + 1)]
             round_data_ = []
             # Create an empty feature array
@@ -63,7 +59,7 @@ for year in years:
                     " ", "-") for x in ['Home', 'Away']]
                 url = f"{EV.NRL_WEBSITE}{year}/round-{round+1}/{h_team}-v-{a_team}/"
 
-                print(url)
+                print(f"Round: {round+1} - {url}")
 
                 # Webscrape the NRL Website
                 driver = set_up_driver()
@@ -79,7 +75,7 @@ for year in years:
                 players_info = []
 
                 # Find all statistic tables
-                # These are table elements but need to ignore the duplicate table with aria-hidden=true
+                # These are table elements but need to ignore the duplicate table with 'aria-hidden=true'
                 tables = soup.select('table.table:not([aria-hidden="true"])')
 
                 # Process each table
@@ -116,10 +112,10 @@ for year in years:
 
                         # Append player info to the list
                         players_info.append(player_info)
-                        # input(players_info)
-                    game_data = {
-                        f"{year}-{round+1}-{h_team}-v-{a_team}": players_info}
-                    round_data_.append(game_data)
+                        
+                game_data = {
+                    f"{year}-{round+1}-{h_team}-v-{a_team}": players_info}
+                round_data_.append(game_data)
             round_data_op = {
                 f"{round}": round_data_
             }
@@ -139,5 +135,5 @@ overall_data = {
 overall_data_json = json.dumps(overall_data, indent=4)
 
 
-with open("../data/player_statistics_{selected_year}.json", "w") as file:
+with open(f"data/player_statistics_{selected_year}.json", "w") as file:
     file.write(overall_data_json)
