@@ -1,10 +1,8 @@
-# This script fetches NRL (National Rugby League) match data for the year 2024
-# and saves it to a JSON file named "nrl_data_2024.json" in the "./data"
-# directory.
-
+"""
+This script fetches NRL (National Rugby League) match data for the selected year and saves it to a JSON file
+"""
 
 # Imports
-
 from utilities.get_nrl_data import get_nrl_data
 import json
 import sys
