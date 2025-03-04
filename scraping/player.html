@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NRL Player Statistics Viewer</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+    <script>
+        async function loadData() {
+            try {
+                const response = await fetch('https://geo145327-staging.s3.ap-southeast-2.amazonaws.com/public/player_statistics_2024.json');
+                const data = await response.json();
+                const dropdown = document.getElementById('matchDropdown');
+                const tableBody = document.getElementById('tableBody');
+                
+                // Extract match keys
+                const matches = [];
+                data.PlayerStats.forEach(yearData => {
+                    const year = Object.keys(yearData)[0];
+                    yearData[year].forEach(roundData => {
+                        Object.keys(roundData).forEach(roundNum => {
+                            roundData[roundNum].forEach(match => {
+                                Object.keys(match).forEach(matchKey => {
+                                    matches.push(matchKey);
+                                });
+                            });
+                        });
+                    });
+                });
+                
+                // Populate dropdown
+                matches.forEach(match => {
+                    let option = document.createElement('option');
+                    option.value = match;
+                    option.textContent = match;
+                    dropdown.appendChild(option);
+                });
+                
+                dropdown.addEventListener('change', function() {
+                    const selectedMatch = this.value;
+                    tableBody.innerHTML = '';
+                    
+                    data.PlayerStats.forEach(yearData => {
+                        const year = Object.keys(yearData)[0];
+                        yearData[year].forEach(roundData => {
+                            Object.keys(roundData).forEach(roundNum => {
+                                roundData[roundNum].forEach(match => {
+                                    if (match[selectedMatch]) {
+                                        match[selectedMatch].forEach(player => {
+                                            let row = document.createElement('tr');
+                                            Object.values(player).forEach(stat => {
+                                                let cell = document.createElement('td');
+                                                cell.textContent = stat;
+                                                row.appendChild(cell);
+                                            });
+                                            tableBody.appendChild(row);
+                                        });
+                                    }
+                                });
+                            });
+                        });
+                    });
+                });
+                
+            } catch (error) {
+                console.error('Error loading data:', error);
+            }
+        }
+    </script>
+</head>
+<body onload="loadData()">
+    <h2>NRL Player Statistics Viewer</h2>
+    <label for="matchDropdown">Select a Match:</label>
+    <select id="matchDropdown">
+        <option value="">-- Select --</option>
+    </select>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Number</th>
+                <th>Position</th>
+                <th>Mins Played</th>
+                <th>Points</th>
+                <th>Tries</th>
+                <th>Conversions</th>
+                <th>Conversion Attempts</th>
+                <th>Penalty Goals</th>
+                <th>Goal Conversion Rate</th>
+                <th>1 Point Field Goals</th>
+                <th>2 Point Field Goals</th>
+                <th>Total Points</th>
+                <th>All Runs</th>
+                <th>All Run Metres</th>
+                <th>Kick Return Metres</th>
+                <th>Post Contact Metres</th>
+                <th>Line Breaks</th>
+                <th>Line Break Assists</th>
+                <th>Try Assists</th>
+                <th>Line Engaged Runs</th>
+                <th>Tackle Breaks</th>
+                <th>Hit Ups</th>
+                <th>Play The Ball</th>
+                <th>Average Play The Ball Speed</th>
+                <th>Dummy Half Runs</th>
+                <th>Dummy Half Run Metres</th>
+                <th>One on One Steal</th>
+                <th>Offloads</th>
+                <th>Dummy Passes</th>
+                <th>Passes</th>
+                <th>Receipts</th>
+                <th>Passes To Run Ratio</th>
+                <th>Tackle Efficiency</th>
+                <th>Tackles Made</th>
+                <th>Missed Tackles</th>
+                <th>Ineffective Tackles</th>
+                <th>Intercepts</th>
+                <th>Kicks Defused</th>
+                <th>Kicks</th>
+                <th>Kicking Metres</th>
+                <th>Forced Drop Outs</th>
+                <th>Bomb Kicks</th>
+                <th>Grubbers</th>
+                <th>40/20</th>
+                <th>20/40</th>
+                <th>Cross Field Kicks</th>
+                <th>Kicked Dead</th>
+                <th>Errors</th>
+                <th>Handling Errors</th>
+                <th>One on One Lost</th>
+                <th>Penalties</th>
+                <th>Ruck Infringements</th>
+                <th>Inside 10 Metres</th>
+                <th>On Report</th>
+                <th>Sin Bins</th>
+                <th>Send Offs</th>
+                <th>Stint One</th>
+                <th>Stint Two</th>
+            </tr>
+            
+        </thead>
+        <tbody id="tableBody">
+            <tr><td colspan="5">Select a match to view player statistics.</td></tr>
+        </tbody>
+    </table>
+</body>
+</html>
