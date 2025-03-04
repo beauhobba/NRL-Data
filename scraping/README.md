@@ -10,6 +10,9 @@ Execute the following command from the `scraping` directory:
 ```bash
 python match_data_detailed_select.py
 ```
+### HTML Web Viewer
+Open the HTML file in html_interfaces to use the interactive website viewer. It looks like the following:
+![alt text](image.png)
 
 ### Script Functionality
 1. **Loads Match Data**
