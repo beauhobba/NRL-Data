@@ -1,50 +1,60 @@
 """
-Webscraper for finding NRL data related to team statistics
+Optimized Web Scraper for NRL Team Statistics
 """
+
+import requests
 from bs4 import BeautifulSoup
-from utilities.set_up_driver import set_up_driver
-
 import sys
-sys.path.append('..')
-sys.path.append('..')
+
+sys.path.append("..")
 import ENVIRONMENT_VARIABLES as EV
+import requests
+import json
+from bs4 import BeautifulSoup
 
-def get_nrl_data(round=21, year=2023):
+def get_nrl_data(round=1, year=2024):
     url = f"https://www.nrl.com/draw/?competition=111&round={round}&season={year}"
-    # Webscrape the NRL WEBSITE
-    driver = set_up_driver() 
-    driver.get(url)
-    page_source = driver.page_source
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    }
+    
+    response = requests.get(url, headers=headers)
+    if response.status_code != 200:
+        print("Failed to fetch data")
+        return None
 
-    driver.quit()
+    soup = BeautifulSoup(response.text, "html.parser")
+    
+    # Find the JSON data within the HTML
+    script_tag = soup.find("div", {"id": "vue-draw"})
+    if not script_tag:
+        print("Could not find fixture data")
+        return None
 
-    # get the goodies
-    soup = BeautifulSoup(page_source, "html.parser")
-    # Get the NRL data box
-    match_elements = soup.find_all(
-        "div", class_="match o-rounded-box o-shadowed-box")
+    # Extract JSON from q-data attribute
+    raw_json = script_tag["q-data"]
+    raw_json = raw_json.replace("&quot;", '"')  # Fix encoding
 
-    # name of html elements to poach from the data to get the nrl specific attributes
-    find_data = ["h3", "p", "p", "div", "p", "div", "p"]
-    class_data = ["u-visually-hidden", "match-header__title", "match-team__name--home",
-                  "match-team__score--home", "match-team__name--away", "match-team__score--away", "match-venue o-text"]
+    # Convert to Python dictionary
+    data = json.loads(raw_json)
 
-    # Extract all the useful game data
+    fixtures = data.get("fixtures", [])
+    
     matches_json = []
-    for match_element in match_elements:
-        match_details, match_date, home_team, home_score, away_team, away_score, venue = [match_element.find(
-            html_val, class_=class_val).text.strip() for html_val, class_val in zip(find_data, class_data)]
+    for fixture in fixtures:
+        if fixture["type"] == "Match":
+            match = {
+                "Round": fixture["roundTitle"],
+                "Home": fixture["homeTeam"]["nickName"],
+                "Home_Score": fixture["homeTeam"].get("score", 0),
+                "Away": fixture["awayTeam"]["nickName"],
+                "Away_Score": fixture["awayTeam"].get("score", 0),
+                "Venue": fixture["venue"],
+                "Date": fixture["clock"]["kickOffTimeLong"],
+                "Match_Centre_URL": f"https://www.nrl.com{fixture['matchCentreUrl']}",
+            }
+            matches_json.append(match)
 
-        match = {
-            "Details": match_details.replace("Match: ", ""),
-            "Date": match_date,
-            "Home": home_team,
-            "Home_Score": home_score.replace("Scored", "").replace("points", "").strip(),
-            "Away": away_team,
-            "Away_Score": away_score.replace("Scored", "").replace("points", "").strip(),
-            "Venue": venue.replace("Venue:", "").strip()
-        }
-        matches_json.append(match)
     round_data = {
         f"{round}": matches_json
     }
