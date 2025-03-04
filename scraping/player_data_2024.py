@@ -1,132 +1,95 @@
 """
-Webscraper for finding NRL data related to player statistics
+Optimized Web Scraper for NRL Player Statistics (Fast Execution, Saves Per Round, Includes Year)
 """
 
 from bs4 import BeautifulSoup
 import json
-import pandas as pd
-import numpy as np
-from utilities.set_up_driver import set_up_driver
 import sys
 import os
+from utilities.set_up_driver import set_up_driver
 
-sys.path.append('..')
+sys.path.append("..")
 import ENVIRONMENT_VARIABLES as EV
 
 # List of variables for data extraction
 variables = ["Year", "Win", "Versus", "Round"]
 
 selected_year = 2024
-selected_rounds = 1
+selected_rounds = 27
 
 years_overall = [selected_year]
-years = [selected_year]  # Find only 2024 data for now
+years = [selected_year]
 
-# Dictionary to store data for the specific year(s) of interest
-years_arr = {}
-
-# Load existing player statistics if available
+# Define file path for player statistics
 player_stats_file = f"../data/player_statistics_{selected_year}.json"
 
-if os.path.exists(player_stats_file):
-    with open(player_stats_file, "r") as file:
-        try:
-            existing_data = json.load(file)
-        except json.JSONDecodeError:
-            existing_data = {"PlayerStats": []}
-else:
-    existing_data = {"PlayerStats": []}
+# **RESET FILE EACH RUN**: Overwrite file with an empty structure
+player_stats = {"PlayerStats": [{str(selected_year): []}]}
 
-# Load NRL data for matches
+# Load NRL match data
 with open(f"../data/nrl_data_{selected_year}.json", "r") as file:
     data = json.load(file)
     data = data["NRL"]
 
-    for year in years:
-        years_arr[year] = data[years_overall.index(year)][str(year)]
+# Store match data for the selected year
+years_arr = {year: data[years_overall.index(year)][str(year)] for year in years}
 
-df = pd.DataFrame(
-    columns=[f"{team} {variable}" for team in EV.TEAMS for variable in variables]
-)
-all_store = []
-match_json_datas_2 = []
+# **Start WebDriver once and reuse it**
+driver = set_up_driver()
 
 for year in years:
-    match_json_datas = []
-
     try:
-        for round in range(0, selected_rounds):
+        for round in range(selected_rounds):
             round_data = years_arr[year][round][str(round + 1)]
-            round_data_ = []
+            round_results = []  # Store all matches for this round
 
             for game in round_data:
                 h_team, a_team = [game[x].replace(" ", "-") for x in ["Home", "Away"]]
                 match_key = f"{year}-{round+1}-{h_team}-v-{a_team}"
 
-                # Skip match if already in the existing dataset
-                if any(match_key in entry for entry in existing_data["PlayerStats"]):
-                    print(f"Skipping existing match: {match_key}")
-                    continue
-
                 url = f"{EV.NRL_WEBSITE}{year}/round-{round+1}/{h_team}-v-{a_team}/"
                 print(f"Fetching: {url}")
 
-                # Webscrape the NRL Website
-                driver = set_up_driver()
+                # Use existing WebDriver (runs headless for speed)
                 driver.get(url)
-                page_source = driver.page_source
-                driver.quit()
-                print("Finished Reading Website Data")
+                soup = BeautifulSoup(driver.page_source, "html.parser")
 
-                soup = BeautifulSoup(page_source, "html.parser")
-
-                # Find all the rows (tr elements) within the tbody
+                # Extract player data
                 rows = soup.find_all("tr", class_="table-tbody__tr")
-
-                # Initialize a list to store player information
                 players_info = []
 
-                # Loop through each row and extract player data
                 for row in rows:
                     player_info = {}
                     player_name_elem = row.find("a", class_="table__content-link")
-                    player_name = player_name_elem.get_text(strip=True, separator=" ")
 
-                    player_info["Name"] = player_name
+                    if player_name_elem:
+                        player_info["Name"] = player_name_elem.get_text(strip=True, separator=" ")
 
-                    # Extract other statistics (time, tries, etc.)
                     statistics = row.find_all("td", class_="table__cell table-tbody__td")
 
                     for i, label in enumerate(EV.PLAYER_LABELS):
-                        try:
-                            player_info[label] = statistics[i].get_text(strip=True)
-                        except IndexError:
-                            player_info[label] = "na"
+                        player_info[label] = statistics[i].get_text(strip=True) if i < len(statistics) else "na"
 
                     players_info.append(player_info)
 
-                # Store match data
-                game_data = {match_key: players_info}
-                round_data_.append(game_data)
-                print(game_data)
+                # Store match data for this round
+                round_results.append({match_key: players_info})
+                print(f"Processed match: {match_key}")
 
-            # Append round data
-            round_data_op = {f"{round}": round_data_}
-            match_json_datas.append(round_data_op)
-            
+            # **Add round data under the correct year**
+            year_index = 0  # Since there's only one year in PlayerStats list
+            player_stats["PlayerStats"][year_index][str(year)].append({str(round): round_results})
+
+            # **Write to file immediately after each round**
+            with open(player_stats_file, "w") as file:
+                json.dump(player_stats, file, indent=4)
+
+            print(f"✅ Round {round+1} data saved.")
 
     except Exception as ex:
         print(f"Error: {ex}")
 
-    # Append yearly data
-    year_data_op = {f"{year}": match_json_datas}
-    match_json_datas_2.append(year_data_op)
+# **Close WebDriver after all matches are processed**
+driver.quit()
 
-# Merge new data with existing dataset
-existing_data["PlayerStats"].extend(match_json_datas_2)
-
-# Save updated data
-with open(player_stats_file, "w") as file:
-    json.dump(existing_data, file, indent=4)
-
-print(f"Updated player statistics saved to {player_stats_file}")
+print(f"Final player statistics saved to {player_stats_file}")
