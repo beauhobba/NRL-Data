@@ -17,8 +17,8 @@ import ENVIRONMENT_VARIABLES as EV
 variables = ["Year", "Win", "Versus", "Round"]
 
 
-selected_year = 2021
-selected_rounds = 27
+selected_year = 2024
+selected_rounds =11
 
 
 years_overall = [selected_year]
@@ -28,7 +28,7 @@ years = [selected_year]  # Find only 2022 data for the time being
 years_arr = {}
 
 # Opening the JSON file containing NRL data
-with open('../data/nrl_data_{selected_year}.json', 'r') as file:
+with open(f'../data/nrl_data_{selected_year}.json', 'r') as file:
     data = json.load(file)
     data = data['NRL']
 
@@ -40,7 +40,7 @@ with open('../data/nrl_data_{selected_year}.json', 'r') as file:
 file.close()
 
 
-years = [2023]  # Find only 2022 data for the time being
+years = [2024]  # Find only 2022 data for the time being
 df = pd.DataFrame(
     columns=[
         f"{team} {variable}" for team in EV.TEAMS for variable in variables])
@@ -125,5 +125,5 @@ overall_data = {
 overall_data_json = json.dumps(overall_data, indent=4)
 
 
-with open("../data/player_statistics_{selected_year}.json", "w") as file:
+with open(f"../data/player_statistics_{selected_year}.json", "w") as file:
     file.write(overall_data_json)
