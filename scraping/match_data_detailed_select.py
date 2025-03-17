@@ -9,16 +9,33 @@ sys.path.append("..")
 import ENVIRONMENT_VARIABLES as EV
 
 # Define key variables
+SELECTION_TYPE = 'NRLW'
 SELECT_YEAR = 2024
-SELECT_ROUND = 27
+SELECT_ROUND = 1
 VARIABLES = ["Year", "Win", "Defense", "Attack", "Margin", "Home", "Versus", "Round"]
-JSON_FILE_PATH = f"../data/nrl_data_{SELECT_YEAR}.json"
-OUTPUT_FILE_PATH = f"../data/nrl_detailed_match_data_{SELECT_YEAR}.json"
+JSON_FILE_PATH = f"../data/{SELECTION_TYPE}_data_{SELECT_YEAR}.json"
+OUTPUT_FILE_PATH = f"../data/{SELECTION_TYPE}_detailed_match_data_{SELECT_YEAR}.json"
+
+
+# ============================================
+# ============================================
+# Do not edit below (unless modifying code)
+# ============================================
+# ============================================
+
+WEBSITE = EV.NRL_WEBSITE
+# Team name selecter
+TEAMS = EV.TEAMS
+if SELECTION_TYPE == 'NRLW':
+    TEAMS = EV.NRLW_TEAMS
+    WEBSITE = EV.NRLW_WEBSITE
+    print('in here')
+
 
 # Load NRL match data
 try:
     with open(JSON_FILE_PATH, "r") as file:
-        data = json.load(file)["NRL"]
+        data = json.load(file)[f"{SELECTION_TYPE}"]
 except (FileNotFoundError, KeyError, json.JSONDecodeError) as e:
     print(f"Error loading JSON data: {e}")
     sys.exit(1)
@@ -31,7 +48,7 @@ except IndexError as e:
     sys.exit(1)
 
 # Create DataFrame with appropriate columns
-df = pd.DataFrame(columns=[f"{team} {variable}" for team in EV.TEAMS for variable in VARIABLES])
+df = pd.DataFrame(columns=[f"{team} {variable}" for team in TEAMS for variable in VARIABLES])
 
 
 # ** Function to Fetch Data for a Single Match (Using Persistent WebDriver) **
@@ -45,7 +62,7 @@ def fetch_match_data(driver, game, round_num):
             game_data = get_detailed_nrl_data(
                 round=round_num + 1, year=SELECT_YEAR,
                 home_team=h_team.lower(), away_team=a_team.lower(),
-                driver=driver  # **Pass persistent WebDriver**
+                driver=driver, nrl_website=WEBSITE  # **Pass persistent WebDriver**
             )
             if "match" in game_data:
                 return {f"{h_team} v {a_team}": game_data}  
@@ -73,7 +90,7 @@ for round_num in range(SELECT_ROUND):
 
         # ** Save JSON after each round to avoid losing data **
         with open(OUTPUT_FILE_PATH, "w") as file:
-            json.dump({"NRL": match_json_datas}, file, indent=4)
+            json.dump({f"{SELECTION_TYPE}": match_json_datas}, file, indent=4)
         print(f"✅ Round {round_num + 1} data saved.")
 
     except Exception as ex:

@@ -1,5 +1,12 @@
 TEAMS = ["Broncos", "Roosters", "Wests Tigers", "Rabbitohs", "Storm", "Eels", "Raiders", "Knights", "Dragons", "Sea Eagles", "Panthers", "Sharks", "Bulldogs", "Dolphins", "Titans", "Cowboys", "Warriors"]
+
 NRL_WEBSITE = "https://www.nrl.com/draw/nrl-premiership/"
+NRLW_WEBSITE = "https://www.nrl.com/draw/womens-premiership/"
+HOSTPLUS_WEBSITE = "https://www.qrl.com.au/draw/qrl-premiership/"
+KNOCKON_WEBSITE = "https://www.nswrl.com.au/draw/nsw-cup/2025/"
+
+
+
 
 PLAYER_LABELS =     ["Number", "Position", "Mins Played", "Points", "Tries", "Conversions", "Conversion Attempts",
                     "Penalty Goals", "Goal Conversion Rate", "1 Point Field Goals",
@@ -61,4 +68,15 @@ TEAM_COLOURS_INVERSE = {
     "Titans": "#009ddc",
     "Cowboys": "#ffdd00",
     "Warriors": "#bdbcbc"
+}
+
+
+NRLW_TEAMS = ["Broncos", "Roosters", "Wests Tigers", "Eels", "Raiders", "Knights", "Dragons", "Sharks", "Titans", "Cowboys"]
+
+COMPETITION = {
+    'NRL' : '111',
+    'NRLW' : '161',
+    'KNOCKON': '113',
+    'HOSTPLUS': '114',
+    'PRESEASON': '119'
 }
