@@ -1,5 +1,5 @@
 """
-This script fetches NRL (National Rugby League) match data for the selected year and saves it to a JSON file
+This script fetches NRL  match data for the selected year and saves it to a JSON file
 """
 
 # Imports
@@ -8,9 +8,22 @@ import json
 import sys
 sys.path.append('..')
 import ENVIRONMENT_VARIABLES as EV
+
 # Select the year and the amount of rounds 
 select_year = 2024
-select_rounds = 27
+select_rounds = 20
+
+
+# types = NRL, NRLW, KNOCKON, HOSTPLUS, PREASEAON
+selection_type = 'NRLW'
+
+
+
+
+try:
+    COMPETITION_TYPE = EV.COMPETITION[selection_type]
+except TypeError:
+    print('Unknown Competition Type')
 
 
 years = [select_year]
@@ -21,7 +34,7 @@ if __name__ == "__main__":
         for round_nu in range(1, select_rounds + 1):  # Loop through 25 rounds
             try:
                 # Attempt to fetch NRL data for a specific round and year
-                match_json = get_nrl_data(round_nu, year)
+                match_json = get_nrl_data(round_nu, year, COMPETITION_TYPE)
                 # Append fetched JSON to year's data list
                 year_json_data.append(match_json)
             except Exception as ex:
@@ -42,6 +55,6 @@ if __name__ == "__main__":
     overall_data_json = json.dumps(overall_data, indent=4)
 
     # # Write JSON data to a file
-    with open(f"../data/nrl_data_{select_year}.json", "w") as file:
+    with open(f"../data/{selection_type}_data_{select_year}.json", "w") as file:
         file.write(overall_data_json)
 print('Finished')

@@ -12,8 +12,9 @@ import requests
 import json
 from bs4 import BeautifulSoup
 
-def get_nrl_data(round=1, year=2024):
-    url = f"https://www.nrl.com/draw/?competition=111&round={round}&season={year}"
+def get_nrl_data(round=1, year=2024, competition = '111'):
+    print('Note this may take some time to run...')
+    url = f"https://www.nrl.com/draw/?competition={competition}&round={round}&season={year}"
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
     }
