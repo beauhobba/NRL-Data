@@ -1,15 +1,26 @@
 # NRL Machine Learning Models, Data Analytics and Data Scraper
 
-This library is still a Work-In-Progress. Feel free to help out by adding to the repository. 
+⚠️ This library is still a Work-In-Progress. Feel free to help out by adding to the repository. ⚠️
 ## Description
 This project is a webscraper for NRL data, and provides a TensorFlow machine learning model for NRL related predictions. 
 
 ## How to Use
-To add this section in later
+To add this section in later.
+Primarily use this code for Scraping at the moment. The prediction models are still a work in progress and all over the place. 
 
 ## Data
 All data for this project is hosted on [this website](nrlpredictions.com).
 I personally host this website with all data being stored in a S3 instance. 
+
+### 2024 Data
+Here are downloads of the latest instances. Please note, the website above hosts additional data sources. 
+| Data Type                 | Description                                                                 | Link |
+|---------------------------|-----------------------------------------------------------------------------|------|
+| **📊 Detailed Match Data** | In-depth statistics for each match, including team performance metrics and match events. | [View JSON](https://geo145327-staging.s3.ap-southeast-2.amazonaws.com/public/nrl_detailed_match_data_2024.json) |
+| **👤 Player Statistics**   | Individual player performance data, including tries, tackles, run meters, and more. | [View JSON](https://geo145327-staging.s3.ap-southeast-2.amazonaws.com/public/player_statistics_2024.json) |
+| **🏆 General Match Data**  | Basic match information such as scores, teams, venues, and round details. | [View JSON](https://geo145327-staging.s3.ap-southeast-2.amazonaws.com/public/nrl_data_2024.json) |
+
+You can see this data by opening up *scraping/html_interfaces/player.html*
 
 ### Player Statistics
 
@@ -98,12 +109,15 @@ This code is updated on Jupyter Notebooks (ipynb) and default python (py) files.
   - [Description](#description)
   - [How to Use](#how-to-use)
   - [Data](#data)
+    - [2024 Data](#2024-data)
     - [Player Statistics](#player-statistics)
     - [Match Data](#match-data)
     - [Detailed Match Data](#detailed-match-data)
   - [Workspace](#workspace)
   - [Table of Contents](#table-of-contents)
   - [Web Scraping](#web-scraping)
+    - [📂 Available Data Files](#-available-data-files)
+  - [⚠️ **Important Note**](#️-important-note)
   - [Machine Learning](#machine-learning)
   - [Web Scraping](#web-scraping-1)
   - [Visualisations](#visualisations)
@@ -114,15 +128,22 @@ This code is updated on Jupyter Notebooks (ipynb) and default python (py) files.
 
 
 ## Web Scraping
-This project utilizes Selenium for web scraping NRL data from the NRL website. Currently, I manually perform this task weekly with limited plans for automation at present. This code is located in: 
+This project utilizes Selenium/Requests for web scraping NRL data from the NRL website. Currently, I manually perform this task weekly with limited plans for automation at present. This code is located in: 
 `/scraping/`
 
-There are **four** different web scrapers:
-* Match data 2024 - *match data for every game in 2024. Updated regularly*
-* Match data 2015-2024 - *match data for every game from the select years. Data is stored on the above website.* 
-* Player data 2024 - *player data for every game in 2024. Updated regularly*
-* Player data 2015-2024 - *player data for every game from the select years. Data is stored on the above website. *
-**_NOTE:_**  To obtain player data you need match data first. 
+
+### 📂 Available Data Files
+
+| Data Type                                   | Description                                                                 |
+|---------------------------------------------|-----------------------------------------------------------------------------|
+| **📊 Detailed Match Data**           | In-depth statistics for each match, including team performance metrics and match events. |
+| **📊 General Match Data**    | Match data for every game from the selected years. |
+| **👤 Player Statistics**             | Individual player performance data, including tries, tackles, run meters, and more.  |
+
+## ⚠️ **Important Note**
+- **Player data requires match data** to be retrieved first.
+- Data is regularly updated and stored in a centralised location.
+
 
 ## Machine Learning 
 This code is located in 
