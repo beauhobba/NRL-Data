@@ -8,29 +8,25 @@ import json
 import sys
 sys.path.append('..')
 import ENVIRONMENT_VARIABLES as EV
-
-# Select the year and the amount of rounds 
-SELECT_YEAR = 2024
-SELECT_ROUNDS = 10
-SELECTION_TYPE = 'HOSTPLUS' # types = NRL, NRLW, KNOCKON, HOSTPLUS, PREASEAON
+import os
 
 
 
-# ============================================
-# ============================================
-# Do not edit below (unless modifying code)
-# ============================================
-# ============================================
+def match_data_select(SELECT_YEAR, SELECT_ROUNDS, SELECTION_TYPE):
+    # ============================================
+    # ============================================
+    # Do not edit below (unless modifying code)
+    # ============================================
+    # ============================================
 
-try:
-    COMPETITION_TYPE = EV.COMPETITION[SELECTION_TYPE]
-except TypeError:
-    print('Unknown Competition Type')
+    try:
+        COMPETITION_TYPE = EV.COMPETITION[SELECTION_TYPE]
+    except TypeError:
+        print('Unknown Competition Type')
 
-years = [SELECT_YEAR]
+    years = [SELECT_YEAR]
 
-print('Note this may take some time to run...')
-if __name__ == "__main__":
+    print('Note this may take some time to run...')
     match_json_datas = []  # List to store JSON data for matches
     for year in years:
         year_json_data = []  # List to store JSON data for a particular year
@@ -58,6 +54,12 @@ if __name__ == "__main__":
     overall_data_json = json.dumps(overall_data, indent=4)
 
     # # Write JSON data to a file
-    with open(f"../data/{SELECTION_TYPE}_data_{SELECT_YEAR}.json", "w") as file:
-        file.write(overall_data_json)
-print('Finished')
+    directory_path = os.path.abspath(f"../data/{SELECTION_TYPE}/{SELECT_YEAR}/")
+    file_path = os.path.join(directory_path, f"{SELECTION_TYPE}_data_{SELECT_YEAR}.json")
+    try:
+        with open(f"{file_path}", "w") as file:
+            file.write(overall_data_json)
+    except Exception as e:
+        print(f"Error writing file: {e}")
+            
+    print('Finished Match Data Selections')
