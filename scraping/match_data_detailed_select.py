@@ -9,7 +9,7 @@ sys.path.append("..")
 import ENVIRONMENT_VARIABLES as EV
 
 # Define key variables
-SELECTION_TYPE = 'NRLW'
+SELECTION_TYPE = 'HOSTPLUS'
 SELECT_YEAR = 2024
 SELECT_ROUND = 1
 VARIABLES = ["Year", "Win", "Defense", "Attack", "Margin", "Home", "Versus", "Round"]
@@ -23,13 +23,16 @@ OUTPUT_FILE_PATH = f"../data/{SELECTION_TYPE}_detailed_match_data_{SELECT_YEAR}.
 # ============================================
 # ============================================
 
+selection_mapping = {
+    'NRLW': (EV.NRLW_TEAMS, EV.NRLW_WEBSITE),
+    'KNOCKON': (EV.KNOCKON_TEAMS, EV.KNOCKON_WEBSITE),
+    'HOSTPLUS': (EV.HOSTPLUS_TEAMS, EV.HOSTPLUS_WEBSITE)
+}
+
 WEBSITE = EV.NRL_WEBSITE
 # Team name selecter
 TEAMS = EV.TEAMS
-if SELECTION_TYPE == 'NRLW':
-    TEAMS = EV.NRLW_TEAMS
-    WEBSITE = EV.NRLW_WEBSITE
-    print('in here')
+TEAMS, WEBSITE = selection_mapping.get(SELECTION_TYPE, (TEAMS, WEBSITE))
 
 
 # Load NRL match data

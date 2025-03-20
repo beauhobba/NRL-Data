@@ -108,7 +108,7 @@ def get_detailed_nrl_data(round: int, year: int, home_team: str, away_team: str,
     span_elements = {span.text.strip().upper() for span in soup.find_all('span', class_='match-centre-summary-group__name')}
     for word in DONUT_DATA_2_WORDS:
         if word not in span_elements:
-            DONUT_DATA_2[word.lower().replace(" ", "_")] = -10
+            DONUT_DATA_2[word.lower().replace(" ", "_")] = -1
 
     # **Extract Match Summary Data**
     try:

@@ -72,6 +72,10 @@ TEAM_COLOURS_INVERSE = {
 
 
 NRLW_TEAMS = ["Broncos", "Roosters", "Wests Tigers", "Eels", "Raiders", "Knights", "Dragons", "Sharks", "Titans", "Cowboys"]
+HOSTPLUS_TEAMS = ["Falcons", "Devils", "Dolphins", "WM Seagulls", "Blackhawks", "Seagulls", "Jets", "Tigers", "Capras", "Pride", "Cutters", "Bears", "Magpies", "Hunters", "Clydesdales"]
+KNOCKON_TEAMS = ["Dragons", "Jets", "Warriors", "Eels", "Knights", "Panthers", "Bulldogs", "Raiders", "Rabbitohs", "Roosters", "Sea Eagles", "Bears", "Magpies"]
+
+
 
 COMPETITION = {
     'NRL' : '111',
