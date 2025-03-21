@@ -8,7 +8,7 @@ This script fetches and saves NRL player statistics per round for a selected yea
 ### Running the Web Scraper
 Execute the following command from the `scraping` directory:
 ```bash
-python match_data_detailed_select.py
+python run.py
 ```
 ### HTML Web Viewer
 Open the HTML file in html_interfaces to use the interactive website viewer. It looks like the following:
@@ -29,8 +29,8 @@ Open the HTML file in html_interfaces to use the interactive website viewer. It 
    - Ensures data is saved incrementally to prevent loss.
 
 ## Output Files
-- `data/nrl_data_YEAR.json`: Raw match data.
-- `data/player_statistics_YEAR.json`: Player statistics structured as:
+- `data/{selected type}/{selected year}/{selected type}_data_YEAR.json`: Raw match data.
+- `data/{selected type}/{selected year}/{selected type}_player_statistics_YEAR.json`: Player statistics structured as:
   ```json
   {
       "PlayerStats": [
@@ -50,7 +50,7 @@ Open the HTML file in html_interfaces to use the interactive website viewer. It 
 
 ## Notes
 - Ensure `chromedriver` is properly configured.
-- Modify `selected_year` and `selected_rounds` in scripts to adjust the range.
+- Modify `selected_year` and `selected_rounds` in script to adjust the range.
 - The script may require updates if the NRL website structure changes.
 
 For any issues, refer to console logs for debugging.

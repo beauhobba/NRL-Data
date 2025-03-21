@@ -1,5 +1,5 @@
 """
-This script fetches NRL (National Rugby League) match data for the selected year and saves it to a JSON file
+This script fetches NRL  match data for the selected year and saves it to a JSON file
 """
 
 # Imports
@@ -8,20 +8,32 @@ import json
 import sys
 sys.path.append('..')
 import ENVIRONMENT_VARIABLES as EV
-# Select the year and the amount of rounds 
-select_year = 2024
-select_rounds = 27
+import os
 
 
-years = [select_year]
-if __name__ == "__main__":
+
+def match_data_select(SELECT_YEAR, SELECT_ROUNDS, SELECTION_TYPE):
+    # ============================================
+    # ============================================
+    # Do not edit below (unless modifying code)
+    # ============================================
+    # ============================================
+
+    try:
+        COMPETITION_TYPE = EV.COMPETITION[SELECTION_TYPE]
+    except TypeError:
+        print('Unknown Competition Type')
+
+    years = [SELECT_YEAR]
+
+    print('Note this may take some time to run...')
     match_json_datas = []  # List to store JSON data for matches
     for year in years:
         year_json_data = []  # List to store JSON data for a particular year
-        for round_nu in range(1, select_rounds + 1):  # Loop through 25 rounds
+        for round_nu in range(1, SELECT_ROUNDS + 1):  # Loop through 25 rounds
             try:
                 # Attempt to fetch NRL data for a specific round and year
-                match_json = get_nrl_data(round_nu, year)
+                match_json = get_nrl_data(round_nu, year, COMPETITION_TYPE)
                 # Append fetched JSON to year's data list
                 year_json_data.append(match_json)
             except Exception as ex:
@@ -35,13 +47,19 @@ if __name__ == "__main__":
 
     # Create overall data dictionary
     overall_data = {
-        "NRL": match_json_datas
+        f"{SELECTION_TYPE}": match_json_datas
     }
     # Convert overall data to JSON format with indentation for better
     # readability
     overall_data_json = json.dumps(overall_data, indent=4)
 
     # # Write JSON data to a file
-    with open(f"../data/nrl_data_{select_year}.json", "w") as file:
-        file.write(overall_data_json)
-print('Finished')
+    directory_path = os.path.abspath(f"../data/{SELECTION_TYPE}/{SELECT_YEAR}/")
+    file_path = os.path.join(directory_path, f"{SELECTION_TYPE}_data_{SELECT_YEAR}.json")
+    try:
+        with open(f"{file_path}", "w") as file:
+            file.write(overall_data_json)
+    except Exception as e:
+        print(f"Error writing file: {e}")
+            
+    print('Finished Match Data Selections')
