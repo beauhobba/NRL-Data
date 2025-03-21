@@ -3,7 +3,7 @@ TEAMS = ["Broncos", "Roosters", "Wests Tigers", "Rabbitohs", "Storm", "Eels", "R
 NRL_WEBSITE = "https://www.nrl.com/draw/nrl-premiership/"
 NRLW_WEBSITE = "https://www.nrl.com/draw/womens-premiership/"
 HOSTPLUS_WEBSITE = "https://www.qrl.com.au/draw/qrl-premiership/"
-KNOCKON_WEBSITE = "https://www.nswrl.com.au/draw/nsw-cup/2025/"
+KNOCKON_WEBSITE = "https://www.nswrl.com.au/draw/nsw-cup/"
 
 
 
