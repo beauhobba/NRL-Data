@@ -10,11 +10,11 @@ from player_data_select import player_data_select
 
 # Define the selection type for the dataset
 # Options: 'NRL', 'NRLW', 'HOSTPLUS', 'KNOCKON'
-SELECTION_TYPE = 'KNOCKON'
+SELECTION_TYPE = 'NRL'
 
 # Define the years and corresponding rounds to fetch data for
-SELECT_YEARS = [2024, 2023, 2022]  # List of years to scrape data for
-SELECT_ROUNDS = [33, 33, 33]       # Corresponding rounds for each year
+SELECT_YEARS = [2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2006, 2005, 2004, 2003, 2002, 2001]  # List of years to scrape data for
+SELECT_ROUNDS = [33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33]       # Corresponding rounds for each year
 
 # Loop through each year and its respective round
 for year, rounds in zip(SELECT_YEARS, SELECT_ROUNDS):
