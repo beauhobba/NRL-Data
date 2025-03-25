@@ -5,7 +5,7 @@ NRLW_WEBSITE = "https://www.nrl.com/draw/womens-premiership/"
 HOSTPLUS_WEBSITE = "https://www.qrl.com.au/draw/qrl-premiership/"
 KNOCKON_WEBSITE = "https://www.nswrl.com.au/draw/nsw-cup/"
 
-
+DATA_WEBSITE = "https://geo145327-staging.s3.ap-southeast-2.amazonaws.com/public/"
 
 
 PLAYER_LABELS =     ["Number", "Position", "Mins Played", "Points", "Tries", "Conversions", "Conversion Attempts",

@@ -5,11 +5,20 @@ This script fetches and saves NRL player statistics per round for a selected yea
 
 ## Usage
 
+### Running the Data Downloader
+Execute the following command from the `scraping` directory:
+```bash
+python downloader.py
+```
+> You must specific the selection and years
+
 ### Running the Web Scraper
 Execute the following command from the `scraping` directory:
 ```bash
 python run.py
 ```
+> You must specific the selection and years
+
 ### HTML Web Viewer
 Open the HTML file in html_interfaces to use the interactive website viewer. It looks like the following:
 ![alt text](image.png)
@@ -54,4 +63,6 @@ Open the HTML file in html_interfaces to use the interactive website viewer. It 
 - The script may require updates if the NRL website structure changes.
 
 For any issues, refer to console logs for debugging.
+
+
 
