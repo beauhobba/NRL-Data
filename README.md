@@ -5,8 +5,8 @@
 This project is a webscraper for NRL data, and provides a TensorFlow machine learning model for NRL related predictions. 
 
 ## How to Use
-To add this section in later.
 Primarily use this code for Scraping at the moment. The prediction models are still a work in progress and all over the place. 
+**Go to [Scraping](./scraping/README.md) for information on how to download the data manually or on how to download the entire dataset easily.**
 
 ## Data
 All data for this project is hosted on [this website](https://nrlpredictions.net/sport).
